@@ -1,26 +1,106 @@
 [
     {
         "id": "01",
-        "productName": "product name",
-        "cardTitle": "Card One",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+        "productName": "General Test & Measuring Instruments"
     },
+
     {
         "id": "02",
-        "productName": "product name",
-        "cardTitle": "Card Two",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+        "productName": "Power Electronics & Drives Lab"
     },
+
     {
         "id": "03",
-        "productName": "product name",
-        "cardTitle": "Card Three",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+        "productName": "Control & Instrumentation"
     },
+
     {
         "id": "04",
-        "productName": "product name",
-        "cardTitle": "Card Three",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+        "productName": "Physics Lab Trainer"
+    },
+
+    {
+        "id": "05",
+        "productName": "Power Supplies"
+    },
+
+    {
+        "id": "06",
+        "productName": "Active & Passive Filters"
+    },
+
+    {
+        "id": "07",
+        "productName": "Digital Electronics Lab , Theorems & A.C. Bridges"
+    },
+
+    {
+        "id": "08",
+        "productName": "Electronics Lab Trainer"
+    },
+
+    {
+        "id": "09",
+        "productName": "Electromagnets"
+    },
+
+    {
+        "id": "10",
+        "productName": "Oscillators"
+    },
+
+    {
+        "id": "11",
+        "productName": "Communication / Fiber Optics Trainerectromagnets"
+    },
+
+    {
+        "id": "12",
+        "productName": "Micro Processor Trainers"
+    },
+
+    {
+        "id": "13",
+        "productName": "Data Logger"
+    },
+
+    {
+        "id": "14",
+        "productName": "Rheostats for Educational Purpose"
+    },
+
+    {
+        "id": "15",
+        "productName": "Squirrel Cage Induction Motor, Flange Mounted"
+    },
+
+    {
+        "id": "16",
+        "productName": "ELECTRICAL MACHINE"
+    },
+
+    {
+        "id": "17",
+        "productName": "POWER QUALITY ANALYZER"
+    },
+
+    {
+        "id": "18",
+        "productName": "CIVIL ENGINEERING EQUIPMENTS"
+    },
+
+    {
+        "id": "19",
+        "productName": "Viscosity Apparatus For School Laboratory"
+    },
+
+    {
+        "id": "20",
+        "productName": "Laser Ranges"
+    },
+
+    {
+        "id": "21",
+        "productName": "LAB EQUIPMENT"
     }
 ]

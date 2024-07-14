@@ -20,15 +20,12 @@
                     const cardElement = document.createElement('div');
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
+                    <a href = "../../Home_page/index.html">
                         <div class="practice">
+                            <h2>${card.id}</h2>
                             <h3>${card.productName}</h3>
                         </div>
-                        <div class="content">
-                            <h2>${card.id}</h2>
-                            <h3>${card.cardTitle}</h3>
-                            <p>${card.description}</p>
-                            <a href="#">Read More</a>
-                        </div>
+                        </a>
                     `;
                     container.appendChild(cardElement);
                 });
