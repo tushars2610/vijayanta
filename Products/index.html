@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijayanta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="card-container">
+        <!-- Cards will be generated here -->
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('card-container');
+                data.forEach(card => {
+                    const cardElement = document.createElement('div');
+                    cardElement.className = 'card';
+                    cardElement.innerHTML = `
+                        <div class="practice">
+                            <h3>${card.productName}</h3>
+                        </div>
+                        <div class="content">
+                            <h2>${card.id}</h2>
+                            <h3>${card.cardTitle}</h3>
+                            <p>${card.description}</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    `;
+                    container.appendChild(cardElement);
+                });
+                VanillaTilt.init(document.querySelectorAll(".card"), {
+                    max: 25,
+                    speed: 400,
+                });
+            })
+            .catch(error => console.error('Error loading data:', error));
+    </script>
+</body>
+</html>
