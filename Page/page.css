@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; /* Optional: Set a maximum width for better control */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width calculations */
+}
+
+.card {
+    flex: 0 0 150px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.card img {
+    max-width: 150%;
+    max-height: 150px;
+    object-fit: fill; 
+}
+
+.title-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    height: 100px;
+    background-color: ;
+    padding: 10px 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    font-size: 10px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-container {
+        width: 100%; /* Ensure title container spans the full width */
+        margin-top: 20px; /* Add space between the card and title */
+    }
+}
+
+.content {
+    height: fit-content;
+    border-width: 1px;
+    border-color: white;
+    max-width: 700px;
+    margin: 50px;
+    padding: 10px;
+    text-align: justify;
+    border-style: solid;
+    color: white;
+}
+.content h6{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
