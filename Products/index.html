@@ -20,12 +20,12 @@
                     const cardElement = document.createElement('div');
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
-                    <a href = "../../Home_page/index.html">
+                    <buttton onclick= "navigate()">
                         <div class="practice">
                             <h2>${card.id}</h2>
                             <h3>${card.productName}</h3>
                         </div>
-                        </a>
+                        </button>
                     `;
                     container.appendChild(cardElement);
                 });
@@ -35,6 +35,9 @@
                 });
             })
             .catch(error => console.error('Error loading data:', error));
+            function navigate(){
+                window.location.href = "../product.html"
+            }
     </script>
 </body>
 </html>
