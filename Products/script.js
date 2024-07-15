@@ -26,3 +26,15 @@ $(document).ready(function () {
   });
 
 
+
+document.addEventListener("DOMContentLoaded", function() {
+  let texts = ["Text 1", "Text 2", "Text 3", "Text 4", "Text 5"];
+  let index = 0;
+
+  function changeText() {
+      document.getElementById("home_tour").innerText = texts[index];
+      index = (index + 1) % texts.length;
+  }
+
+  setInterval(changeText, 1000);
+});

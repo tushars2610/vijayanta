@@ -23,9 +23,9 @@
           <span class="line line3"></span>
         </div>
         <ul class="menu-items">
-          <li><a href="#home">Home</a></li>
+          <li><a href="#showcase">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#product">Product</a></li>
+          <li><a href="../Products/product.html">Product</a></li>
           <li><a href="#testimonials">Testimonial</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -35,8 +35,8 @@
     <section class="showcase-area" id="showcase">
       <div class="showcase-container">
         <h1 class="main-title" id="home_tour">Text</h1>
-        <p>Paragraph.</p>
-        <a href="#menu_list" class="btn btn-primary">Product</a>
+        <p>You will find all items.</p>
+        <a href="../Products/product.html" class="btn btn-primary">Product</a>
       </div>
     </section>
 
@@ -193,12 +193,44 @@
       </div>
     </section>
     <footer id="footer">
-      <h2>vijayanta &copy; all rights reserved</h2>
+      <section class="footer">
+        <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+  
+      <div class="links">
+        <a href="#showcase">home</a>
+        <a href="#about">about</a>
+        <a href="../Products/product.html">products</a>
+        <a href="#testimonials">review</a>
+        <a href="#contact">contact</a>
+      </div>
+  
+      <div class="credit"><span class="phone-no">01332 - 272509 , 276608<br>+91 7579200827<br>
+        info@vijayantatechnologies.com<br></span>
+        <span class="under">&nbsp;Vijyanta</span> | All right reserve</div>
+      </section>
     </footer>
-    <script src="script.js"></script>
+    <script>
+      
+  document.addEventListener("DOMContentLoaded", function() {
+    let texts = ["GENERAL TEST & MEASURING INSTRUMENTS", "POWER ELECTRONICS & DRIVES LAB", "CONTROL & INSTRUMENTATION", "PHYSICS LAB TRAINER",
+     "POWER SUPPLIES"];
+    let index = 0;
+
+    function changeText() {
+        document.getElementById("home_tour").innerText = texts[index];
+        index = (index + 1) % texts.length;
+    }
+
+    setInterval(changeText, 1000);
+});
+    </script>
   </body>
-  <!-- 
-    .................../ JS Code for smooth scrolling /...................... -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </html>
