@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(120deg, black, white);
+    background: white;
 }
 
 .container {
@@ -65,10 +65,21 @@ body {
         width: 100%; /* Ensure title container spans the full width */
         margin-top: 20px; /* Add space between the card and title */
     }
+
+    .content-table-container {
+        flex-direction: column;
+    }
+
+    .product_table {
+        display: none; /* Hide the table in the main content */
+    }
+
+    .openbtn, .openbtn-left {
+        display: block; /* Show the open buttons */
+    }
 }
 
 .content {
-    height: fit-content; 
     background-color: white;
     border-width: 1px;
     border-color: black;
@@ -78,10 +89,81 @@ body {
     text-align: justify;
     border-style: solid;
     color: black;
-    margin-left: 20%;
 }
 .content h6{
     text-align: center;
     font-size: 15px;
     font-weight: bold;
+}
+
+.product_table {
+    width: 50%; /* Adjust the width as needed */
+    padding: 20px;
+}
+
+.content-table-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.drawer {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.drawer .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.drawer .drawer-content {
+    margin-top: 30px;
+    padding: 20px;
+    width: 250px;
+}
+
+.openbtn, .openbtn-left {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    display: none; /* Hide the open buttons by default */
+    position: fixed;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.openbtn {
+    right: 20px;
+}
+
+.openbtn-left {
+    left: 20px;
 }

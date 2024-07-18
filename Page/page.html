@@ -3,15 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product List</title>
     <link rel="stylesheet" href="page.css">
 </head>
 <body>
-    <div class="product_table">
-        <table>
-            
-        </table>
-    </div>
     <div class="container">
         <div class="card">
             <img src="ACM-536A.png" alt="ACM-536A.png">
@@ -22,12 +17,73 @@
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    
-    <div class="content">
-        <h6>True R.M.S. A.C. Millivoltmeter, Model: ACM – 536A</h6>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam alias saepe impedit id eius esse voluptatum illum. Facere numquam dolorem praesentium error cupiditate officiis debitis doloribus, soluta eveniet vero eius!</p>
+    <div class="content-table-container">
+        <div class="product_table" id="jsonTable">
+            <table>
+                <thead>
+                    <tr>
+                      <th>Sr. No.</th>
+                      <th>Product</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Rows will be added dynamically here -->
+                  </tbody>
+            </table>
+        </div>
+        <div class="content">
+            <h6>True R.M.S. A.C. Millivoltmeter, Model: ACM – 536A</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam alias saepe impedit id eius esse voluptatum illum. Facere numquam dolorem praesentium error cupiditate officiis debitis doloribus, soluta eveniet vero eius!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio dignissimos ratione, ex velit soluta unde in laboriosam amet odio corporis laudantium quidem, sint aliquam quis ad officiis omnis excepturi quae!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates consequuntur alias ut harum pariatur nostrum laudantium non at, porro quos dolore sapiente, consequatur quaerat mollitia esse fuga. Ipsum, voluptates laudantium!</p>
+        </div>
     </div>
+    <div id="drawer" class="drawer">
+        <button class="closebtn" onclick="closeNav()">×</button>
+        <div class="drawer-content">
+            <!-- The table will be cloned here on small screens -->
+        </div>
+    </div>
+    <button class="openbtn" onclick="openNav()">☰ Open Table</button>
+    <button class="openbtn-left" onclick="openNav()">☰ Open Table</button>
+    <script>
+        function openNav() {
+            document.getElementById("drawer").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("drawer").style.width = "0";
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('general_test.json')
+                .then(response => response.json())
+                .then(data => {
+                    let tableBody = document.querySelector('#jsonTable tbody');
+                    data.forEach((item, index) => {
+                        let row = document.createElement('tr');
+
+                        // Adding Sr. No.
+                        let srNoCell = document.createElement('td');
+                        srNoCell.textContent = index + 1;
+                        row.appendChild(srNoCell);
+
+                        // Adding Product title
+                        let productCell = document.createElement('td');
+                        productCell.textContent = item.title;
+                        row.appendChild(productCell);
+
+                        tableBody.appendChild(row);
+                    });
+
+                    // Clone the table into the drawer
+                    let drawerContent = document.querySelector('.drawer-content');
+                    let tableClone = document.querySelector('.product_table').cloneNode(true);
+                    drawerContent.appendChild(tableClone);
+                })
+                .catch(error => console.error('Error loading JSON:', error));
+        });
+    </script>
 </body>
 </html>
