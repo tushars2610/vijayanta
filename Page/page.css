@@ -1,167 +1,186 @@
 body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background: white;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(rgb(4, 123, 227), white);
+  min-height: 100vh;
+  /* Ensures viewport height */
+}
+.content{
+  overflow: auto;
+  width: auto;
+  height: 100vh;
 }
 
-.container {
-    display: flex;
-    width: 100%;
-    max-width: 1200px; /* Optional: Set a maximum width for better control */
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box; /* Ensure padding is included in width calculations */
+.title h1 {
+  background-color: rgba(241, 227, 227, 0.2);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 25px;
+  width: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  z-index: -1;
 }
 
-.card {
-    flex: 0 0 150px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    margin-left: 30px;
+.center_content {
+  background-color: rgba(14, 14, 14, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 60%;
+  height: 550px;
+  min-width: 300px;
+  padding: 10px;
+  z-index: -1;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  overflow-y: auto;
+  /* overflow: hidden; */
 }
-.card img {
-    max-width: 150%;
-    max-height: 150px;
-    object-fit: fill; 
-}
-
-.title-container {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-}
-
-.title {
-    text-align: center;
-    background: linear-gradient(90deg, black 5%, grey);
-    color: white;
-    height: 100px;
-    padding: 10px 40px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0.5, 0.5, 0.5, 0.5);
-    display: inline-block;
-    font-size: 10px;
-    margin-left: 20px;
-    margin-right: 10px;
+.center_content::-webkit-scrollbar{
+  display: none;
 }
 
-/* Media Query for responsiveness */
-@media (max-width: 600px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .title-container {
-        width: 100%; /* Ensure title container spans the full width */
-        margin-top: 20px; /* Add space between the card and title */
-    }
-
-    .content-table-container {
-        flex-direction: column;
-    }
-
-    .product_table {
-        display: none; /* Hide the table in the main content */
-    }
-
-    .openbtn, .openbtn-left {
-        display: block; /* Show the open buttons */
-    }
+.center_content p {
+ text-align: justify;
+ font-size: 18px;
+ font-family: Verdana, sans-serif;
 }
 
-.content {
-    background-color: white;
-    border-width: 1px;
-    border-color: black;
-    max-width: 700px;
-    margin: 50px;
-    padding: 10px;
-    text-align: justify;
-    border-style: solid;
-    color: black;
+.clouds {
+  top: 0;
+  position: absolute;
+  background: url("clouds.png");
+  height: 500px;
+  width: 100%;
+  z-index: -2;
 }
-.content h6{
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
+
+.hills {
+  position: absolute;
+  background-image: url("hills.png");
+  height: 497px;
+  bottom: 0px;
+  width: 100%;
+  z-index: -2;
 }
 
 .product_table {
-    width: 50%; /* Adjust the width as needed */
-    padding: 20px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  width: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 3;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  backdrop-filter: blur(10px);
+  transition: 0.5s;
 }
 
-.content-table-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 80%;
+.product_table th {
+  background: linear-gradient(270deg, white, rgb(12, 116, 243));
+  color: black;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
 }
-table, th, td {
-    border: 1px solid black;
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
 }
-th, td {
-    padding: 8px;
-    text-align: left;
+
+table td {
+  font-weight: bolder;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(248, 242, 242, 0.2);
+}
+
+table tr:nth-child(odd) {
+  background-color: rgba(6, 115, 240, 0.2);
 }
 
 
-.drawer {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: white;
-    overflow-x: hidden;
-    transition: 1s;
-    padding-top: 40px;
-    padding-right: 200px;
+.product_table .closebtn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 900;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
 }
 
-.drawer .closebtn {
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+.product_table a {
+  text-decoration: none;
+
+  font-weight: 900;
+  color: black;
+  display: block;
+  transition: 0.5s;
 }
 
-.drawer .drawer-content {
-    margin-top: 30px;
-    margin-right: 50px;
-    padding: 20px;
-    padding-right: 50px;
-    width: 800px;
-    margin-bottom: 40px;
+.product_table a:hover {
+  color: #f1f1f1;
+}
+
+.product_table .closebtn {
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  top: 0;
+  font-size: 36px;
+  margin-left: 300px;
+  z-index: 2;
+}
+
+.product_table .closebtn:hover {
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    display: block; /* Show the open buttons */
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1;
+  position: absolute;
+  border-radius: 15px;
+  bottom: 0;
+  margin-bottom: 5%;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  z-index: 0;
+  transition: 0.5s;
+}
+
+.openbtn:hover {
+  background-color: #444;
+  transition: 0.5s;
 }
