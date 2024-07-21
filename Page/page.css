@@ -120,17 +120,19 @@ th, td {
     text-align: left;
 }
 
+
 .drawer {
     height: 100%;
-    width: 0;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: white;
     overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    transition: 1s;
+    padding-top: 40px;
+    padding-right: 200px;
 }
 
 .drawer .closebtn {
@@ -143,27 +145,23 @@ th, td {
 
 .drawer .drawer-content {
     margin-top: 30px;
+    margin-right: 50px;
     padding: 20px;
-    width: 250px;
+    padding-right: 50px;
+    width: 800px;
+    margin-bottom: 40px;
 }
 
-.openbtn, .openbtn-left {
+.openbtn {
     font-size: 20px;
     cursor: pointer;
     background-color: black;
     color: white;
     border: none;
     padding: 10px 15px;
-    display: none; /* Hide the open buttons by default */
+    display: block; /* Show the open buttons */
     position: fixed;
     bottom: 20px;
-    z-index: 1;
-}
-
-.openbtn {
     right: 20px;
-}
-
-.openbtn-left {
-    left: 20px;
+    z-index: 1;
 }
