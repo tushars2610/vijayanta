@@ -7,65 +7,37 @@
     <link rel="stylesheet" href="product.css">
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="practice">
-                <h3>product name</h3>
-            </div>
-            <div class="content">
-                <h2>01</h2>
-                <h3> Card One</h3>
-                <p>Lorem ipsum dolor sit, 
-                    amet consectetur adipisicing elit.
-                    Excepturi omnis illo obcaecati 
-                    sapiente dolorem sint, maxime
-                    quibusdam repellendus fuga laborum
-                     perspiciatis ab ea dicta et?
-                    Cum quisquam eum modi tempore!</p>
-                    <a href="../Page/page.html">Read More</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="practice">
-                <h3>product name</h3>
-            </div>
-            <div class="content">
-                <h2>02</h2>
-                <h3> Card two</h3>
-                <p>Lorem ipsum dolor sit, 
-                    amet consectetur adipisicing elit.
-                    Excepturi omnis illo obcaecati 
-                    sapiente dolorem sint, maxime
-                    quibusdam repellendus fuga laborum
-                     perspiciatis ab ea dicta et?
-                    Cum quisquam eum modi tempore!</p>
-                    <a href="../Page/page.html">Read More</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="practice">
-                <h3>product name</h3>
-            </div>
-            <div class="content">
-                <h2>03</h2>
-                <h3> Card three</h3>
-                <p>Lorem ipsum dolor sit, 
-                    amet consectetur adipisicing elit.
-                    Excepturi omnis illo obcaecati 
-                    sapiente dolorem sint, maxime
-                    quibusdam repellendus fuga laborum
-                     perspiciatis ab ea dicta et?
-                    Cum quisquam eum modi tempore!</p>
-                    <a href="../Page/page.html">Read More</a>
-            </div>
-        </div>
+    <div class="container" id="card-container">
+        <!-- Cards will be generated here -->
     </div>
-    <script type="text/javascript" src="product.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
-        VanillaTilt.init(document.querySelectorAll(".card"),{
-            max: 25,
-            speed: 400,
-        });
+        fetch('product_data.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('card-container');
+                data.forEach(card => {
+                    const cardElement = document.createElement('div');
+                    cardElement.className = 'card';
+                    cardElement.innerHTML = `
+                        <div class="practice">
+                            <h3>${card.title}</h3>
+                        </div>
+                        <div class="content">
+                            <h2>${card.id}</h2>
+                            <h3>${card.cardTitle}</h3>
+                            <img src="../database/General_test_and_measuring/1/ACM-536A.png" alt="image">
+                            <a href="#">Read More</a>
+                        </div>
+                    `;
+                    container.appendChild(cardElement);
+                });
+                VanillaTilt.init(document.querySelectorAll(".card"), {
+                    max: 25,
+                    speed: 400,
+                });
+            })
+            .catch(error => console.error('Error loading data:', error));
     </script>
 </body>
 </html>

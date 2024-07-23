@@ -1,0 +1,26 @@
+[
+    {
+        "id": "01",
+        "title": "product name",
+        "cardTitle": "product name",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "02",
+        "title": "product name",
+        "cardTitle": "product name",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "03",
+        "title": "product name",
+        "cardTitle": "product name",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "04",
+        "title": "product name",
+        "cardTitle": "product name",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    }
+]

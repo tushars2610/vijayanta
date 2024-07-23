@@ -12,29 +12,31 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #161623;
+    background: #e7e7ee;
 }
 body::before
 {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#f00, #f0f);
+    background: linear-gradient( #fdfbfc 35%, #2196f3);
     clip-path: circle(30% at right 70%);
+    z-index: 0;
 }
 body::after
 {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#2196f3, #e91e63);
+    background: linear-gradient( 100deg, #fdfbfc, #2196f3 35%);
     clip-path: circle(20% at 10% 10%);
+    z-index: 0;
 }
 .container
 {
@@ -45,6 +47,7 @@ body::after
     max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
+    overflow-y: auto;
 }
 .container .card
 {
@@ -81,6 +84,8 @@ body::after
 .container .card  .practice
 {
     position: absolute;
+    font-size: 25px;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -97,16 +102,16 @@ body::after
 .container .card .content h2
 {
     position: absolute;
-    top: -40px;
+    top: -70px;
     right: 30px;
     font-size: 8em;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(3, 221, 249, 0.3);
     pointer-events: none;
 }
 .container .card .content h3
 {
     font-size: 1.8em;
-    color: #eff;
+    color: rgb(1, 135, 244);
     z-index: 1;
 }
 .container .card .content p
@@ -121,11 +126,19 @@ body::after
     position: relative;
     display: inline-block;
     padding: 8px 20px;
-    margin-top: 15px;
+    margin-top: 50px;
     background: #fff;
     color: #000;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    margin-top: 30px;
+    height: auto;
+    width: 200px;
+    bottom: 0;
+    border-radius: 15px;
 }
