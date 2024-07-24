@@ -1,106 +1,127 @@
 [
     {
-        "id": "01",
-        "productName": "General Test & Measuring Instruments"
+        "id": "1",
+        "productName": "General Test & Measuring Instruments",
+        "productLink": "General_test_and_measuring"
     },
 
     {
-        "id": "02",
-        "productName": "Power Electronics & Drives Lab"
+        "id": "2",
+        "productName": "Power Electronics & Drives Lab",
+        "productLink": "Power_electronics_drives"
     },
 
     {
-        "id": "03",
-        "productName": "Control & Instrumentation"
+        "id": "3",
+        "productName": "Control & Instrumentation",
+        "productLink": "Control_and_instrumentation"
     },
 
     {
-        "id": "04",
-        "productName": "Physics Lab Trainer"
+        "id": "4",
+        "productName": "Physics Lab Trainer",
+        "productLink": "Physics_lab_trainer"
     },
 
     {
-        "id": "05",
-        "productName": "Power Supplies"
+        "id": "5",
+        "productName": "Power Supplies",
+        "productLink": "Power_Supplies"
     },
 
     {
-        "id": "06",
-        "productName": "Active & Passive Filters"
+        "id": "6",
+        "productName": "Active & Passive Filters",
+        "productLink": "Active_passive_filter"
     },
 
     {
-        "id": "07",
-        "productName": "Digital Electronics Lab , Theorems & A.C. Bridges"
+        "id": "7",
+        "productName": "Digital Electronics Lab , Theorems & A.C. Bridges",
+        "productLink": "Digital_electronics"
     },
 
     {
-        "id": "08",
-        "productName": "Electronics Lab Trainer"
+        "id": "8",
+        "productName": "Electronics Lab Trainer",
+        "productLink": "Electronics_lab_trainer"
     },
 
     {
-        "id": "09",
-        "productName": "Electromagnets"
+        "id": "9",
+        "productName": "Electromagnets",
+        "productLink": "Electromagnets"
     },
 
     {
         "id": "10",
-        "productName": "Oscillators"
+        "productName": "Oscillators",
+        "productLink": "Oscillators"
     },
 
     {
         "id": "11",
-        "productName": "Communication / Fiber Optics Trainerectromagnets"
+        "productName": "Communication / Fiber Optics Trainerectromagnets",
+        "productLink": "Communication"
     },
 
     {
         "id": "12",
-        "productName": "Micro Processor Trainers"
+        "productName": "Micro Processor Trainers",
+        "productLink": "micro_processor"
     },
 
     {
         "id": "13",
-        "productName": "Data Logger"
+        "productName": "Data Logger",
+        "productLink": "Data_logger"
     },
 
     {
         "id": "14",
-        "productName": "Rheostats for Educational Purpose"
+        "productName": "Rheostats for Educational Purpose",
+        "productLink": "Rheostats"
     },
 
     {
         "id": "15",
-        "productName": "Squirrel Cage Induction Motor, Flange Mounted"
+        "productName": "Squirrel Cage Induction Motor, Flange Mounted",
+        "productLink": "Squirrel_cage"
     },
 
     {
         "id": "16",
-        "productName": "ELECTRICAL MACHINE"
+        "productName": "ELECTRICAL MACHINE",
+        "productLink": "electrical_machine"
     },
 
     {
         "id": "17",
-        "productName": "POWER QUALITY ANALYZER"
+        "productName": "POWER QUALITY ANALYZER",
+        "productLink": "Power_quality_analyzer"
     },
 
     {
         "id": "18",
-        "productName": "CIVIL ENGINEERING EQUIPMENTS"
+        "productName": "CIVIL ENGINEERING EQUIPMENTS",
+        "productLink": "Civil_engineering"
     },
 
     {
         "id": "19",
-        "productName": "Viscosity Apparatus For School Laboratory"
+        "productName": "Viscosity Apparatus For School Laboratory",
+        "productLink": "Viscosity_apparatus"
     },
 
     {
         "id": "20",
-        "productName": "Laser Ranges"
+        "productName": "Laser Ranges",
+        "productLink": "Laser_ranges"
     },
 
     {
         "id": "21",
-        "productName": "LAB EQUIPMENT"
+        "productName": "LAB EQUIPMENT",
+        "productLink": "Lab_equipment"
     }
 ]

@@ -1,0 +1,146 @@
+[
+    {
+        "id":"1",
+        "title": "Single Phase SCR Full Bridge Converter, Model: SPBC – 101"
+    },
+    {
+        "id":"2",
+        "title": "Single Phase Half Controled Bridge Converter, Model: SPHB – 102."
+    },
+    {
+        "id":"3",
+        "title": "Study of Single Phase Half Wave Controlled Rectifier, Model: SPHC – 103"
+    },
+    {
+        "id":"4",
+        "title": "Single Phase Dual Bridge Converter , Model : SPDC - 301"
+    },
+    {
+        "id":"5",
+        "title": "Three Phase Fully Controlled Bridge Rectifier ; Model : TPBC-301"
+    },
+    {
+        "id":"6",
+        "title": "Study of Jones Chopper (S.C.R. Based), Model : JC – 701"
+    },
+    {
+        "id":"7",
+        "title": "Study of Morgan Chopper Trainer, Model : MC – 702"
+    },
+    {
+        "id":"8",
+        "title": "Study of Commutation Circuit Trainer, Model: CC – 201."
+    },
+    {
+        "id":"9",
+        "title": "Study of S.C.R. Parallel Inverter, Model: SPI – 501."
+    },
+    {
+        "id":"10",
+        "title": "Study of S.C.R. Series Inverter, Model: SSI – 401."
+    },
+    {
+        "id":"11",
+        "title": "Study of Mosfet Inverter Trainer, Model: MI – 601."
+    },
+    {
+        "id":"12",
+        "title": "Study of D.C. Motor Speed Control Trainer, Model: DSC – 801."
+    },
+    {
+        "id":"13",
+        "title": "Study of Thyristor Firing Angle Controller Trainer (8085 based), Model: TFC – 901"
+    },
+    {
+        "id":"14",
+        "title": "Study of Mosfet Chopper Trainer , Model: MC– 10 D"
+    },
+    {
+        "id":"15",
+        "title": "Study Of Thyristorised Speed Control Of D.C. Motor Trainer (8085 Based), Model: TDC – 902."
+    },
+    {
+        "id":"16",
+        "title": "DC Chopper ( Voltage and Current Commutated), Model: JC – 703"
+    },
+    {
+        "id":"17",
+        "title": "Different Types of Triggering Technique of S.C.R., Model: SCR – 05."
+    },
+    {
+        "id":"18",
+        "title": "Single Phase Dual Bridge Converter, Model: SPDC – 302 D."
+    },
+    {
+        "id":"19",
+        "title": "Study of Single Phase Bridge Inverter (MOSFET Based), Model: SPBI – 106."
+    },
+    {
+        "id":"20",
+        "title": "Study of Triggering of IGBT, MOSFET & Power Transistor (BJT) Trainer, Model: IMP – 108."
+    },
+    {
+        "id":"21",
+        "title": "Study of Single Phase A.C. Voltage Regulator Trainer Using TRIAC, Model: AVC – 104."
+    },
+    {
+        "id":"22",
+        "title": "Characteristics of MOSFET, Model: MS – 08"
+    },
+    {
+        "id":"23",
+        "title": "Study UJT Triggering Circuit for Half and Full Wave Control, Model: UJC – 105."
+    },
+    {
+        "id":"24",
+        "title": "S.C.R. Firing Circuit (R AND R.C.), Model: SCR – 06."
+    },
+    {
+        "id":"25",
+        "title": "Characteristics of Bidirectional Diode Thyristor (DIAC) and measurement of its parameters, Model: D – 10"
+    },
+    {
+        "id":"26",
+        "title": "Study of S.C.R.V – I Characteristics, Model: SCR – 10"
+    },
+    {
+        "id":"27",
+        "title": "Characteristics and Parameters Measurement of TRIAC, Model: T – 09."
+    },
+    {
+        "id":"28",
+        "title": "Study of UJT Saw Tooth Generator / Relaxation Oscillator, Model: UJ– 04."
+    },
+    {
+        "id":"29",
+        "title": "Study of S.C.R. phase control, Model: SCR – 07"
+    },
+    {
+        "id":"30",
+        "title": "Speed Control of AC motor using TRIAC, Model: AVC-109"
+    },
+    {
+        "id":"31",
+        "title": "STUDY OF THREE PHASE VOLTAGE SOURCE INVERTER, Model: VSI-100"
+    },
+    {
+        "id":"32",
+        "title": "To Measure The Voltage, Current Drawn, Power Factor And Power Consumed By A Fluorescent Tube, Cfl, Incandescent Lamp And Led Bulb, Model: VTPL-LS-500"
+    },
+    {
+        "id":"33",
+        "title": "TO START & REVERSE DIRECTION OF ROTATION OF DC MOTOR, Model: VTPL-DC-100"
+    },
+    {
+        "id":"34",
+        "title": "To Start & Reverse Direction Of Rotation Of Induction Motor, Model: VTPL-IM-300"
+    },
+    {
+        "id":"35",
+        "title": "TO STUDY THE PERFORMANCE OF 3 PHASE TRANSFORMER FOR ITS VARIOUS CONNECTIONS Model: VTPL – TPT - 10"
+    },
+    {
+        "id":"36",
+        "title": "TO MEASURE THE VOLTAGE, CURRENT DRAWN, POWER FACTOR AND POWER CONSUMED BY A FLUORESCENT TUBE, CFL, INCANDESCENT LAMP AND LED BULBMODEL : VTPL - 409"
+    }
+]

@@ -12,7 +12,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #e7e7ee;
+    background: #fff;
 }
 body::before
 {
@@ -84,8 +84,9 @@ body::after
 .container .card  .practice
 {
     position: absolute;
-    font-size: 25px;
-    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: justify;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -102,7 +103,7 @@ body::after
 .container .card .content h2
 {
     position: absolute;
-    top: -70px;
+    top: -40px;
     right: 30px;
     font-size: 8em;
     color: rgba(3, 221, 249, 0.3);
@@ -110,7 +111,7 @@ body::after
 }
 .container .card .content h3
 {
-    font-size: 1.8em;
+    font-size: 20px;
     color: rgb(1, 135, 244);
     z-index: 1;
 }
@@ -126,7 +127,7 @@ body::after
     position: relative;
     display: inline-block;
     padding: 8px 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     background: #fff;
     color: #000;
     border-radius: 20px;

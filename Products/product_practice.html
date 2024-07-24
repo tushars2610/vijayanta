@@ -17,25 +17,25 @@
             return urlParams.get(param);
         }
         let productId = getQueryParam('id');
-
-        function getProductLinkById(id, products) {
-            const product = products.find(item => item.id === id);
-            return product ? product.productLink : null;
-        }
-        
+        let productLink = ""
+        //--------function to get product link by id---------------------------------
+        const getProductLinkById = (data, id) => {
+            if (data.id === id) {
+                return data.productLink;
+            }
+            return null;
+        };
+        //--------------data--------------------------------------------------------
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
-                const idToSearch = productId;
-                const productLink = getProductLinkById(idToSearch, data);
-
-                if (productLink) {
-                    let address = `../database/${productLink}/data.json`;
-                    return fetch(address);
-                } else {
-                    throw new Error('Product link not found');
-                }
+                const productLink = getProductLinkById(data, productId);
             })
+            .catch(error => {
+        console.error("Error fetching data:", error);
+            });
+        //----------product data-----------------------------------------------------------
+        fetch('product_data.json')
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('card-container');
@@ -48,7 +48,7 @@
                         </div>
                         <div class="content">
                             <h2>${card.id}</h2>
-                            <h3>${card.title}</h3>
+                            <h3>${card.cardTitle}</h3>
                             <img src="../database/General_test_and_measuring/1/image.png" alt="image">
                             <a href="#">Read More</a>
                         </div>
@@ -60,7 +60,8 @@
                     speed: 400,
                 });
             })
-            .catch(error => console.error('Error:', error));
+            .catch(error => console.error('Error loading data:', error));
+            
     </script>
 </body>
 </html>
