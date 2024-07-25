@@ -1,0 +1,36 @@
+Introduction : 
+ 
+The  ACM-536  Electronic  A.C.  Millivoltmeter  combining  ,  versatility  with  high  accuracy  and 
+extremly good stability. It allows for precision measurements to be made within the range of 10 
+Hz  to  300  KHz  .  This  is  a  versatile  equipment  for  the  measurement  of  the  audio  frequency 
+amplitude down upto 0.1mV and as high as upto 20 volts.      
+ 
+Features :  
+• Measures true R.M.S. voltage  
+• ± 1% accuracy  
+• High input Impedence  
+• High stability  
+• Excellent Lineariy  
+ 
+Range : 20mV, 200mV, 2V, 20Volts. 
+ 
+Frequency : 10Hz to 300KHz  
+ 
+Accuracy :  
+ ± 1% at 10 Hz to 100 KHz  
+ ± 2% at 10 Hz to 200 KHz  
+ ± 3% at 10 Hz to 300 KHz  
+ 
+Impedance : 1mΩ shunted by 25 PF on all range  
+ 
+Display : 3 ½ digit , 7 segment LED  
+ 
+ACM – 536A  
+Built in 1 KHz, audio oscillator  
+Output – 1 KHz at 400mV continuously variable (Sine wave) 
+ 
+Input : 220 volts ± 10% 50 Hz  
+ 
+Weight  : 3.5 kg Approximately 
+Dimension :  180mm × 225mm × 75mm    
+ 
