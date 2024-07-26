@@ -12,6 +12,7 @@ body {
 }
 
 .title h1 {
+  font-size: 25px;
   background-color: rgba(241, 227, 227, 0.2);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
   margin-left: auto;
@@ -52,17 +53,19 @@ body {
 .center_content::-webkit-scrollbar{
   display: none;
 }
-
+iframe::-webkit-scrollbar{
+  display: none;
+}
 .center_content p {
  text-align: justify;
- font-size: 18px;
+ font-size: 14px;
  font-family: Verdana, sans-serif;
 }
 
 .clouds {
   top: 0;
   position: absolute;
-  background: url("clouds.png");
+  background: url("bubbles.png");
   height: 500px;
   width: 100%;
   z-index: -2;
@@ -70,7 +73,7 @@ body {
 
 .hills {
   position: absolute;
-  background-image: url("hills.png");
+  background-image: url("bumpybubble.png");
   height: 497px;
   bottom: 0px;
   width: 100%;

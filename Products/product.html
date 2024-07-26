@@ -17,6 +17,7 @@
             return urlParams.get(param);
         }
         let productId = getQueryParam('id');
+        let productLink = "";
 
         function getProductLinkById(id, products) {
             const product = products.find(item => item.id === id);
@@ -27,7 +28,7 @@
             .then(response => response.json())
             .then(data => {
                 const idToSearch = productId;
-                const productLink = getProductLinkById(idToSearch, data);
+                productLink = getProductLinkById(idToSearch, data);
 
                 if (productLink) {
                     let address = `../database/${productLink}/data.json`;
@@ -49,8 +50,8 @@
                         <div class="content">
                             <h2>${card.id}</h2>
                             <h3>${card.title}</h3>
-                            <img src="../database/General_test_and_measuring/1/image.png" alt="image">
-                            <a href="../Page/page.html">Read More</a>
+                            <img src="../database/${productLink}/${card.id}/image.png" alt="${card.title}">
+                            <button onclick="navigate(${card.id}, '${card.title}', '${card.link}')">Read More</button>
                         </div>
                     `;
                     container.appendChild(cardElement);
@@ -61,6 +62,10 @@
                 });
             })
             .catch(error => console.error('Error:', error));
+
+        function navigate(productId, text, link){
+            window.location.href = `../Page/page.html?id=${productId}&text=${encodeURIComponent(text)}&link=${encodeURIComponent(link)}`;
+        }
     </script>
 </body>
 </html>

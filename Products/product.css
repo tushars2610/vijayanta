@@ -107,7 +107,7 @@ body::after
 .container .card .content h2
 {
     position: absolute;
-    top: -40px;
+    top: -50px;
     right: 30px;
     font-size: 8em;
     color: rgba(3, 221, 249, 0.3);
@@ -126,8 +126,9 @@ body::after
     font-weight: 300;
 }
 
-.container .card .content a
+.container .card .content button
 {
+    cursor: pointer;
     position: relative;
     display: inline-block;
     padding: 8px 20px;

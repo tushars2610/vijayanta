@@ -1,4 +1,25 @@
-fetch('general_test.json')
+//---------------for displaying title-----------------------------
+//----------------------------------------------------------------
+function getQueryParam(param) {
+    let urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+}
+
+let productId = getQueryParam('id');
+let productTitle = getQueryParam('text');
+let productLink = getQueryParam('link')
+// Create a new h1 element
+const h1 = document.createElement('h1');
+
+// Set the text content of the h1 element
+h1.textContent = `${productTitle}`;
+
+// Find the container div and append the h1 element to it
+document.getElementById('title').appendChild(h1);
+//--------------------------------------------------------------------------
+
+
+fetch(`../database/${productLink}/data.json`)
 .then(function(response){
     return response.json();
 })
@@ -38,3 +59,4 @@ function openNav() {
         reader.readAsText(file);
     }
 });
+
