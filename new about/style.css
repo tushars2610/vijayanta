@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito:wght@300;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Nunito", sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    background-image: radial-gradient(
+        circle at 20% 100%,
+        rgba(184, 184, 184, 0.1) 0%,
+        rgba(184, 184, 184, 0.1) 33%,
+        rgba(96, 96, 96, 0.1) 33%,
+        rgba(96, 96, 96, 0.1) 66%,
+        rgba(7, 7, 7, 0.1) 66%,
+        rgba(7, 7, 7, 0.1) 99%
+      ),
+      linear-gradient(40deg, #040a22, #162561, #202e64, #6f7aa6);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    padding: 170px 0px 20px 250px;
+    animation: slideh1 0.5s linear;
+}
+
+.container h1{
+    place-items: center;
+    font-size: 210px;
+    font-family: "Nunito", sans-serif;
+}
+
+.name span{
+    color: rgb(147, 11, 43);
+}
+
+.blob {
+    max-width: 500px;
+    width: 25%;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+@keyframes slideh1 {
+    from {
+        transform: translateX(110vh);
+      }
+      to {
+        transform: translateX(0);
+      }
+}
+
+.para-1{
+    width: 39vw;
+    margin-left: 60px;
+    font-weight: 500;
+    color: rgb(131, 133, 133);
+}
+
+.part-1 {
+    margin: 90px 54px;
+    /* background-color: rgb(242, 238, 238); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* This divides the part-1 into two equal columns */
+    align-items: center;
+    grid-gap: 10px;
+    color: white;
+}
+
+.contentLeft, .contentRight {
+    width: 100%;
+    height: 100%; /* Ensure the divs take the full height */
+}
+
+.contentRight{
+    /* background-color: rgb(10, 42, 71); */
+    padding-top: 50px;
+}
+
+.contentRight .hist-1{
+    font-size: 70px;
+    line-height:0.9;
+}
+
+.hist-1 span{
+    color: brown;
+}
+
+#historyDescription {
+    padding-top: 20px;
+    overflow: hidden;
+    max-height: 18.9em; /* Adjust based on the desired number of visible lines */
+    text-overflow: ellipsis;
+}
+
+#historyDescription.expanded {
+    max-height: none;
+}
+
+#btn-1{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 13px 30px;
+    color: #fff;
+    background: #d35400;
+    border-radius: 8px;
+    user-select: none;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+}
+
+.img-1{
+    width: 100%;
+    height: 87vh;
+    opacity: .6;
+}
+
+.part-2{
+    height: 40vh;
+    margin: 30px 54px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#one, .two, .three, .four{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+#one{
+    background: black;
+}
+
+.two{
+    background: rgb(77, 4, 86);
+}
+
+.three{
+    background-color: aliceblue;
+    color: black;
+}
+
+.four{
+    background: rgb(78, 162, 68);
+}
+
+#one img{
+    width: 130px;
+    padding-bottom: 70px;
+}
+
+#one  #btn-2{
+    padding: 15px;
+    margin: 100px 0 0 0;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#onePara {
+    display: none;
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0.9);
+    padding: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.blur {
+    filter: blur(0px);
+}
+
+.blur1{
+    filter: blur(5px);
+}
+
+.part3{
+    margin: 230px 54px 0px 54px;
+    align-items: center;
+    background-color: rgb(36, 5, 75);
+    padding: 40px;
+    border-radius: 60px;
+}
+
+.part3 h1{
+    color: white;
+    font-size: 70px;
+    line-height: 1;
+}
+
+.part3 p{
+    padding-top: 29px;
+    color: rgb(162, 158, 158);
+}
+
+.part3 span{
+    font-size: 25px;
+}
+
+.part4{
+    margin: 70px 54px;
+    align-items: center;
+    background-color: rgb(6, 37, 91);
+    padding: 40px;
+    border-radius: 60px;
+}
+
+.part4 h1{
+    color: white;
+    font-size: 60px;
+    line-height: 1;
+}
+
+.part4 p{
+    padding-top: 29px;
+    color: rgb(162, 158, 158);
+}
