@@ -25,4 +25,20 @@ $(document).ready(function () {
     });
   });
 
-
+  function sendEmail() {
+    Email.send({
+      Host: "smtp.gmail.com",
+      Username: "shrutikkpt80@gmail.com",
+      Password: "",
+      To: 'shrutikkpt1234@gmail.com',
+      From: document.getElementById("emaill").value,
+      Subject: "New contact for enquiry",
+      Body: "Name: " + document.getElementById("name").value
+      + "<br> Email: " + document.getElementById("emaill").value
+      + "<br> Phone No: " + document.getElementById("number").value
+      + "<br> Message: " + document.getElementById("Message").value,
+    })
+      .then(function (message) {
+        alert("Mail sent successfully")
+      });
+  }
