@@ -1,0 +1,24 @@
+[
+    {
+        "id": "1",
+        "image": "",
+        "Name": "organisation name",       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "2",
+        "image": "",
+        "Name": "organisation name",       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "3",
+        "image": "",
+        "Name": "organisation name",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "4",
+        "image": "",
+        "Name": "organisation name",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    }
+]
