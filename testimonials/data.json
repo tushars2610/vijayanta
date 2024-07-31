@@ -1,24 +1,188 @@
 [
     {
         "id": "1",
-        "image": "",
-        "Name": "organisation name",       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+        "image": "Anna University Logo.png",
+        "Name": "Anna University",       
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore! "
     },
     {
         "id": "2",
-        "image": "",
-        "Name": "organisation name",       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+        "image": "Banaras University.png",
+        "Name": "Banaras Hindu University",       
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
     },
     {
         "id": "3",
-        "image": "",
-        "Name": "organisation name",
+        "image": "barc.png",
+        "Name": "bhabha atomic research centre",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
     },
     {
         "id": "4",
-        "image": "",
-        "Name": "organisation name",
+        "image": "Bharathiar University.png",
+        "Name": "Bharathiar University",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "5",
+        "image": "bhel Logo.png",
+        "Name": "Bharat Heavy Electricals Limited",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "6",
+        "image": "bu_Logo.png",
+        "Name": "Bangladesh University",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "7",
+        "image": "CBRILogo.jpg",
+        "Name": "Central Building Research Institute",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "8",
+        "image": "Central University Rajasthan.gif",
+        "Name": "Central University Rajasthan",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "9",
+        "image": "College of enginering Bhubaneshwar.png",
+        "Name": "College of enginering Bhubaneshwar",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "10",
+        "image": "dit.jpg",
+        "Name": "Dehradun Institute of Technology",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "11",
+        "image": "DTVET-logo.jpg",
+        "Name": "Department of Technical and vocaitonal Education and training Myanmar",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "12",
+        "image": "Graphic Era.png",
+        "Name": "Graphic Era",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "13",
+        "image": "IIS Logo.png",
+        "Name": "Indian Institute of Science",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "14",
+        "image": "iit dhanbad.png",
+        "Name": "Indian Institute of Technology Dhanbad",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "15",
+        "image": "IIT Patna.png",
+        "Name": "Indian Institute of Technology Patna",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "16",
+        "image": "IITR logo.png",
+        "Name": "Indian Institute of Technology Roorkee",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    }
+    ,{
+        "id": "17",
+        "image": "Indian_Institute_of_Technology_Tirupati_Logo.svg.png",
+        "Name": "Indian Institute of Technology Tirupati",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "18",
+        "image": "ISRO lOGO.png",
+        "Name": "Indian Space Research Organisation",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "19",
+        "image": "JMI.png",
+        "Name": "Jamia Millia Islamia University",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "20",
+        "image": "MIIT Logo.png",
+        "Name": "Mastertech Institute of Information Technology",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "21",
+        "image": "National_Dairy_Research_Institute_Logo.png",
+        "Name": "National Dairy Research Institute",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "22",
+        "image": "National_Institute_of_Technology_Trichy_Logo.png",
+        "Name": "National Institute of Technology Trichy",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "23",
+        "image": "NHPC.png",
+        "Name": "National Hydroelectric Power Corporation",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "24",
+        "image": "NIT Kurukshetra.png",
+        "Name": "National Institute of Technology Kurukshetra",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "25",
+        "image": "NITK_Logo.png",
+        "Name": "National Institute of Technology Karnataka",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "26",
+        "image": "ONGC_Logo.png",
+        "Name": "Oil and Natural Gas Cooperation",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "27",
+        "image": "Sri lanka Logo.png",
+        "Name": "Sri Lanka",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "28",
+        "image": "Thapar university.png",
+        "Name": "Thapar university",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "29",
+        "image": "UOJ.png",
+        "Name": "University of Jafna",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "31",
+        "image": "Vellore_Institute_of_Technology_seal_2017.svg.png",
+        "Name": "Vellore Institute of Technology",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
+    },
+    {
+        "id": "32",
+        "image": "Visvesvaraya_Technological_University_logo.png",
+        "Name": "Visvesvaraya Technological University",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi omnis illo obcaecati sapiente dolorem sint, maxime quibusdam repellendus fuga laborum perspiciatis ab ea dicta et? Cum quisquam eum modi tempore!"
     }
 ]

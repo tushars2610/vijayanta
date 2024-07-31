@@ -55,6 +55,7 @@ body::after
     width: 280px;
     height: 400px;
     margin: 30px;
+    text-align: center;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
@@ -103,10 +104,11 @@ body::after
 .container .card .practice img{
     height: 150px;
 }
+
 .container .card .content h2
 {
     position: absolute;
-    top: -40px;
+    top: -90px;
     right: 30px;
     font-size: 8em;
     color: rgba(3, 221, 249, 0.3);
@@ -114,28 +116,41 @@ body::after
 }
 .container .card .content h3
 {
+    position: absolute;
+    top: -40px;
     font-size: 20px;
     color: rgb(1, 135, 244);
     z-index: 1;
 }
-.container .card .content p
+.container .card .content .paragraph
 {
+    position: relative;
+    top: 10px;
     font-size: 1em;
     color: rgb(9, 9, 9);
     font-weight: 300;
     text-align: justify;
     font-weight: 500;
+    height: 250px;
+    overflow-y: hidden;
 }
 
-.container .card .content a
+.container .card .content button
 {
-    position: relative;
+    position: fixed;
+    margin-left: 50px;
+    margin-right: 50px;
+    left: 0px;
+    right: 0px;
+    bottom: -50px;
+    cursor: pointer;
     display: inline-block;
     padding: 8px 20px;
-    margin-top: 15px;
+    margin-top: 50px;
     background: #fff;
     color: #000;
     border-radius: 20px;
+    border: 2px solid rgb(0, 89, 255);
     text-decoration: none;
     font-weight: 500;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);

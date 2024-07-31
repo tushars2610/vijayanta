@@ -23,13 +23,13 @@
                         <div class="practice">
                             <h3>${card.Name}</h3>
                             <br>
-                            <img src="images/Anna University Logo.png" alt="">
+                            <img src="images/${card.image}" alt="">
                         </div>
                         <div class="content">
                             <h2>${card.id}</h2>
                             <h3>${card.Name}</h3>
-                            <p>${card.description}</p>
-                            <a href="#">Read More</a>
+                            <div class="paragraph"><p>${card.description}</p></div>
+                            <button onclick= "navigate(${card.id})">Read More</button>
                         </div>
                     `;
                     container.appendChild(cardElement);
@@ -40,6 +40,9 @@
                 });
             })
             .catch(error => console.error('Error loading data:', error));
+            function navigate(productId) {
+                window.location.href = `popup.html?id=${productId}`;
+            }
     </script>
 </body>
 </html>
