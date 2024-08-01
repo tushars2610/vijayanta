@@ -38,6 +38,7 @@ body::after
     clip-path: circle(20% at 10% 10%);
     z-index: 0;
 }
+
 .container
 {
     position: relative;
