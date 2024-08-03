@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VIJAYANTA</title>
+    <title>Restraunt</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -12,6 +12,8 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://smtpjs.com/v3/smtp.js">
+	</script>
   </head>
   <body>
     <nav class="navbar">
@@ -24,19 +26,20 @@
         </div>
         <ul class="menu-items">
           <li><a href="#showcase">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="../Products/index.html">Product</a></li>
+          <li><a href="../new about/index.html">About</a></li>
+          <li><a href="../Products/product.html">Product</a></li>
           <li><a href="#testimonials">Testimonial</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <h1 class="logo">vijayanta</h1>
+        <div class="logo"><img src="images/Vijayanta Logo.jpg" /></div>
       </div>
     </nav>
+
     <section class="showcase-area" id="showcase">
       <div class="showcase-container">
-        <h1 class="main-title" id="home_tour">Text</h1>
-        <p>You will find all items.</p>
-        <a href="../Products/index.html" class="btn btn-primary">Product</a>
+        <!-- <h1 class="main-title" id="home_tour">Text</h1> -->
+        <!-- <p>You will find all items.</p>
+        <a href="../Products/product.html" class="btn btn-primary">Product</a> -->
       </div>
     </section>
 
@@ -56,59 +59,46 @@
           </p>
         </div>
         <div class="about-img">
-          <img src="images/wsc.jpg" alt="food" />
+          <img src="images/wsc.jpg" alt="wsc" />
         </div>
       </div>
     </section>
     <section id="product">
       <h2>Types of Product</h2>
       <div class="product-container container">
-        <div class="product-type products">
-          <div class="img-container">
-            <img src="images/pic6.jpg" alt="error" />
-            <div class="img-content">
-              <h3>Machine</h3>
-              <a
-                href="#"
-                class="btn btn-primary"
-                target="blank"
-                >learn more</a
-              >
-            </div>
+          <div class="product-type products">
+              <div class="img-container" >
+                  <img class="slideshowImage" id="slideshow1" src="images/pic6.jpg" alt="Slideshow Image">
+                  <div class="img-content">
+                      <h3>Machine</h3>
+                      <a href="#" class="btn btn-primary" target="blank">Learn more</a>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="product-type-type vegetable">
-          <div class="img-container">
-            <img src="images/pic7.jpg" alt="error" />
-            <div class="img-content">
-              <h3>Machine</h3>
-              <a
-                href="#"
-                class="btn btn-primary"
-                target="blank"
-                >learn more</a
-              >
-            </div>
+          <div class="product-type vegetable">
+              <div class="img-container" id="slideshow2">
+                  <img class="slideshowImage" src="images/pic7.jpg" alt="Slideshow Image">
+                  <div class="img-content">
+                      <h3>Machine</h3>
+                      <a href="#" class="btn btn-primary" target="blank">Learn more</a>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="product-type grin">
-          <div class="img-container">
-            <img src="images/pic8.jpg" alt="error" />
-            <div class="img-content">
-              <h3>Machine</h3>
-              <a
-                href="#"
-                class="btn btn-primary"
-                target="blank"
-                >learn more</a
-              >
-            </div>
+          <div class="product-type grin">
+              <div class="img-container" id="slideshow3">
+                  <img class="slideshowImage" src="images/pic8.jpg" alt="Slideshow Image">
+                  <div class="img-content">
+                      <h3>Machine</h3>
+                      <a href="#" class="btn btn-primary" target="blank">Learn more</a>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
-    
-    <section id="testimonials">
+  </section>
+
+
+<!-- Review section -->
+    <!-- <section id="testimonials">
       <h2 class="testimonial-title">What Our Customers Say</h2>
       <div class="testimonial-container container">
         <div class="testimonial-box">
@@ -172,64 +162,241 @@
           </p>
         </div>
       </div>
+    </section> -->
+    <section id="testimonials">
+      <!--heading--->
+      <div class="testimonial-heading">
+          <span>Comments</span>
+          <h4>Clients Says</h4>
+      </div>
+      <!--testimonials-box-container------>
+      <div class="testimonial-box-container">
+          <!--BOX-1-------------->
+          <div class="testimonial-box">
+              <!--top------------------------->
+              <div class="box-top">
+                  <!--profile----->
+                  <div class="profile">
+                      <!--img---->
+                      <div class="profile-img">
+                          <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                      </div>
+                      <!--name-and-username-->
+                      <div class="name-user">
+                          <strong>Liam mendes</strong>
+                          <span>@liammendes</span>
+                      </div>
+                  </div>
+                  <!--reviews------>
+                  <div class="reviews">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i><!--Empty star-->
+                  </div>
+              </div>
+              <!--Comments---------------------------------------->
+              <div class="client-comment">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+              </div>
+          </div>
+          <!--BOX-2-------------->
+          <div class="testimonial-box">
+              <!--top------------------------->
+              <div class="box-top">
+                  <!--profile----->
+                  <div class="profile">
+                      <!--img---->
+                      <div class="profile-img">
+                          <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                      </div>
+                      <!--name-and-username-->
+                      <div class="name-user">
+                          <strong>Noah Wood</strong>
+                          <span>@noahwood</span>
+                      </div>
+                  </div>
+                  <!--reviews------>
+                  <div class="reviews">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i><!--Empty star-->
+                  </div>
+              </div>
+              <!--Comments---------------------------------------->
+              <div class="client-comment">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+              </div>
+          </div>
+          <!--BOX-3-------------->
+          <div class="testimonial-box">
+              <!--top------------------------->
+              <div class="box-top">
+                  <!--profile----->
+                  <div class="profile">
+                      <!--img---->
+                      <div class="profile-img">
+                          <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                      </div>
+                      <!--name-and-username-->
+                      <div class="name-user">
+                          <strong>Oliver Queen</strong>
+                          <span>@oliverqueen</span>
+                      </div>
+                  </div>
+                  <!--reviews------>
+                  <div class="reviews">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i><!--Empty star-->
+                  </div>
+              </div>
+              <!--Comments---------------------------------------->
+              <div class="client-comment">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+              </div>
+          </div>
+          <!--BOX-4-------------->
+          <div class="testimonial-box">
+              <!--top------------------------->
+              <div class="box-top">
+                  <!--profile----->
+                  <div class="profile">
+                      <!--img---->
+                      <div class="profile-img">
+                          <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                      </div>
+                      <!--name-and-username-->
+                      <div class="name-user">
+                          <strong>Barry Allen</strong>
+                          <span>@barryallen</span>
+                      </div>
+                  </div>
+                  <!--reviews------>
+                  <div class="reviews">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i><!--Empty star-->
+                  </div>
+              </div>
+              <!--Comments---------------------------------------->
+              <div class="client-comment">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+              </div>
+          </div> 
+      </div>
+      <button class="reviewss"><a href="https://www.google.com/maps/place/Vijayanta+Technologies+Pvt.+Ltd./@29.869706,77.888545,16z/data=!4m8!3m7!1s0x390eb34425d173bb:0x915ba36f61e08558!8m2!3d29.8687194!4d77.8883733!9m1!1b1!16s%2Fg%2F11c2jrqrzj?hl=en&entry=ttu">Add Your Review</a> </button>
     </section>
+
+    <!-- Contact section -->
     <section id="contact">
       <div class="contact-container container">
         <div class="contact-img">
-          <img src="images/pexels-jibarofoto-1659748.jpg" alt="" />
+          <!-- <img src="" alt="" /> -->
+          <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.8458407530006!2d77.8883733!3d29.868719400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb34425d173bb%3A0x915ba36f61e08558!2sVijayanta%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1722008268637!5m2!1sen!2sin"
+            width="600"
+            height="484"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
 
         <div class="form-container">
+          <form onsubmit="sendEmail(); reset(); return false;">
           <h2>Contact Us</h2>
-          <input type="text" placeholder="Your Name" />
-          <input type="email" placeholder="E-Mail" />
-          <textarea
+          <div class="inputBox">
+            <input type="text" placeholder="Your Name" id="name" />
+          </div>
+          
+          <div class="inputBox">
+            <input type="email" placeholder="E-Mail" id="emaill"/>
+          </div>
+          
+          <div class="inputBox">
+            <input type="number" placeholder="XXXXX XXXXX" id="number"/>
+          </div>
+          
+          <div class="inputBox">
+            <textarea
             cols="30"
             rows="6"
             placeholder="Type Your Message"
+            id="Message"
           ></textarea>
-          <a href="#" class="btn btn-primary">Submit</a>
+          </div>
+          
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
         </div>
       </div>
     </section>
+
+
+
+
+
     <footer id="footer">
       <section class="footer">
         <div class="share">
-        <a href="#" class="fab fa-facebook"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <a href="#" class="fab fa-linkedin"></a>
-        <a href="#" class="fab fa-pinterest"></a>
-      </div>
-  
-      <div class="links">
-        <a href="#showcase">home</a>
-        <a href="#about">about</a>
-        <a href="../Products/index.html">products</a>
-        <a href="#testimonials">review</a>
-        <a href="#contact">contact</a>
-      </div>
-  
-      <div class="credit"><span class="phone-no">01332 - 272509 , 276608<br>+91 7579200827<br>
-        info@vijayantatechnologies.com<br></span>
-        <span class="under">&nbsp;Vijyanta</span> | All right reserve</div>
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+          <a href="#showcase">home</a>
+          <a href="#about">about</a>
+          <a href="../Products/product.html">products</a>
+          <a href="#testimonials">review</a>
+          <a href="#contact">contact</a>
+        </div>
+
+        <div class="credit">
+          <span class="phone-no"
+            >01332 - 272509 , 276608<br />+91 7579200827<br />
+            info@vijayantatechnologies.com<br
+          /></span>
+          <img src="images/Vijayanta Logo.jpg" class="fotterlogo" />
+          <span class="under">Formarly Known As Vijai Electronics</span> | All
+          right reserve
+        </div>
       </section>
     </footer>
-    <script>
-      
-  document.addEventListener("DOMContentLoaded", function() {
-    let texts = ["GENERAL TEST & MEASURING INSTRUMENTS", "POWER ELECTRONICS & DRIVES LAB", "CONTROL & INSTRUMENTATION", "PHYSICS LAB TRAINER",
-     "POWER SUPPLIES"];
-    let index = 0;
 
-    function changeText() {
-        document.getElementById("home_tour").innerText = texts[index];
-        index = (index + 1) % texts.length;
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+    const images = [
+        "images/pic6.jpg",
+        "images/pic8.jpg",
+
+    ];
+
+    let index = 0;
+    const slideshowImage = document.getElementById("slideshow1");
+
+    function changeImage() {
+        index = (index + 1) % images.length;
+        slideshowImage.src = images[index];
     }
 
-    setInterval(changeText, 1000);
+    setInterval(changeImage, 1000);
 });
-    </script>
+
+        </script>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
