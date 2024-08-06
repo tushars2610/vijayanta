@@ -11,7 +11,7 @@ function closeDialog(){
 let jsonData = [];
 
 async function loadJsonData() {
-    const files = ['data1.json', 'data2.json'];
+    const files = ['data.json'];
     const fetchPromises = files.map(file => fetch(file).then(response => response.json()));
     const dataArrays = await Promise.all(fetchPromises);
     jsonData = dataArrays.flat();
@@ -35,7 +35,7 @@ function getSuggestions() {
                 const div = document.createElement('div');
                 div.textContent = suggestion.productName;
                 div.onclick = () => {
-                    window.location.href = "../practice/index.html"
+                    window.location.href = `../Products/product.html?id=${suggestion.id}`
                     document.getElementById('search-bar').value = suggestion.productName;
                     search();
                     

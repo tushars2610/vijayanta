@@ -30,7 +30,7 @@ fetch(`../database/${productLink}/data.json`)
         out += `
         <tr> 
             <td> ${product.id}</td> 
-            <td> <a href="../slide_bar/index.html">${product.title}</a> </td> 
+            <td> <a href="../Home_page/index.html">${product.title}</a> </td> 
         </tr>
         `;
     }
