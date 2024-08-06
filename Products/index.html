@@ -5,9 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vijayanta</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav_style.css">
+    
 </head>
 <body>
-    
+    <!-- nav and search -->
+    <nav class="navbar">
+        <div class="navbar-container">
+          <input type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+            <li><a href="#showcase">Home</a></li>
+            <li><a href="../new about/index.html">About</a></li>
+            <li><a href="../Products/index.html">Product</a></li>
+            <li><a href="#testimonials">Testimonial</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="logo"><img src="images/Vijayanta Logo.jpg" /></div>
+        </div>
+      </nav>
+    <dialog id="search-dialog" class="search-dialog" >
+        <h2>Search products</h2> 
+        <button class="close-search" onclick=closeDialog()>X</button>
+        <div class="InputContainer">
+            <input placeholder="Search.." id="search-bar" class="input" name="text" type="text" onkeyup="getSuggestions()">
+        </div>
+            <!-- <a href="../practice/index.html"><div id="results" class="results"></div></a> -->
+        </div>
+        <div id="suggestions" class="suggestions"></div>
+    </dialog>
+    <div id="suggestions" class="suggestions"></div>
+<button class="search-button" onclick=show()>
+  <span>
+    <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M9.145 18.29c-5.042 0-9.145-4.102-9.145-9.145s4.103-9.145 9.145-9.145 9.145 4.103 9.145 9.145-4.102 9.145-9.145 9.145zm0-15.167c-3.321 0-6.022 2.702-6.022 6.022s2.702 6.022 6.022 6.022 6.023-2.702 6.023-6.022-2.702-6.022-6.023-6.022zm9.263 12.443c-.817 1.176-1.852 2.188-3.046 2.981l5.452 5.453 3.014-3.013-5.42-5.421z"></path></svg>
+  </span>
+</button>
+    <!-- ------------------- -->
     <div class="container" id="card-container">
         <!-- Cards will be generated here -->
     </div>
@@ -41,5 +78,6 @@
     window.location.href = `../Products/product.html?id=${productId}`;
 }
     </script>
+    <script src="nav_script.js"></script>
 </body>
 </html>

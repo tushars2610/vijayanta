@@ -10,7 +10,6 @@ body
 {
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background: #fff;
 }
@@ -42,6 +41,7 @@ body::after
 .container
 {
     position: relative;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
