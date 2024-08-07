@@ -140,7 +140,7 @@ body::after
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-img{
+.content img{
     margin-top: 30px;
     height: auto;
     width: 200px;
