@@ -353,6 +353,7 @@ body {
     align-self: center;
     justify-self: center;
     height: 350px;
+    max-width: 300px;
     width: 70%;
     min-width: 250px;
     border-radius: 25px;

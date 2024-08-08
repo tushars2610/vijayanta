@@ -40,8 +40,8 @@ placeholder.innerHTML = out;
 })
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "400px";
-    document.getElementById("open_menu").style.marginLeft = "400px";
+    document.getElementById("mySidenav").style.width = "310px";
+    document.getElementById("open_menu").style.marginLeft = "310px";
   }
   
   function closeNav() {
