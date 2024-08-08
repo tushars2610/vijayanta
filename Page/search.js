@@ -37,7 +37,7 @@
                   const div = document.createElement('div');
                   div.textContent = suggestion.productName;
                   div.onclick = () => {
-                      window.location.href = "../practice/index.html"
+                      window.location.href = "../Home_page/index.html"
                       document.getElementById('search-bar').value = suggestion.productName;
                       search();
                       
