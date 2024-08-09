@@ -500,6 +500,37 @@ a{
   text-align: center;
 }
 
+/* ........ Infinite logo slider ........*/
+
+.infinite-images {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-track {
+  display: flex;
+  width: calc(200%); /* Twice the width of the viewport to accommodate duplicated images */
+  animation: scrollImages 20s linear infinite;
+  background: #839ccc;
+}
+
+.image-track img {
+  width: 5%; /* Adjust according to the number of images */
+  flex-shrink: 0;
+  padding: 2px 30px 2px 30px;
+}
+
+@keyframes scrollImages {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
+}
+
+
 /* ........ Contact Us........... */
 
 #contact {

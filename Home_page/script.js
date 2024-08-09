@@ -42,3 +42,11 @@ $(document).ready(function () {
         alert("Mail sent successfully")
       });
   }
+
+  // document.querySelector('.infinite-images').addEventListener('mouseover', function() {
+  //   document.querySelector('.image-track').style.animationPlayState = 'paused';
+  // });
+
+  // document.querySelector('.infinite-images').addEventListener('mouseout', function() {
+  //   document.querySelector('.image-track').style.animationPlayState = 'running';
+  // });
