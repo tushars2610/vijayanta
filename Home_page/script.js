@@ -43,10 +43,10 @@ $(document).ready(function () {
       });
   }
 
-  // document.querySelector('.infinite-images').addEventListener('mouseover', function() {
-  //   document.querySelector('.image-track').style.animationPlayState = 'paused';
-  // });
+  document.querySelector('.infinite-images').addEventListener('mouseover', function() {
+    document.querySelector('.image-track').style.animationPlayState = 'paused';
+  });
 
-  // document.querySelector('.infinite-images').addEventListener('mouseout', function() {
-  //   document.querySelector('.image-track').style.animationPlayState = 'running';
-  // });
+  document.querySelector('.infinite-images').addEventListener('mouseout', function() {
+    document.querySelector('.image-track').style.animationPlayState = 'running';
+  });
