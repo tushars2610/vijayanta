@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+
+@font-face {
+  font-family: myFont;
+  src: url(images/futura_black_bt.ttf);
+}
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: myFont;
 }
 
 .html {
@@ -39,6 +46,8 @@ body {
 .btn-primary {
   color: #fff;
   background: #16a083;
+  font-size: 18px;
+  word-spacing: 23px;
 }
 
 .btn-primary:hover {
@@ -62,7 +71,7 @@ body {
   background: #fff;
   color: #000;
   opacity: 0.85;
-  height: 50px;
+  height: 65px;
   z-index: 12;
 }
 
@@ -82,7 +91,7 @@ body {
   list-style: none;
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .menu-items a {
@@ -99,23 +108,31 @@ body {
 }
 
 .logo {
-  order: 1;
-  margin-bottom: 0.5rem;
+  /* order:1 ; */
+  margin-bottom: 0.1rem;
+  margin-right: -380px;
+}
+
+.gem{
+  width: 170px;
+  height: 70px;
+  margin-bottom: 10px;
 }
 
 .logo img{
   width: 190px;
 }
 
+h2 .since{
+  font-size: 10px;
+}
+
 /* ............//// Showcase styling ////......... */
 
 .showcase-area {
-  height: 50vh;
-  background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
-    ),
-    url("images/Vijayanta\ banner.png");
+  height: 110vh;
+  background: 
+    url("images/Front\ Office\ -\ Right\ Side\ View.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -208,6 +225,7 @@ body {
 
 #product {
   padding: 5rem 0 10rem 0;
+  background: rgb(233, 233, 245);
 }
 
 #product h2 {
@@ -216,7 +234,7 @@ body {
   font-weight: 400;
   margin-bottom: 40px;
   text-transform: uppercase;
-  color: #555;
+  color: #1b1919;
 }
 
 .product-container {
@@ -519,6 +537,8 @@ a{
   width: 5%; /* Adjust according to the number of images */
   flex-shrink: 0;
   padding: 2px 30px 2px 30px;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
 }
 
 @keyframes scrollImages {
@@ -617,6 +637,25 @@ a{
     display: block;
   }
 
+  .logo img{
+    width: 140px;
+  }
+
+  .logo {
+    /* order:1 ; */
+    margin-bottom: 0.1rem;
+    margin-right:0px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 2rem;
+  }
+
+
+  .navbar-container .gem{
+    width: 60px;
+  }
+
   .navbar-container {
     display: block;
     position: relative;
@@ -689,13 +728,6 @@ a{
     font-weight: 500;
   }
 
-  .logo {
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    font-size: 2rem;
-  }
-
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
     transform: translateX(0);
   }
@@ -712,7 +744,13 @@ a{
     transform: rotate(-35deg);
   }
 
-  /* ......./ food /......... */
+  .about-img img{
+    width: 200px;
+    filter: drop-shadow(1px 1px 20px yellow);
+  }
+
+
+  /* ......./ product /......... */
 
   .product-container {
     flex-direction: column;
@@ -743,6 +781,7 @@ a{
 
 #footer {
   overflow: hidden;
+  background-color: whitesmoke;
 }
 
 .footer{
@@ -753,23 +792,39 @@ a{
 
 .footer .share{
   padding: .1rem 0;
+  margin: .9rem;
 }
 
 .footer .share a{
   height: 5rem;
-  width: 5rem;
+  width: 7rem;
   line-height: 5rem;
   font-size: 2rem;
   color: #131212;
   border:.1rem solid rgba(255,255,255,.3) ;
-  margin: .3rem;
+  margin: .6rem;
   border-radius: 50%;
   text-decoration: none;
 }
 
-.footer .share a:hover{
+/* .footer .share a:hover{
   background-color:rgb(91, 88, 88);
+  filter: brightness(10px);
+} */
+
+.share img:hover{
+  filter:drop-shadow(6px 6px 20px blue);
 }
+
+.insta, .fb, .whatsapp{
+  width: 2.8rem;
+}
+
+.linkd{
+  width: 3rem;
+}
+
+
 
 .footer .links{
   display: flex;
@@ -784,10 +839,11 @@ a{
   color: #161414;
   border: black;
   text-decoration: none;
+  font-size: 20px;
 }
 
 .footer .links a:hover{
-  background: rgb(64, 64, 68);
+  filter:drop-shadow(6px 6px 6px rgb(19, 19, 142));
 }
 
 .footer .credit{

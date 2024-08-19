@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restraunt</title>
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -24,14 +24,21 @@
           <span class="line line2"></span>
           <span class="line line3"></span>
         </div>
+        
         <ul class="menu-items">
-          <li><a href="../Home_page/index.html">Home</a></li>
-          <li><a href="../new about/index.html">About</a></li>
-          <li><a href="../Products/index.html">Product</a></li>
-          <li><a href="../testimonials/index.html">Testimonial</a></li>
-          <li><a href="#contact">Contact</a></li>
+          
+          <li><a href="../Home_page/index.html" class="menu">Home</a></li>
+          <li><a href="../new about/index.html" class="menu">About</a></li>
+          <li><a href="../Products/index.html" class="menu">Product</a></li>
+          <li><a href="../testimonials/index.html" class="menu">Testimonial</a></li>
+          <li><a href="#contact" class="menu">Contact</a></li>
         </ul>
-        <div class="logo"><img src="images/Vijayanta Logo.jpg" /></div>
+        <div class="logo"><img src="images/Vijayanta Logo.jpg" />
+          <h2 class="since" style="font-size: 17px; padding-left: 6px; color: rgb(58, 58, 60);">SINCE 1965</h2>
+        </div>
+        <img src="images/Government_e_Marketplace_Logo.png" class="gem">
+
+        
       </div>
     </nav>
     <dialog id="search-dialog" class="search-dialog" >
@@ -58,6 +65,8 @@
       </div>
     </section>
 
+    <!-- About page -->
+
     <section id="about">
       <div class="about-wrapper container">
         <div class="about-text">
@@ -74,12 +83,12 @@
           </p>
         </div>
         <div class="about-img">
-          <img src="images/wsc.jpg" alt="wsc" />
+          <img src="images/IMG_20200513_100238.jpg" alt="wsc" style="filter:drop-shadow(1px 1px 30px rgb(16, 17, 17)) ;"/>
         </div>
       </div>
     </section>
     <section id="product">
-      <h2>Types of Product</h2>
+      <h2>Type of Products</h2>
       <div class="product-container container">
           <div class="product-type products">
               <div class="img-container" >
@@ -181,8 +190,8 @@
     <section id="testimonials">
       <!--heading--->
       <div class="testimonial-heading">
-          <span>Comments</span>
-          <h4>Clients Says</h4>
+          <span>Some Of Our Happy Clients</span>
+          <!-- <h4>Clients Says</h4> -->
       </div>
       <!--testimonials-box-container------>
       <div class="testimonial-box-container">
@@ -337,15 +346,19 @@
           <form onsubmit="sendEmail(); reset(); return false;">
           <h2>Contact Us</h2>
           <div class="inputBox">
-            <input type="text" placeholder="Your Name" id="name" />
+            <input type="text" placeholder="Your Name" id="name" required/>
           </div>
           
           <div class="inputBox">
-            <input type="email" placeholder="E-Mail" id="emaill"/>
+            <input type="email" placeholder="E-Mail" id="emaill" required/>
           </div>
           
           <div class="inputBox">
-            <input type="number" placeholder="XXXXX XXXXX" id="number"/>
+            <input type="number" placeholder="XXXXX XXXXX" id="number" required/>
+          </div>
+
+          <div class="inputBox">
+            <input type="number" placeholder="Organisation Name" id="number" required/>
           </div>
           
           <div class="inputBox">
@@ -354,6 +367,7 @@
             rows="6"
             placeholder="Type Your Message"
             id="Message"
+            required
           ></textarea>
           </div>
           
@@ -370,18 +384,29 @@
     <footer id="footer">
       <section class="footer">
         <div class="share">
-          <a href="https://www.facebook.com/vijayantatechnologies/" class="fab fa-facebook"></a>
+          <a href="https://www.facebook.com/vijayantatechnologies/">
+            <img src="images/facebook.png" class="fb">
+          </a>
           <!-- <a href="#" class="fab fa-twitter"></a> -->
-          <a href="https://instagram.com/vijayanta_technologies?igshid=MzNlNGNkZWQ4Mg==" class="fab fa-instagram"></a>
-          <a href="https://www.linkedin.com/company/vijayanta-technologies-pvt-ltd/" class="fab fa-linkedin"></a>
+          <a href="https://instagram.com/vijayanta_technologies?igshid=MzNlNGNkZWQ4Mg==" >
+            <img src="images/instagram.png" class="insta">
+          </a>
+          <a href="https://www.linkedin.com/company/vijayanta-technologies-pvt-ltd/" >
+            <img src="images/Linkedin-logo-on-transparent-Background-PNG- (1).png" class="linkd">
+          </a>
+
+          <a href="https://wa.me/917579200827?text=Hello,%20I%20would%20like%20more%20information." target="_blank">
+            <img src="images/whatsapp.png" class="whatsapp">
+          </a>
+
           <!-- <a href="#" class="fab fa-pinterest"></a> -->
         </div>
 
         <div class="links">
-          <a href="../Home_page/index.html">home</a>
-          <a href="../new about/index.html">about</a>
-          <a href="../Products/index.html">products</a>
-          <a href="../testimonials/index.html">review</a>
+          <a href="../Home_page/index.html">Home</a>
+          <a href="../new about/index.html">About</a>
+          <a href="../Products/index.html">Products</a>
+          <a href="../testimonials/index.html">Review</a>
           <a href="#contact">contact</a>
         </div>
 
