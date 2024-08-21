@@ -67,27 +67,11 @@ iframe::-webkit-scrollbar{
  font-family: Verdana, sans-serif;
 }
 
-.clouds {
-  top: 0;
-  position: absolute;
-  background: url("bubbles.png");
-  height: 500px;
-  width: 100%;
-  z-index: -2;
-}
 
-.hills {
-  position: absolute;
-  background-image: url("bumpybubble.png");
-  height: 497px;
-  bottom: 0px;
-  width: 100%;
-  z-index: -2;
-}
 
 .product_table {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(0, 0, 0, 0.1); */
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
   width: 0;
@@ -102,18 +86,17 @@ iframe::-webkit-scrollbar{
 
 .product_table th {
   background: linear-gradient(270deg, white, rgb(12, 116, 243));
-  color: black;
+  
   position: sticky;
   top: 0;
   text-align: center;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
 }
 
 table,
 th,
 td {
-  border: 2px solid black;
+  border: 1px solid white;
   border-collapse: collapse;
   width: 00px;
 }
