@@ -58,12 +58,7 @@
                             <br>
                             <img src="images/${card.image}" alt="">
                         </div>
-                        <div class="content">
-                            <h2>${card.id}</h2>
-                            <h3>${card.Name}</h3>
-                            <div class="paragraph"><p>${card.description}</p></div>
-                            <button onclick= "navigate(${card.id})">Read More</button>
-                        </div>
+                        
                     `;
                     container.appendChild(cardElement);
                 });
@@ -73,9 +68,6 @@
                 });
             })
             .catch(error => console.error('Error loading data:', error));
-            function navigate(productId) {
-                window.location.href = `popup.html?id=${productId}`;
-            }
     </script>
     <script src="search.js"></script>
 </body>

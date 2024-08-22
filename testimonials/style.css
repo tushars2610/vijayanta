@@ -48,7 +48,7 @@ body::after
     max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
-    overflow-y: auto;
+    overflow: auto;
 }
 .container .card
 {

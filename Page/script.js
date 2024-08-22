@@ -60,3 +60,7 @@ function openNav() {
     }
 });
 
+function download(){
+    window.location.href = `../database/${productLink}/${productId}/pdf.pdf`
+}
+
