@@ -37,7 +37,7 @@ body {
 }
 
 .center_content {
-  background-color: rgba(14, 14, 14, 0.1);
+  background-color: rgba(249, 243, 243, 0.6);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
   margin-left: auto;
   margin-right: auto;
@@ -85,8 +85,7 @@ iframe::-webkit-scrollbar{
 }
 
 .product_table th {
-  background: linear-gradient(270deg, white, rgb(12, 116, 243));
-  
+  background:  rgb(103, 167, 238);
   position: sticky;
   top: 0;
   text-align: center;
@@ -112,11 +111,11 @@ table td {
 }
 
 table tr:nth-child(even) {
-  background-color: rgba(248, 242, 242, 0.2);
+  background-color: rgba(248, 242, 242, 0.521);
 }
 
 table tr:nth-child(odd) {
-  background-color: rgba(6, 115, 240, 0.2);
+  background-color: rgba(248, 242, 242, 0.521);
 }
 
 
@@ -130,7 +129,7 @@ table tr:nth-child(odd) {
 }
 
 .product_table a:hover {
-  color: #f1f1f1;
+  color: #0399f6;
 }
 
 .product_table .closebtn {

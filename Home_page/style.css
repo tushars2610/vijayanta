@@ -12,7 +12,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: myFont;
+  /* font-family: myFont; */
 }
 
 
@@ -811,7 +811,7 @@ a{
 } */
 
 .share img:hover{
-  filter:drop-shadow(6px 6px 20px blue);
+  filter:drop-shadow(6px 6px 20px rgb(2, 171, 249));
 }
 
 .insta, .fb, .whatsapp{
@@ -841,7 +841,11 @@ a{
 }
 
 .footer .links a:hover{
-  filter:drop-shadow(6px 6px 6px rgb(19, 19, 142));
+  /* filter:drop-shadow(6px 6px 6px rgb(1, 138, 249)); */
+  /* font-size: x-large; */
+  font-weight: bold;
+  color: #0073ff;
+  animation-duration: 0.5s;
 }
 
 .footer .credit{
