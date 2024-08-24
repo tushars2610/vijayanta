@@ -1,127 +1,148 @@
 [
     {
-        "id": "1",
-        "productName": "General Test & Measuring Instruments",
-        "productLink": "General_test_and_measuring"
-    },
-
+        "image": "Anna University Logo.png",
+        "Name": "Anna University"
+        },
     {
-        "id": "2",
-        "productName": "Power Electronics & Drives Lab",
-        "productLink": "Power_electronics_drives"
-    },
-
+        "image": "Banaras University.png",
+        "Name": "Banaras Hindu University"
+        },
     {
-        "id": "3",
-        "productName": "Control & Instrumentation",
-        "productLink": "Control_and_instrumentation"
-    },
-
+        "image": "barc.png",
+        "Name": "Bhabha atomic research centre"
+        },
     {
-        "id": "4",
-        "productName": "Physics Lab Trainer",
-        "productLink": "Physics_lab_trainer"
-    },
-
+        "image": "Bharathiar University.png",
+        "Name": "Bharathiar University"
+        },
     {
-        "id": "5",
-        "productName": "Power Supplies",
-        "productLink": "Power_Supplies"
-    },
-
+        "image": "bhel Logo.png",
+        "Name": "Bharat Heavy Electricals Limited"
+        },
     {
-        "id": "6",
-        "productName": "Active & Passive Filters",
-        "productLink": "Active_passive_filter"
-    },
-
+        "image": "bu_Logo.png",
+        "Name": "Bangladesh University"
+        },
     {
-        "id": "7",
-        "productName": "Digital Electronics Lab , Theorems & A.C. Bridges",
-        "productLink": "Digital_electronics"
-    },
-
+        "image": "CBRILogo.jpg",
+        "Name": "Central Building Research Institute"
+        },
     {
-        "id": "8",
-        "productName": "Electronics Lab Trainer",
-        "productLink": "Electronics_lab_trainer"
-    },
-
+        "image": "Central University Rajasthan.gif",
+        "Name": "Central University Rajasthan"
+        },
     {
-        "id": "9",
-        "productName": "Electromagnets",
-        "productLink": "Electromagnets"
-    },
-
+        "image": "College of enginering Bhubaneshwar.png",
+        "Name": "College of enginering Bhubaneshwar"
+        },
     {
-        "id": "10",
-        "productName": "Oscillators",
-        "productLink": "Oscillators"
-    },
 
+        "image": "dit.jpg",
+        "Name": "Dehradun Institute of Technology"
+        },
     {
-        "id": "11",
-        "productName": "Communication / Fiber Optics Trainerectromagnets",
-        "productLink": "Communication"
-    },
 
+        "image": "DTVET-logo.jpg",
+        "Name": "Department of Technical and vocaitonal Education and training Myanmar"
+        },
     {
-        "id": "12",
-        "productName": "Micro Processor Trainers",
-        "productLink": "micro_processor"
-    },
 
+        "image": "Graphic Era.png",
+        "Name": "Graphic Era"
+        },
     {
-        "id": "13",
-        "productName": "Data Logger",
-        "productLink": "Data_logger"
-    },
 
+        "image": "IIS Logo.png",
+        "Name": "Indian Institute of Science"
+        },
     {
-        "id": "14",
-        "productName": "Rheostats for Educational Purpose",
-        "productLink": "Rheostats"
-    },
 
+        "image": "iit dhanbad.png",
+        "Name": "Indian Institute of Technology Dhanbad"
+        },
     {
-        "id": "15",
-        "productName": "Squirrel Cage Induction Motor, Flange Mounted",
-        "productLink": "Squirrel_cage"
-    },
 
+        "image": "IIT Patna.png",
+        "Name": "Indian Institute of Technology Patna"
+        },
     {
-        "id": "16",
-        "productName": "ELECTRICAL MACHINE",
-        "productLink": "electrical_machine"
-    },
 
-    {
-        "id": "17",
-        "productName": "POWER QUALITY ANALYZER",
-        "productLink": "Power_quality_analyzer"
-    },
+        "image": "IITR logo.png",
+        "Name": "Indian Institute of Technology Roorkee"
+         }
+    ,{
 
+        "image": "Indian_Institute_of_Technology_Tirupati_Logo.svg.png",
+        "Name": "Indian Institute of Technology Tirupati"
+        },
     {
-        "id": "18",
-        "productName": "CIVIL ENGINEERING EQUIPMENTS",
-        "productLink": "Civil_engineering"
-    },
 
+        "image": "ISRO lOGO.png",
+        "Name": "Indian Space Research Organisation"
+        },
     {
-        "id": "19",
-        "productName": "Viscosity Apparatus For School Laboratory",
-        "productLink": "Viscosity_apparatus"
-    },
 
+        "image": "JMI.png",
+        "Name": "Jamia Millia Islamia University"
+        },
     {
-        "id": "20",
-        "productName": "Laser Ranges",
-        "productLink": "Laser_ranges"
-    },
 
+        "image": "MIIT Logo.png",
+        "Name": "Mastertech Institute of Information Technology"
+        },
     {
-        "id": "21",
-        "productName": "LAB EQUIPMENT",
-        "productLink": "Lab_equipment"
-     }
+
+        "image": "National_Dairy_Research_Institute_Logo.png",
+        "Name": "National Dairy Research Institute"
+        },
+    {
+
+        "image": "National_Institute_of_Technology_Trichy_Logo.png",
+        "Name": "National Institute of Technology Trichy"
+        },
+    {
+
+        "image": "NHPC.png",
+        "Name": "National Hydroelectric Power Corporation"
+        },
+    {
+
+        "image": "NIT Kurukshetra.png",
+        "Name": "National Institute of Technology Kurukshetra"
+        },
+    {
+
+        "image": "NITK_Logo.png",
+        "Name": "National Institute of Technology Karnataka"
+        },
+    {
+
+        "image": "ONGC_Logo.png",
+        "Name": "Oil and Natural Gas Cooperation"
+        },
+    {
+
+        "image": "Sri lanka Logo.png",
+        "Name": "Sri Lanka"
+        },
+    {
+
+        "image": "Thapar university.png",
+        "Name": "Thapar university"
+        },
+    {
+
+        "image": "UOJ.png",
+        "Name": "University of Jafna"
+        },
+    {
+
+        "image": "Vellore_Institute_of_Technology_seal_2017.svg.png",
+        "Name": "Vellore Institute of Technology"
+        },
+    {
+
+        "image": "Visvesvaraya_Technological_University_logo.png",
+        "Name": "Visvesvaraya Technological University"
+         }
 ]

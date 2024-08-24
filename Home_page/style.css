@@ -359,6 +359,110 @@ h2 .since{
 a{
   text-decoration: none;
 }
+/* --------------------customer slider----------------*/
+.customers{
+  position: relative;
+  height: 200px;
+  width: 100%;
+  margin-top: 30px;
+}
+.customers .customer-title{
+  width: 100%;
+  text-align: center;
+}
+.customers .customer-title h5{
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.customers .more-customer{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.customers .more-customer button{
+  margin-left: auto;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #0292f8;
+  font-weight: 900;
+  cursor: pointer;
+}
+.hover-text {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  border-radius: 5px;
+  padding: 8px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%; /* Position the text above the button */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.more-customer button:hover .hover-text {
+  visibility: visible;
+  opacity: 1;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding-top: 20px;
+  background: rgb(236, 230, 230);
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 100px;
+  margin: 20px 20px;
+  
+}
+/* -----------------testimonial-------------------- */
 #testimonials{
   display: flex;
   justify-content: center;
