@@ -595,10 +595,6 @@ a{
   background-color: #252525;
 }
 
-
-
-
-
 .slideshow {
   position: relative;
   width: 300px;
@@ -918,7 +914,7 @@ a{
 } */
 
 .share img:hover{
-  filter:drop-shadow(6px 6px 20px rgb(2, 171, 249));
+  filter:drop-shadow(6px 6px 20px rgb(134, 135, 136));
 }
 
 .insta, .fb, .whatsapp{
@@ -951,7 +947,7 @@ a{
   /* filter:drop-shadow(6px 6px 6px rgb(1, 138, 249)); */
   /* font-size: x-large; */
   font-weight: bold;
-  color: #0073ff;
+  color: #0084ff;
   animation-duration: 0.5s;
 }
 
