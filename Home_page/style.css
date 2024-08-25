@@ -383,11 +383,12 @@ a{
 }
 .customers .more-customer button{
   margin-left: auto;
-  border: 2px solid blue;
-  border-radius: 10px;
-  padding: 10px;
-  background-color: #0292f8;
+  border: 0px;
+  border-radius: 50%;
+  padding: 15px 17px 15px 17px;
+  background-color: rgb(131, 156, 204);
   font-weight: 900;
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 .hover-text {
@@ -396,8 +397,10 @@ a{
   color: #fff;
   font-weight: normal;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 50px;
   padding: 8px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   position: absolute;
   z-index: 1;
   bottom: 100%; /* Position the text above the button */
@@ -553,20 +556,20 @@ a{
 
 .reviewss{
   font-size: 20px;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 30px;
   margin: 30px;
   cursor: pointer;
-  border: 5px solid black;
-  background: #839ccc;
+  border: 5px solid rgb(86, 85, 85);
+  background: #686869;
 }
 .reviewss a{
   text-decoration: none;
-  color: #000;
+  color: #f7f4f4;
 }
 
 .reviewss:hover{
-  background: #117964;
+  font-weight: bold;
   color: whitesmoke;
   outline: none;
 }
