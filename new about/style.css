@@ -200,7 +200,7 @@ body {
     text-align: center;
     color: white;
     padding: 30px;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
 #one {
@@ -225,8 +225,10 @@ body {
 }
 
  #btn-2,#btn-3 ,#btn-4,#btn-5{
+    display: flex;
+    position: absolute;
+    margin: auto;
     padding: 15px;
-    margin: 80px 0 0 0;
     width: 150px;
     font-size: 20px;
     cursor: pointer;
