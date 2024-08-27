@@ -188,6 +188,7 @@ h2 .since{
   width: 40vw;
   background-position: center;
   background-size: cover;
+  border-radius: 1%;
 }
 
 @keyframes about-img-animation {
@@ -485,11 +486,10 @@ a{
 }
 
 .testimonial-heading span{
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico';
   font-size: 1.3rem;
-  color: #1c03f5;
+  color: whitesmoke;
   margin-bottom: 10px;
-  text-decoration: underline;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
