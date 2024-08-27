@@ -31,7 +31,7 @@ body {
 
 .btn {
   display: inline-block;
-  padding: 0.5em 1.5em;
+  padding: 0.5em 1.4em;
   text-decoration: none;
   border-radius: 50px;
   cursor: pointer;
@@ -69,7 +69,7 @@ body {
   background: #fff;
   color: #000;
   opacity: 0.85;
-  height: 65px;
+  height: 77px;
   z-index: 12;
 }
 
@@ -78,6 +78,7 @@ body {
   justify-content: space-between;
   height: 64px;
   align-items: center;
+  text-align: center;
 }
 
 .menu-items {
@@ -88,7 +89,7 @@ body {
 .menu-items li {
   list-style: none;
   margin-left: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   font-size: 1.4rem;
 }
 
@@ -107,18 +108,19 @@ body {
 
 .logo {
   /* order:1 ; */
-  margin-bottom: 0.1rem;
+  margin-bottom: 0rem;
   margin-right: -380px;
 }
 
 .gem{
-  width: 170px;
+  width: 200px;
   height: 70px;
-  margin-bottom: 10px;
+  padding-left: 60px;
 }
 
 .logo img{
   width: 190px;
+  margin-top:-4px ;
 }
 
 h2 .since{
@@ -130,7 +132,7 @@ h2 .since{
 .showcase-area {
   height: 110vh;
   background: 
-    url("images/Front\ Office\ -\ Right\ Side\ View.jpeg");
+    url("images/Vijayanta\ -\ Story.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -545,6 +547,8 @@ a{
 .client-comment p{
   font-size: 0.9rem;
   color: #4b4b4b;
+  height: 45px;
+  overflow-y:auto;
 }
 .testimonial-box:hover{
   transform: translateY(-10px);
@@ -751,11 +755,6 @@ a{
     top: 5px;
     right: 15px;
     font-size: 2rem;
-  }
-
-
-  .navbar-container .gem{
-    width: 60px;
   }
 
   .navbar-container {

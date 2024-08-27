@@ -55,18 +55,17 @@ body {
   background: #fff;
   color: #000;
   opacity: 0.85;
-  height: 50px;
+  height: 77px;
   z-index: 12;
+  padding: 0px 160px;
 }
 
 .navbar-container {
-  max-width: 1200px;
-  width: 90%;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   height: 64px;
   align-items: center;
+  text-align: center;
 }
 
 .menu-items {
@@ -77,8 +76,8 @@ body {
 .menu-items li {
   list-style: none;
   margin-left: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
 }
 
 .menu-items a {
@@ -91,6 +90,21 @@ body {
 .menu-items a:hover {
   color: #117964;
   transition: color 0.3s ease-in-out;
+  text-decoration: underline;
+}
+
+.logo {
+  margin-right: 300px;
+}
+
+.gem{
+  width: 200px;
+  height: 70px;
+  padding-left: 35px;
+}
+
+.logo img{
+  width: 190px;
 }
 
 
