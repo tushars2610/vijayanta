@@ -943,9 +943,11 @@ a{
 .footer .links a:hover{
   /* filter:drop-shadow(6px 6px 6px rgb(1, 138, 249)); */
   /* font-size: x-large; */
-  font-weight: bold;
+  /* font-weight: bold;
   color: #0084ff;
-  animation-duration: 0.5s;
+  animation-duration: 0.5s; */
+  box-shadow: inset 150px 0 0 0 #839dcca8;
+  color: white;
 }
 
 .footer .credit{
