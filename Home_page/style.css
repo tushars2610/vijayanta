@@ -371,9 +371,9 @@ a{
   text-align: center;
 }
 .customers .customer-title h5{
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 10px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .customers .more-customer{
@@ -443,12 +443,12 @@ a{
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  /* background: linear-gradient(to left, rgba(255, 255, 255, 0), white); */
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 0), white); */
 }
 
 .logos:hover .logos-slide {
@@ -485,9 +485,11 @@ a{
 }
 
 .testimonial-heading span{
+  font-family: 'Pacifico', cursive;
   font-size: 1.3rem;
-  color: #252525;
+  color: #1c03f5;
   margin-bottom: 10px;
+  text-decoration: underline;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
