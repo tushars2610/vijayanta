@@ -919,14 +919,9 @@ a{
   filter:drop-shadow(6px 6px 20px rgb(134, 135, 136));
 }
 
-.insta, .fb, .whatsapp{
+.insta, .fb, .whatsapp, .linkd{
   width: 2.8rem;
 }
-
-.linkd{
-  width: 3rem;
-}
-
 
 
 .footer .links{
