@@ -8,15 +8,7 @@
   function closeDialog(){
       searchDialog.close()
   }
-  //--------------------------query dialog------------------
-  const queryDialog = document.getElementById("query-dialog")
-
-  function showQuery(){
-    queryDialog.showModal()
-  }
-  function closeQuery(){
-    queryDialog.close()
-  }
+  
   //-------------------------------------------------------------
   let jsonData = [];
   

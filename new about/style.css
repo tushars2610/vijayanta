@@ -226,7 +226,7 @@ body {
     text-align: center;
     color: white;
     padding: 30px;
-}
+  }
 
 #one {
     background: black;
@@ -249,9 +249,17 @@ body {
     width: 130px;
 }
 
+
  #btn-3 ,#btn-4,#btn-5{
     padding: 15px;
     margin: 40px 0 10px 0;
+ }
+
+ #btn-2,#btn-3 ,#btn-4,#btn-5{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    padding: 15px;
     width: 150px;
     font-size: 20px;
     border-radius: 20px;
