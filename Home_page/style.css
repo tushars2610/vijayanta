@@ -368,6 +368,9 @@ a {
   text-align: center;
 }
 .customers .customer-title h5 {
+  font-family: playfair-display, serif;
+  font-style: oblique;
+  font-weight: 400;
   font-size: 34px;
   margin-bottom: 10px;
   font-weight: normal;
@@ -483,8 +486,12 @@ a {
   color: #252525;
   margin-bottom: 10px;
   letter-spacing: 2px;
+  font-weight: 100;
+  text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  text-decoration: underline;
 }
 .testimonial-box-container {
   display: flex;
@@ -743,6 +750,7 @@ a {
   .navbar-container input[type="checkbox"],
   .navbar-container .hamburger-lines {
     display: block;
+    cursor: pointer;
   }
 
   .logo img {
@@ -771,9 +779,10 @@ a {
     height: 32px;
     width: 30px;
     top: 20px;
-    left: 20px;
+    left: 0px;
     z-index: 5;
     opacity: 0;
+    cursor: pointer;
   }
 
   .navbar-container .hamburger-lines {
@@ -782,7 +791,7 @@ a {
     width: 35px;
     position: absolute;
     top: 17px;
-    left: 20px;
+    left: 0px;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -818,9 +827,10 @@ a {
     max-width: 300px;
     transform: translate(-150%);
     display: flex;
+    align-items: start;
     flex-direction: column;
-    margin-left: -40px;
-    padding-left: 50px;
+    margin-left: -100px;
+    padding-left: 80px;
     transition: transform 0.5s ease-in-out;
     box-shadow: 5px 0px 10px 0px #aaa;
   }
