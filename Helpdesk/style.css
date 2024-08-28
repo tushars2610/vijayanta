@@ -711,51 +711,51 @@ font-size: 18px;
     grid-area: bt-6;
   }
   
-  .bt-1:hover ~ .brochure button {
+  .bt-1:hover ~ .brochure-button {
     transform: rotateX(15deg) rotateY(-15deg) rotateZ(0deg);
     box-shadow: -2px -2px #18181888;
   }
   
-  .bt-1:hover ~ .brochure button::after {
+  .bt-1:hover ~ .brochure-button {
     animation: shake 0.5s ease-in-out 0.3s;
     text-shadow: -2px -2px #18181888;
   }
   
-  .bt-3:hover ~ .brochure button {
+  .bt-3:hover ~ .brochure-button {
     transform: rotateX(15deg) rotateY(15deg) rotateZ(0deg);
     box-shadow: 2px -2px #18181888;
   }
   
-  .bt-3:hover ~ .brochure button::after {
+  .bt-3:hover ~ .brochure-button::after {
     animation: shake 0.5s ease-in-out 0.3s;
     text-shadow: 2px -2px #18181888;
   }
   
-  .bt-4:hover ~ .brochure button {
+  .bt-4:hover ~ .brochure-button {
     transform: rotateX(-15deg) rotateY(-15deg) rotateZ(0deg);
     box-shadow: -2px 2px #18181888;
   }
   
-  .bt-4:hover ~ .brochure button::after {
+  .bt-4:hover ~ .brochure-button::after {
     animation: shake 0.5s ease-in-out 0.3s;
     text-shadow: -2px 2px #18181888;
   }
   
-  .bt-6:hover ~ .brochure button {
+  .bt-6:hover ~ .brochure-button {
     transform: rotateX(-15deg) rotateY(15deg) rotateZ(0deg);
     box-shadow: 2px 2px #18181888;
   }
   
-  .bt-6:hover ~ .brochure button::after {
+  .bt-6:hover ~ .brochure-button::after {
     animation: shake 0.5s ease-in-out 0.3s;
     text-shadow: 2px 2px #18181888;
   }
   
-  .hover:hover ~ .brochure button::before {
+  .hover:hover ~ .brochure-button::before {
     background: transparent;
   }
   
-  .hover:hover ~ .brochure button::after {
+  .hover:hover ~ .brochure-button::after {
     content: "Download";
     top: -150%;
     transform: translate(-50%, 0);
