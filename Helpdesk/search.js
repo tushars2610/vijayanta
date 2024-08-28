@@ -13,7 +13,7 @@
   let jsonData = [];
   
   async function loadJsonData() {
-      const files = ['product.json']
+      const files = ['data.json']
       const fetchPromises = files.map(file => fetch(file).then(response => response.json()));
       const dataArrays = await Promise.all(fetchPromises);
       jsonData = dataArrays.flat();
