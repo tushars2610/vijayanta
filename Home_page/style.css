@@ -1224,3 +1224,25 @@ a {
   color: white;
   animation: ease-in 0.5s;
 }
+/* ---------since 1965-------------------------- */
+.since1965{
+  font-size: 15px;
+  position: absolute;
+  top: 30px;
+  font-weight: bold;
+  left: 13.vw; 
+  margin-top: 0px;
+  margin-left: 3px;
+}
+@media(min-width:800px){
+  .since1965{
+    font-size: 15px;
+    position: absolute;
+    top: 30px;
+    font-weight: bold; 
+    left: 13.vw; 
+    margin-left: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
