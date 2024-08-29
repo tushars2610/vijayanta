@@ -62,7 +62,7 @@
                     const cardElement = document.createElement('div');
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
-                    <buttton onclick= "navigate(${card.id})">
+                    <buttton onclick= "navigate(${card.id}, '${card.productLink}')">
                         <div class="practice">
                             <h2>${card.id}</h2>
                             <h3>${card.productName}</h3>
@@ -77,9 +77,10 @@
                 });
             })
             .catch(error => console.error('Error loading data:', error));
-            function navigate(productId) {
-                
-    window.location.href = `../Products/product.html?id=${productId}`;
+            function navigate(productId, link) {
+    const url = `../Products/product.html?id=${productId}&link=${encodeURIComponent(link)}`;
+    console.log('Navigating to:', url); // Debugging log
+    window.location.href = url;
 }
     </script>
     <script src="index_nav_script.js"></script>

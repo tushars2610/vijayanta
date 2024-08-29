@@ -45,70 +45,37 @@
 </button>
 
     <!-- ------------------- --------------------------->
-
     <section class="main-container">
+        
+        <div class="table-container">
+            <div class="product_table" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <table >
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th> Products</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table">
+                        <tr>
+                            <!-- fetching from javascript -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <span class="openbtn" onclick="openNav()" id="open_menu">&#9776; Products</span>
+        
     <div class="container" id="card-container">
         <!-- Cards will be generated here -->
     </div>
-    <div class="product-table"></div>
     </section>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
-        function getQueryParam(param) {
-            let urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(param);
-        }
-        let productId = getQueryParam('id');
-        let productLink = "";
-
-        function getProductLinkById(id, products) {
-            const product = products.find(item => item.id === id);
-            return product ? product.productLink : null;
-        }
         
-        fetch('data.json')
-            .then(response => response.json())
-            .then(data => {
-                const idToSearch = productId;
-                productLink = getProductLinkById(idToSearch, data);
-
-                if (productLink) {
-                    let address = `../database/${productLink}/data.json`;
-                    return fetch(address);
-                } else {
-                    throw new Error('Product link not found');
-                }
-            })
-            .then(response => response.json())
-            .then(data => {
-                const container = document.getElementById('card-container');
-                data.forEach(card => {
-                    const cardElement = document.createElement('div');
-                    cardElement.className = 'card';
-                    cardElement.innerHTML = `
-                        <div class="practice">
-                            <h3>${card.title}</h3>
-                        </div>
-                        <div class="content">
-                            <h2>${card.id}</h2>
-                            <h3>${card.title}</h3>
-                            <img src="../database/${productLink}/${card.id}/image.png" alt="${card.title}">
-                            <button onclick="navigate(${card.id}, '${card.title}', '${card.link}')">Read More</button>
-                        </div>
-                    `;
-                    container.appendChild(cardElement);
-                });
-                VanillaTilt.init(document.querySelectorAll(".card"), {
-                    max: 25,
-                    speed: 400,
-                });
-            })
-            .catch(error => console.error('Error:', error));
-
-        function navigate(productId, text, link){
-            window.location.href = `../Page/page.html?id=${productId}&text=${encodeURIComponent(text)}&link=${encodeURIComponent(link)}`;
-        }
     </script>
     <script src="index_nav_script.js"></script>
+    <script src="product.js"></script>
 </body>
 </html>
