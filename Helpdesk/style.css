@@ -124,9 +124,10 @@ margin-bottom: 0.5rem;
     height: 32px;
     width: 30px;
     top: 20px;
-    left: 20px;
+    left: 0px;
     z-index: 5;
     opacity: 0;
+    cursor: pointer;
 }
 
 .navbar-container .hamburger-lines {
