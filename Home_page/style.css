@@ -1301,3 +1301,10 @@ a {
     width: 90vw;
   } 
 }
+
+/* ------------------type of products------------------ */
+.type-of-product{
+  height: 600px;
+  width: 100%;
+  
+}
