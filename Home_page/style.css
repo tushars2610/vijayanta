@@ -110,8 +110,8 @@ body {
   margin-right: -380px;
 }
 
-.gem {
-  width: 200px;
+.container .gemclass .gem {
+  width: 240px;
   height: 70px;
   padding-left: 60px;
 }
@@ -1213,15 +1213,25 @@ a {
 
   .logo {
     position: absolute;
-    top: 06px;
+    top: 9px;
     right: 15px;
     font-size: 3rem;
+  }
+  .navbar{
+    width: 100px;
   }
 
   .navbar .menu-items li {
     margin-bottom: 2.5rem;
     font-size: 1.8rem;
     font-weight: 500;
+  }
+  .container .gemclass .gem{
+    width: 190px;
+    height: 60px;
+    position: absolute;
+    left:-1px;
+    bottom: 8px;
   }
 }
                           /* For Tab */
@@ -1280,20 +1290,20 @@ a {
 @media (max-width: 580px) {
   #contact .heading h3{
     position: absolute;
-    top: 555vh;
-    left: 140px;
+    top: 569vh;
+    left: 90px;
     width: 220px;
     font-size: 35px;
   }
 
   .navbar{
-    width: 98vw;
+    width: 100vw;
     height: 60px;
   }
 
   .logo .since1965{
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 5px;
   }
 
