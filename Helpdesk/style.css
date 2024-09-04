@@ -488,7 +488,7 @@ font-size: 18px;
 /* ---------------------------query-------------------------------- */
 .query {
     height: 400px;
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: row; /* Default row direction */
     max-width: 1000px;
@@ -528,7 +528,7 @@ font-size: 18px;
   /* ----------------------feedback--------------------- */
   .feedback {
     height: 400px;
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: row;
     max-width: 1000px;
