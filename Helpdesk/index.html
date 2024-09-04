@@ -58,48 +58,31 @@
                 <span>Any Queries?</span>
             </div>
             <div class="query-content">
-                <form action="/action_page.php">
-                    <div class="row">
-                      <div class="col-25">
-                        <label for="fname">First Name</label>
-                      </div>
-                      <div class="col-75">
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-25">
-                        <label for="lname">Last Name</label>
-                      </div>
-                      <div class="col-75">
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-25">
-                        <label for="country">Country</label>
-                      </div>
-                      <div class="col-75">
-                        <select id="country" name="country">
-                          <option value="australia">Australia</option>
-                          <option value="canada">Canada</option>
-                          <option value="usa">USA</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-25">
-                        <label for="subject">Subject</label>
-                      </div>
-                      <div class="col-75">
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                      </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                      <input type="submit" value="Submit">
-                    </div>
-                    </form>
+              <div class="form-wrapper sign-in">
+                <form action="">
+                  <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Name</label>
+                  </div>
+    
+                  <div class="input-group">
+                    <input type="number" required>
+                    <label for="">Number</label>
+                  </div>
+    
+                  <div class="input-group">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                  </div>
+    
+                  <div class="input-group">
+                    <textarea required></textarea>
+                    <label for="">Feedback</label>
+                  </div>
+    
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
             </div>
         </section>
 
@@ -120,17 +103,17 @@
               </div>
 
               <div class="input-group">
-                <input type="text" required>
+                <input type="number" required>
                 <label for="">Number</label>
               </div>
 
               <div class="input-group">
-                <input type="text" required>
+                <input type="email" required>
                 <label for="">Email</label>
               </div>
 
               <div class="input-group">
-                <textarea></textarea>
+                <textarea required></textarea>
                 <label for="">Query</label>
               </div>
 
