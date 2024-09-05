@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-* 
+*
 {
     margin: 0;
     padding: 0;
@@ -181,7 +181,7 @@ margin-bottom: 0.5rem;
 
 .navbar .menu-items li {
     margin-bottom: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -214,7 +214,7 @@ html {
 }
 
 .navbar .menu-items li{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 .testimonial-container {
@@ -254,7 +254,7 @@ html {
 
 .navbar .menu-items li {
     margin-bottom: 2.5rem;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 }
@@ -520,7 +520,7 @@ font-size: 18px;
   }
   
   .query .query-content {
-    height: 100%;
+  height: 100%;
   width: 70%;
   min-width: 450px;
   border-radius: 0px 25px 25px 0px;
@@ -600,7 +600,7 @@ font-size: 18px;
 
 /* Input styles */
 .input-group input {
-  width: 300px;
+  /* width: 300px; */
   height: 40px;
   font-size: 16px;
   color: #fff;
@@ -612,7 +612,7 @@ font-size: 18px;
 
 /* Textarea styles */
 .input-group textarea {
-  width: 300px;
+  /* width: 300px; */
   height: 75px;
   font-size: 16px;
   color: #fff;
@@ -668,17 +668,26 @@ font-size: 18px;
   
 /* Media query for smaller screens */
 @media (max-width: 400px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 .query {
     flex-direction: column; /* Stack elements vertically */
+    margin-bottom: 200px;
 }
 
 .query .image,
 .query .query-content {
     width: 100%; /* Make each element take full width */
+    margin: auto;
+    
 }
 
 .feedback {
     flex-direction: column;
+    margin-bottom: 200px;
 }
 
 .feedback .image,
@@ -692,6 +701,8 @@ font-size: 18px;
 .query .query-content,
 .feedback .feedback-content{
     border-radius: 0px 0px 25px 25px;
+    width: 200px;
+    /* overflow-x: hidden ; */
 }
 }
 /* -------------------------brochure----------------------- */
