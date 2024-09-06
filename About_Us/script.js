@@ -16,3 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+document.addEventListener("click", function(event) {
+    if (!event.target.closest(".service-card")) {
+      document.querySelectorAll(".service-content").forEach(function(element) {
+        element.style.display = "none";
+      });
+    }
+  });
