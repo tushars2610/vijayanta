@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "title": "To Connect Start & Reverse The Rotation Of Three Phase Induction Motor With Star Delta Starter",
+        "link": "AC_Machine_lab"
+    },
+    {
+        "id": "2",
+        "title": "To Perform The Block Rotor Test On A 3 Phase Induction Motor And To Determine The Efficiency",
+        "link": "AC_Machine_lab"
+    },
+    {
+        "id": "3",
+        "title": "To Connect Start & Reverse The Rotation Of 1 Phase Induction Motor With Dol Starter",
+        "link": "AC_Machine_lab"
+    },
+    {
+        "id": "4",
+        "title": "To Perform The Load Test On A 1 Phase Induction Motor And To Determine The Efficiency",
+        "link": "AC_Machine_lab"
+    },
+    {
+        "id": "5",
+        "title": "Speed Control Of Three Phase Induction Motor Using 3 Phase Thyristor Control Inverter",
+        "link": "AC_Machine_lab"
+    },
+    {
+        "id": "6",
+        "title": "Speed Control Of 3 Phase Slipring Motor By Rotor Resistance Control Method",
+        "link": "AC_Machine_lab"
+    },
+    {
+        "id": "7",
+        "title": "Study The Load Characteristics Of Phase Wound Slipring Motor",
+        "link": "AC_Machine_lab"
+    },
+    {
+        "id": "8",
+        "title": "Sequential Control Operation Of Three Phase Induction Motor Using Timer",
+        "link": "AC_Machine_lab"
+    },
+    {
+        "id": "9",
+        "title": "Study The Winding Connection Trainer For Three Phase Induction Motor With Pole Changing Motor 2 Pole/4 Pole",
+        "link": "AC_Machine_lab"
+    },
+    {
+        "id": "10",
+        "title": "Speed Control Of Three Phase Induction Motor By Applying Voltage Method",
+        "link": "AC_Machine_lab"
+    }
+]

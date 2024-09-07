@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "title": "Thermocouple Demonstration Set-Up (Using K-Type Transducer)",
+        "model": "T – 10 A",
+        "link": "Instrumentation_Trainers"
+    },
+    {
+        "id": "2",
+        "title": "R.T.D. Demonstration Set-Up (Using PT-100 Type Transducer)",
+        "model": "T – 10 B",
+        "link": "Instrumentation_Trainers"
+    },
+    {
+        "id": "3",
+        "title": "Characteristics of Strain Gauge",
+        "model": "SG – 10",
+        "link": "Instrumentation_Trainers"
+    },
+    {
+        "id": "4",
+        "title": "Measurement of Water Level Using Strain Gauge Type Level Sensor",
+        "model": "LM – 20",
+        "link": "Instrumentation_Trainers"
+    },
+    {
+        "id": "5",
+        "title": "Instrumentation Tutor for Pressure Measurement",
+        "model": "P – 12",
+        "link": "Instrumentation_Trainers"
+    },
+    {
+        "id": "6",
+        "title": "Study of Linear Variable Differential Transformer",
+        "model": "LVDT–10 A",
+        "link": "Instrumentation_Trainers"
+    }
+]

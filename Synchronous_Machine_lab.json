@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "title": "Angular Displacement Of Synchronous Machine Experimental Setup",
+        "link": "Synchronous_Machine_lab"
+    },
+    {
+        "id": "2",
+        "title": "Regulation By Synchronous Impedance Method Of Three Phase Alternator Experimental Setup With Motor-Generator Set & Load",
+        "link": "Synchronous_Machine_lab"
+    },
+    {
+        "id": "3",
+        "title": "V And Inverted V Curves Of Synchronous Motor Experimental Setup With Motor-Generator Set & Load",
+        "link": "Synchronous_Machine_lab"
+    },
+    {
+        "id": "4",
+        "title": "Oc & Sc Test On 3 Phase Synchronous Machine Setup With Motor-Generator Set",
+        "link": "Synchronous_Machine_lab"
+    },
+    {
+        "id": "5",
+        "title": "Regulation By Z.P.F. Method Of Alternator Experimental Setup With Motor-Generator Set & Load",
+        "link": "Synchronous_Machine_lab"
+    },
+    {
+        "id": "6",
+        "title": "Measurement Of Sequence Reactance Of Synchronous Machine Experimental Setup With Motor-Generator Set",
+        "link": "Synchronous_Machine_lab"
+    },
+    {
+        "id": "7",
+        "title": "Steady State Reactance Slip Test Of Synchronous Machine Experimental Setup With Motor-Generator Set",
+        "link": "Synchronous_Machine_lab"
+    },
+    {
+        "id": "8",
+        "title": "Sub-Transient Reactance Of Synchronous Machine Experimental Setup With Motor-Generator Set",
+        "link": "Synchronous_Machine_lab"
+    },
+    {
+        "id": "9",
+        "title": "Parallel Operation/Synchronisation Of 3-Phase Alternators Experimental Setup With Two Motor-Generator Set & Load",
+        "link": "Synchronous_Machine_lab"
+    }
+]

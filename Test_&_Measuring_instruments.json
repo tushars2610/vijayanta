@@ -1,0 +1,41 @@
+[
+    {
+        "id": "1",
+        "title": "Data Logger, Model: GL840-M",
+        "model": "GL840-M",
+        "specifications": [
+            "20 Analog Input Channels, Expandable to 200",
+            "4 Discrete Input Channels",
+            "4 Discrete Alarm Outputs",
+            "Flexible Triggering",
+            "Built-in, 7-inch Color Display",
+            "Built-in Web Server Operation for Remote Operations",
+            "Removable SD Memory Support Up to 32 GB Capacity",
+            "Operates Either Stand-Alone or PC-Connected"
+        ],
+        "link": "Test_&_Measuring_instruments"
+    },
+    {
+        "id": "2",
+        "title": "Function Generator, Model: FG-1025",
+        "model": "FG-1025",
+        "specifications": [
+            "25 MHz (or 5 MHz) Pulse Waveform with Adjustable Rise & Fall Time and Duty Cycle",
+            "125 Msa/s Sample Rate and 14-Bit Vertical Resolution",
+            "6-Digit High Precision Meter that is Compatible with TTL Level Signal",
+            "Standard Dual Channels with Independent Output Mode"
+        ],
+        "link": "Test_&_Measuring_instruments"
+    },
+    {
+        "id": "3",
+        "title": "Digital Multimeter",
+        "specifications": [
+            "T-RMS Measurements",
+            "Auto-Ranging",
+            "Display 6000 Counts LCD",
+            "Sampling Rate: 2~3 Times/s"
+        ],
+        "link": "Test_&_Measuring_instruments"
+    }
+]
