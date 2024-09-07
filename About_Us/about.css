@@ -701,9 +701,10 @@ body {
       .logo img {
         width: 140px;
         height: 35px;
-        position: absolute;
-        left: 81vw;
+        position: fixed;
+        /* left: 81vw; */
         top: 5px;
+        z-index: 5;
       }
     
       .logo .since1965{
@@ -731,3 +732,4 @@ body {
         
     
   }
+
