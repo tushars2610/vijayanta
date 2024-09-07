@@ -1,0 +1,133 @@
+[
+    {
+        "id": "1",
+        "title": "Test & Measuring instruments",
+        "link": "Test_&_Measuring_instruments"
+    },
+    {
+        "id": "2",
+        "title": "Physics & Material science lab experimental set-ups",
+        "link": "Physics_&_Material_science_lab experimental set-ups"
+    },
+    {
+        "id": "3",
+        "title": "Control Trainers",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "4",
+        "title": "Instrumentation Trainers",
+        "link": "Instrumentation_Trainers"
+    },
+    {
+        "id": "5",
+        "title": "Power Electronics & Industrial Lab Trainers",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "6",
+        "title": "General Instruments",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "7",
+        "title": "Electronics lab trainer",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "8",
+        "title": "Active and passive filters trainers",
+        "link": "Active_and_passive_filters_trainers"
+    },
+    {
+        "id": "9",
+        "title": "Filters Trainer",
+        "link": "Filters_trainers"
+    },
+    {
+        "id": "10",
+        "title": "Oscillators",
+        "link": "Oscillators"
+    },
+    {
+        "id": "11",
+        "title": "Communication trainers",
+        "link": "Communication_trainers"
+    },
+    {
+        "id": "12",
+        "title": "Digital Electronics Trainers",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "13",
+        "title": "Theorems trainers, Network trainers",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "14",
+        "title": "AC Bridges",
+        "link": "AC_Bridges"
+    },
+    {
+        "id": "15",
+        "title": "General Instruments for electronics lab",
+        "link": "General_Instruments_for_electronics_lab"
+    },
+    {
+        "id": "16",
+        "title": "Power Supplies",
+        "link": "Power_Supplies"
+    },
+    {
+        "id": "17",
+        "title": "Drives Lab 'D' Series",
+        "link": "Drives_Lab_'D'_Series"
+    },
+    {
+        "id": "18",
+        "title": "Power Measurement Lab",
+        "link": "Power_Measurement_Lab"
+    },
+    {
+        "id": "19",
+        "title": "Transformer Lab",
+        "link": "Transformer_Lab"
+    },
+    {
+        "id": "20",
+        "title": "DC Machine lab",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "21",
+        "title": "AC Machine lab",
+        "link": "AC_Machine_lab"
+    },
+    {
+        "id": "22",
+        "title": "Synchronous Machine lab",
+        "link": "Synchronous_Machine_lab"
+    },
+    {
+        "id": "23",
+        "title": "Power system protection & switchgear lab",
+        "link": "Power_system_protection_&_switchgear_lab"
+    },
+    {
+        "id": "24",
+        "title": "Current injectors",
+        "link": "Current_injectors"
+    },
+    {
+        "id": "25",
+        "title": "ITI lab instruments",
+        "link": "ITI_lab_instruments"
+    },
+    {
+        "id": "26",
+        "title": "Miscellaneous instruments",
+        "link": "Miscellaneous_instruments"
+    }
+
+]
