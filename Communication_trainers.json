@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Study of Amplitude Modulation and Demodulation with Built-in Carrier Frequency Source (Solid State)",
+        "model": "FM – 09",
+        "link": "Communication_trainers"
+    },
+    {
+        "id": "2",
+        "title": "Study of Frequency Modulation and Demodulation",
+        "model": "FM – 10",
+        "link": "Communication_trainers"
+    },
+    {
+        "id": "3",
+        "title": "Study of Phase Locked Loop NE–565 Frequency Demodulator",
+        "model": "PLL – 565",
+        "link": "Communication_trainers"
+    },
+    {
+        "id": "4",
+        "title": "Study of Sample and Hold Circuit using Op-Amp.",
+        "model": "SH – 10",
+        "link": "Communication_trainers"
+    }
+]

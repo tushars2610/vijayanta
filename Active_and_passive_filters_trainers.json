@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "Different Types of Active Filters using Op – Amp.",
+        "model": "AF – 08",
+        "link": "Active_and_passive_filters_trainers"
+    },
+    {
+        "id": "2",
+        "title": "Study of T-Type of Low Pass, High Pass, Band Pass & Band Stop Filters",
+        "model": "TTF – 10",
+        "link": "Active_and_passive_filters_trainers"
+    },
+    {
+        "id": "3",
+        "title": "Study of R.C. Circuit as Low / High Pass Filter",
+        "model": "RC – 08",
+        "link": "Active_and_passive_filters_trainers"
+    }
+]

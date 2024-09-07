@@ -1,0 +1,237 @@
+[
+    {
+        "id": "1",
+        "title": "Study of Stabilized Power Supply",
+        "model": "SPS – 12",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "2",
+        "title": "Study of Multivibrators using Transistors",
+        "model": "MV – 12",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "3",
+        "title": "Study of Hybrid Parameters of Transistors",
+        "model": "H – 01",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "4",
+        "title": "Measurement of h, y, & z parameters of junction transistor in CE mode at different Emitter current values",
+        "model": "H – 02",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "5",
+        "title": "Study of a Basic Operational Amplifier",
+        "model": "LM – 741",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "6",
+        "title": "Study of Op-Amp Math Circuits",
+        "model": "741 M",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "7",
+        "title": "Signal Generation Applications of Op Amp",
+        "model": "741- 05",
+        "link": "Electronics_lab_trainer",
+        "description": "Using OP - Amp as a summer, subtractor, integrator, differentiator"
+    },
+    {
+        "id": "8",
+        "title": "Study of Schmitt Trigger & Comparator using Op-Amp",
+        "model": "CST – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "9",
+        "title": "Study of Precision Rectifier Trainer using Op-Amp",
+        "model": "PR – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "10",
+        "title": "Study of Voltage Controlled Oscillator Trainer using IC-NE-566",
+        "model": "VCO – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "11",
+        "title": "Study of Integrated Circuit Timer",
+        "model": "555",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "12",
+        "title": "Study of Astable & Monostable Multivibrators using IC-555",
+        "model": "AM – 555",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "13",
+        "title": "Study of an Integrated Circuit Regulator",
+        "model": "723",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "14",
+        "title": "Study of Transistor Amplifier (RC Coupled) Cum-Feed Back Amplifier",
+        "model": "RC – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "15",
+        "title": "Study of Two Stage Audio Amplifier in CE mode with RC, LC and Transformer Coupling",
+        "model": "CT – 12",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "16",
+        "title": "Study of Single Stage Transistor Amplifier in Common Emitter mode without Apparatus",
+        "model": "CE – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "17",
+        "title": "Study of Single Stage Transistor Amplifier in Common Base mode",
+        "model": "CB – 12",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "18",
+        "title": "Study of Load Variation & Frequency Response of Single Stage CE Amplifier",
+        "model": "LF – 04",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "19",
+        "title": "Study of Transistorized Chopper Amplifier",
+        "model": "CA – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "20",
+        "title": "Study of Instrumentation Amplifier using Op-Amp",
+        "model": "IA – 12",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "21",
+        "title": "Study of Emitter Follower / Darlington Pair Amplifier",
+        "model": "FD – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "22",
+        "title": "Study of Class A, AB and B Push – Pull Amplifier",
+        "model": "PP – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "23",
+        "title": "Different types of Characteristics of Junction Transistor in CE, CB & CC configuration (Using N.P.N. Transistor)",
+        "model": "JT – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "24",
+        "title": "Different types of Characteristics of Junction Transistor in CE, CB & CC configuration (Using P.N.P. Transistor)",
+        "model": "JT – 11",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "25",
+        "title": "Different types of Characteristics of Junction Transistor in CE, CB & CC configuration (Using NPN & PNP Transistor)",
+        "model": "JT – 12",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "26",
+        "title": "Characteristics of Semiconductors Diodes : Si, Ge, Zener, & LED",
+        "model": "SD – 12",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "27",
+        "title": "Study of Semiconductor Diode Voltage and its use as DC Average Responding A.C. Voltmeter",
+        "model": "SDV – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "28",
+        "title": "Characteristics of P.N. Junction Diodes (Ge & Si)",
+        "model": "D – 01",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "29",
+        "title": "Characteristics of Zener Diode and Zener Regulator",
+        "model": "Z – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "30",
+        "title": "Study of Logarithmic Amplifier Trainer using Op-Amp., IC-741",
+        "model": "LA – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "31",
+        "title": "Characteristics of UJT, Measurement of its Parameters and UJT as saw Tooth Generator",
+        "model": "UJ – 05",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "32",
+        "title": "Characteristics of FET, Measurement of its parameters & FET Amplifier",
+        "model": "FT – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "33",
+        "title": "Study of Voltage to Frequency Conversion using Op-Amp",
+        "model": "VF – 12",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "34",
+        "title": "Study of Voltage to Current Conversion using Op-Amp",
+        "model": "VC – 12",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "35",
+        "title": "Waveform Generator IC 8038",
+        "model": "WG – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "36",
+        "title": "Study of Clipping and Clamping Circuit Trainer",
+        "model": "CAC – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "37",
+        "title": "Study of L.D.R. Characteristics Apparatus",
+        "model": "LDR – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "38",
+        "title": "Characteristics of Opto Electronics Devices Trainer",
+        "model": "Opto – 10",
+        "link": "Electronics_lab_trainer"
+    },
+    {
+        "id": "39",
+        "title": "Study of Voltage Double and Tripler Circuits with built-in two meters",
+        "model": "VD – 12",
+        "link": "Electronics_lab_trainer"
+    }
+]
