@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "title": "Isolation Transformer",
+        "link": "Isolation_Transformer"
+    },
+    {
+        "id": "2",
+        "title": "Constant Voltage Transformer",
+        "link": "Constant_Voltage_Transformer"
+    },
+    {
+        "id": "3",
+        "title": "Servo Voltage Stabilizers",
+        "link": "Servo_Voltage_Stabilizers"
+    },
+    {
+        "id": "4",
+        "title": "Special Type and Precision Current and Potential Transformers",
+        "link": "Special_Type_and_Precision_Current_and_Potential_Transformers"
+    },
+    {
+        "id": "5",
+        "title": "C.T. and P.T. test Set",
+        "link": "CT_and_PT_test_Set"
+    },
+    {
+        "id": "6",
+        "title": "Standard Current and Potential Transformers",
+        "link": "Standard_Current_and_Potential_Transformers"
+    },
+    {
+        "id": "7",
+        "title": "Air Core Variable Inductance",
+        "link": "Air_Core_Variable_Inductance",
+        "model": "107"
+    },
+    {
+        "id": "8",
+        "title": "P.M.T. Housing with Biasing Circuit",
+        "link": "PMT_Housing_with_Biasing_Circuit"
+    },
+    {
+        "id": "9",
+        "title": "Photomultiplier Tube",
+        "link": "Photomultiplier_Tube",
+        "model": "931-A/IP-28 (RCA)"
+    },
+    {
+        "id": "10",
+        "title": "Iron Core Variable Inductances",
+        "link": "Iron_Core_Variable_Inductances"
+    },
+    {
+        "id": "11",
+        "title": "Double Wound Transformers",
+        "link": "Double_Wound_Transformers"
+    },
+    {
+        "id": "12",
+        "title": "Lamp Load",
+        "link": "Lamp_Load",
+        "description": {"Load per step": "200 Watts", 
+                        "Nos. of steps": 5, 
+                        "Capacity": "up to 5 KVA"}
+    }
+]
