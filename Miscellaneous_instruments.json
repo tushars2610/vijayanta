@@ -2,64 +2,64 @@
     {
         "id": "1",
         "title": "Isolation Transformer",
-        "link": "Isolation_Transformer"
+        "link": "Miscellaneous_instruments"
     },
     {
         "id": "2",
         "title": "Constant Voltage Transformer",
-        "link": "Constant_Voltage_Transformer"
+        "link": "Miscellaneous_instruments"
     },
     {
         "id": "3",
         "title": "Servo Voltage Stabilizers",
-        "link": "Servo_Voltage_Stabilizers"
+        "link": "Miscellaneous_instruments"
     },
     {
         "id": "4",
         "title": "Special Type and Precision Current and Potential Transformers",
-        "link": "Special_Type_and_Precision_Current_and_Potential_Transformers"
+        "link": "Miscellaneous_instruments"
     },
     {
         "id": "5",
         "title": "C.T. and P.T. test Set",
-        "link": "CT_and_PT_test_Set"
+        "link": "Miscellaneous_instruments"
     },
     {
         "id": "6",
         "title": "Standard Current and Potential Transformers",
-        "link": "Standard_Current_and_Potential_Transformers"
+        "link": "Miscellaneous_instruments"
     },
     {
         "id": "7",
         "title": "Air Core Variable Inductance",
-        "link": "Air_Core_Variable_Inductance",
+        "link": "Miscellaneous_instruments",
         "model": "107"
     },
     {
         "id": "8",
         "title": "P.M.T. Housing with Biasing Circuit",
-        "link": "PMT_Housing_with_Biasing_Circuit"
+        "link": "Miscellaneous_instruments"
     },
     {
         "id": "9",
         "title": "Photomultiplier Tube",
-        "link": "Photomultiplier_Tube",
+        "link": "Miscellaneous_instruments",
         "model": "931-A/IP-28 (RCA)"
     },
     {
         "id": "10",
         "title": "Iron Core Variable Inductances",
-        "link": "Iron_Core_Variable_Inductances"
+        "link": "Miscellaneous_instruments"
     },
     {
         "id": "11",
         "title": "Double Wound Transformers",
-        "link": "Double_Wound_Transformers"
+        "link": "Miscellaneous_instruments"
     },
     {
         "id": "12",
         "title": "Lamp Load",
-        "link": "Lamp_Load",
+        "link": "Miscellaneous_instruments",
         "description": {"Load per step": "200 Watts", 
                         "Nos. of steps": 5, 
                         "Capacity": "up to 5 KVA"}
