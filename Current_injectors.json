@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "title": "Relay Testing Kit - 20 Amp, 50 Amp",
+        "link": "Current_injectors"
+    },
+    {
+        "id": "2",
+        "title": "Relay Testing Kit 100 Amp",
+        "link": "Current_injectors"
+    },
+    {
+        "id": "3",
+        "title": "Secondary Injection Set 200 A",
+        "link": "Current_injectors"
+    },
+    {
+        "id": "4",
+        "title": "Primary Current Injector Set 500 Amp",
+        "link": "Current_injectors"
+    },
+    {
+        "id": "5",
+        "title": "Primary Current Injection Set 1000 Amp",
+        "link": "Current_injectors"
+    }
+]
