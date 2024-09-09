@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "title": "Magnetic Amplifier Demonstration Unit (Suitable for Demonstration of All Experiments Based on Magnetic Amplifier Principle)",
+        "model": "M – 1 – 1600",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "2",
+        "title": "Magnetic Amplifier Demonstration Unit (Suitable for Demonstration of Self Excited, Positive & Negative Feedback, Amplistate & Bridge)",
+        "model": "M – 1700",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "3",
+        "title": "Magnetic Amplifier Demonstration Unit (Suitable for Demonstration of Series & Parallel Connected, & BH Loop)",
+        "model": "M – 1800",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "4",
+        "title": "Linear System Simulator Trainer",
+        "model": "LSS – 101",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "5",
+        "title": "Study of Stepper Motor Control Trainer (with uP Interface)",
+        "model": "CMS – 101",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "6",
+        "title": "Compensating Network Set-Up",
+        "model": "CNS – 101",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "7",
+        "title": "Relay Control System",
+        "model": "RCS – 01",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "8",
+        "title": "D.C. Position Control System",
+        "model": "DCP – 01, DCP-132",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "9",
+        "title": "A.C. Position Control System",
+        "model": "ACP – 01, ACP-136",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "10",
+        "title": "PID Controller Trainer",
+        "model": "CPID – 101",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "11",
+        "title": "Potentiometric Error Detector",
+        "model": "PED – 01",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "12",
+        "title": "Light Intensity Control",
+        "model": "LIC – 01",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "13",
+        "title": "Digital Control Systems",
+        "model": "DC – 01",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "14",
+        "title": "Stroboscope Trainer",
+        "model": "STB – 01",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "15",
+        "title": "Microprocessor Device Controller Trainer",
+        "model": "MDC – 01",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "16",
+        "title": "Study of Synchro Transmitter - Receiver Trainer",
+        "model": "VE – 1113",
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "17",
+        "title": "Study of Second Order Active System (Undamped, Underdamped & Overdamped)",
+        "model": "SAS – 01",
+        "specifications": [
+            "Developed under Technical Consultancy of Dr. Y. Hote, EED, IIT Roorkee"
+        ],
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "18",
+        "title": "Stability Analysis Trainer Kit",
+        "model": "SAT – 01",
+        "specifications": [
+            "Developed under Technical Consultancy of Dr. Y. Hote, EED, IIT Roorkee"
+        ],
+        "link": "Control_Trainers"
+    },
+    {
+        "id": "19",
+        "title": "Magnetic Levitation System",
+        "model": "ML – 01",
+        "link": "Control_Trainers"
+    }
+]

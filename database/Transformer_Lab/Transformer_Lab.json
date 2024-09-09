@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "title": "Polarity, Voltage Ratio And Load Test On A Single Phase Transformer Complete Experimental Setup With Transformer And Load",
+        "link": "Transformer_Lab"
+    },
+    {
+        "id": "2",
+        "title": "Open Circuit And Short Circuit Test On A Single Phase Transformer Complete Experimental Setup With Transformer And Variable Auto Transformer",
+        "link": "Transformer_Lab"
+    },
+    {
+        "id": "3",
+        "title": "Sumpner's Test On Two Identical Transformers Complete Experimental Setup With Transformer And Auto Variable Transformer",
+        "link": "Transformer_Lab"
+    },
+    {
+        "id": "4",
+        "title": "Parallel Operation On Two 1-Phase Transformers Complete Experimental Setup With Transformer And Load",
+        "link": "Transformer_Lab"
+    },
+    {
+        "id": "5",
+        "title": "Polarity, Voltage Ratio And Load Test On A Three Phase Transformer Complete Experimental Setup With Three Phase Transformer And Load",
+        "link": "Transformer_Lab"
+    },
+    {
+        "id": "6",
+        "title": "Scott-Connection (Three Phase To Two Phase Connection) Complete Experimental Setup With Transformer And Variable Auto Transformer",
+        "link": "Transformer_Lab"
+    },
+    {
+        "id": "7",
+        "title": "Parallel Operation On Two 3-Phase Transformers Complete Experimental Setup With Two No. Of Three Phase Transformers And Load",
+        "link": "Transformer_Lab"
+    },
+    {
+        "id": "8",
+        "title": "Open Circuit And Short Circuit Test On A Three Phase Transformer Complete Experimental Setup With Transformer And Variable Auto Transformer",
+        "link": "Transformer_Lab"
+    },
+    {
+        "id": "9",
+        "title": "Voltage Relationship Of Three Phase Transformer In Various Connections",
+        "link": "Transformer_Lab"
+    }
+]

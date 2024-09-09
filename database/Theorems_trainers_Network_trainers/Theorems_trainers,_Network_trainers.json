@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "title": "Verification of Maximum Power Transfer Theorem with two Digital Panel Meters and Power Supplies",
+        "model": "M – 10 DC",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "2",
+        "title": "Verification of Maximum Power Transfer Theorem, with built-in Two Digital Panel Meters and Power Supplies",
+        "model": "M – 10 AC",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "3",
+        "title": "Verification of Network Theorems in DC Circuit (Kirchhoff’s Voltage and Current Law, Super Position, Thevenin and Norton) with two Digital Panel Meters and Power Supplies",
+        "model": "N – 10 DC",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "4",
+        "title": "Verification of Network Theorems in AC Circuit (Maximum Power Transfer, Superposition, Thevenin and Norton) with two Digital Panel Meters and Power Supplies",
+        "model": "N – 10 AC",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "5",
+        "title": "Verification of Superposition Theorem in AC Circuits",
+        "model": "SPT – 10 AC",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "6",
+        "title": "Verification of Tellegen’s Theorems with two Digital Panel Meters and DC Power Supplies",
+        "model": "TG – 10",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "7",
+        "title": "Verification of Reciprocity Theorems with two Digital Panel Meters and DC Power Supplies",
+        "model": "RT – 10",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "8",
+        "title": "Study of Cascaded Two Port Network",
+        "model": "TPN – 10",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "9",
+        "title": "Verification of Kirchhoff Current & Voltage Law Theorems with two Digital Panel Meters and DC Power Supplies",
+        "model": "KCV – 10",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "10",
+        "title": "Verification of Ohm’s Law Trainer with two Digital Panel Meters and DC Power Supplies",
+        "model": "OL – 10",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "11",
+        "title": "Study of “T”, “π” and “Bridge – T” Type Attenuators",
+        "model": "BT – 10",
+        "link": "Theorems_trainers,_Network_trainers"
+    },
+    {
+        "id": "12",
+        "title": "Study of Transient Response of R.L.C. Circuits Trainer",
+        "model": "TR – 01",
+        "link": "Theorems_trainers,_Network_trainers"
+    }
+]

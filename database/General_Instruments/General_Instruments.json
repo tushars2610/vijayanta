@@ -1,0 +1,78 @@
+[
+    {
+        "id": "1",
+        "title": "Digital D.C. Microvoltmeter",
+        "model": "DMV – 001",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "2",
+        "title": "Digital Nanoammeter",
+        "model": "DNM – 121",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "3",
+        "title": "Digital Picoammeter",
+        "model": "DPM – 111",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "4",
+        "title": "Digital Gauss Meter",
+        "model": "DGM – 100, DGM – 200, DGM – 100 A, DGM – 103, DGM – 204, DGM – 202",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "5",
+        "title": "Audio Frequency Oscillator",
+        "model": "AF – 712",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "6",
+        "title": "A.C. Millivoltmeter (With built-in 1 KHz Oscillator)",
+        "model": "ACM - 536",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "7",
+        "title": "A.C. Millivoltmeter (Without built-in 1 KHz Oscillator)",
+        "model": "ACM - 536 A",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "8",
+        "title": "Function Generator (10Hz-2MHz; Square/Sine/Triangular; Amplitude 0-3V p-p)",
+        "model": "FG – 10",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "9",
+        "title": "Single Phase Inductors (230 Volt / 50 Hz, Single Phase)",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "10",
+        "title": "Variable Power Inductor",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "11",
+        "title": "Digital Storage Oscilloscope (Bandwidth 50MHz)",
+        "model": "DSO – 50",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "12",
+        "title": "Cathode Ray Oscilloscope",
+        "model": "CRO - 302C",
+        "link": "General_Instruments"
+    },
+    {
+        "id": "13",
+        "title": "Advance Microcontroller Trainer",
+        "model": "VTPL 8051",
+        "link": "General_Instruments"
+    }
+]

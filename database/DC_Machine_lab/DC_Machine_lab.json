@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "title": "Starting And Reversing Of Dc Shunt Motor Complete Setup With 0.5 Hp Motor",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "2",
+        "title": "Speed Control Of Dc Shunt Motor By Voltage & Current Control Method Complete Setup With 0.5 Hp Motor",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "3",
+        "title": "Swinburne's Test On A Dc Machine Complete Setup With 0.5 Hp Motor",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "4",
+        "title": "Load Test On A Dc Shunt Motor Complete Setup With 1 Hp Motor And Mechanical Load",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "5",
+        "title": "To Plot A Magnetizing Curve Of Dc Series Generator Complete Setup With Motor Generator Set & Load",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "6",
+        "title": "To Plot Oc Of A Dc Shunt Generator Complete Setup With Motor-Generator & Load (1kw)",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "7",
+        "title": "Load Test On Dc Series Motor Complete Setup With Motor & Mechanical Load",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "8",
+        "title": "To Obtain Losses & Efficiency Of Dc Machine By Hopkinson's Test Setup With Motor-Generator Set & Accessories",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "9",
+        "title": "Motor Generator Set To Plot Occ And Load Characteristics Of Dc Shunt Generator With Load",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "10",
+        "title": "Motor Generator Set To Plot Load Characteristics Of Dc Series Generator With Load",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "11",
+        "title": "To Plot Load Characteristics Of A Dc Compound Generator Complete Setup With Motor-Generator Set & Load",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "12",
+        "title": "To Plot The Characteristics Of Dc Shunt & Series Motor",
+        "link": "DC_Machine_lab"
+    },
+    {
+        "id": "13",
+        "title": "To Study The Characteristics Of Universal Ac/Dc Motor With Load",
+        "link": "DC_Machine_lab"
+    }
+]

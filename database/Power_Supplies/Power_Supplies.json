@@ -1,0 +1,91 @@
+[
+    {
+        "id": "01",
+        "title": "Solid State Power Supply",
+        "model": "S – 277",
+        "specifications": [
+            "0 to 300 Volt at 1 Amp",
+            "0 to 300 Volt at 500 mAmp",
+            "0 to 300 Volt at 100 mAmp"
+        ],
+        "link": "Power_Supplies"
+    },
+    {
+        "id": "02",
+        "title": "Multi-Output Power Supply",
+        "model": "LV – 35 - 3",
+        "specifications": [
+            "0 – 30 Volts at 2 Amps",
+            "0 to ±15 Volt at 1 Amp",
+            "4 to 6 Volts at 5 Amps"
+        ],
+        "link": "Power_Supplies"
+    },
+    {
+        "id": "03",
+        "title": "Multi-Output Power Supply",
+        "model": "LV – 35 - 2",
+        "specifications": [
+            "0 – 30 Volts at 2 Amps",
+            "0 to ±15 Volt at 1 Amp",
+            "4 Volt to 6 Volts at 2 Amps"
+        ],
+        "link": "Power_Supplies"
+    },
+    {
+        "id": "04",
+        "title": "Dual DC Regulated Power Supply (constant current & constant voltage)",
+        "model": "LV – 30 B",
+        "specifications": [
+            "0 to ±30 Volt at 1 Amp & 2 Amp"
+        ],
+        "link": "Power_Supplies"
+    },
+    {
+        "id": "05",
+        "title": "Solid State Power Supply",
+        "model": "LV – 30",
+        "specifications": [
+            "0 to 30 Volt at 1 Amp, 2 Amp, 3 Amp, 5 Amp & 10 Amp"
+        ],
+        "link": "Power_Supplies"
+    },
+    {
+        "id": "06",
+        "title": "Solid State Power Supply",
+        "model": "LV – 05",
+        "specifications": [
+            "Output: 0 – 5 Volt at 10 Amp"
+        ],
+        "link": "Power_Supplies"
+    },
+    {
+        "id": "07",
+        "title": "E.H.T. Power Supply",
+        "model": "HV – 20",
+        "specifications": [
+            "0 to 1500 Volt at 2 mAmp & 5 mAmp",
+            "0 to 3000 Volt at 5 mAmp"
+        ],
+        "link": "Power_Supplies"
+    },
+    {
+        "id": "08",
+        "title": "Regulated (Fixed) Power Supply(without meters)",
+        "model": "D – 12",
+        "specifications": [
+            "±12 Volt and ±5 Volt at 500 mAmp"
+        ],
+        "link": "Power_Supplies"
+    },
+    {
+        "id": "09",
+        "title": "Three Phase S.C.R. Based D.C. Power Supply (Rectifier Type)",
+        "model": "TPRU-100",
+        "specifications": [
+            "Output voltage steplessly variable for 0 to 250 V",
+            "Input: 3 Phase, 415 V ± 10%, 50 Hz"
+        ],
+        "link": "Power_Supplies"
+    }
+]

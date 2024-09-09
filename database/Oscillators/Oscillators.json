@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "title": "Performance Study of Transistor Hartley Oscillator",
+        "model": "H – 10",
+        "link": "Oscillators"
+    },
+    {
+        "id": "2",
+        "title": "Performance Study of Transistor Colpitts Oscillator",
+        "model": "CO – 10",
+        "link": "Oscillators"
+    },
+    {
+        "id": "3",
+        "title": "Performance Study of Wien Bridge Oscillator",
+        "model": "WBO – 12",
+        "link": "Oscillators"
+    },
+    {
+        "id": "4",
+        "title": "Performance Study of R.C. Phase Shift Oscillator",
+        "model": "RC – 12",
+        "link": "Oscillators"
+    },
+    {
+        "id": "5",
+        "title": "Performance Study of Tuned Collector Oscillator",
+        "model": "TC – 10",
+        "link": "Oscillators"
+    },
+    {
+        "id": "6",
+        "title": "Performance Study of Crystal Collector Oscillator",
+        "model": "CO – 12",
+        "link": "Oscillators"
+    },
+    {
+        "id": "7",
+        "title": "Performance Study of Wein Bridge Oscillator using Op-Amp.",
+        "model": "WBO – 11",
+        "link": "Oscillators"
+    }
+]

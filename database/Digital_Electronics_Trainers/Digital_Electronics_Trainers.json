@@ -1,0 +1,140 @@
+[
+    {
+        "id": "1",
+        "title": "Experimental Board on Counters and Shift Registers",
+        "model": "CSR – 10",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "2",
+        "title": "Experimental Board on Logic Gates (I.C. Version)",
+        "model": "LTB – 10",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "3",
+        "title": "Study of OR, AND, NOR, NAND, NOT Gates using Diodes & Transistor",
+        "model": "LG – 10",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "4",
+        "title": "Half and Full Adder",
+        "model": "HA – 07",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "5",
+        "title": "Half and Full Subtracter",
+        "model": "HA – 08",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "6",
+        "title": "Different Types of Flip – Flops",
+        "model": "F – 02",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "7",
+        "title": "Experimental Board on 4-Bit Shift Register",
+        "model": "SR – 04",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "8",
+        "title": "8-Bit R-2R Digital-to-Analog Converter using Op-Amp.",
+        "model": "D – 07",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "9",
+        "title": "4 – Bit Analog – to – Digital Converter",
+        "model": "D – 08",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "10",
+        "title": "Study of Differential Amplifier using Op-Amp.",
+        "model": "DA – 10",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "11",
+        "title": "Verification of Truth–Table of Demultiplexer (1 : 16) using IC-74150",
+        "model": "MUX–154",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "12",
+        "title": "Verification of Truth–Table of Multiplexer (8 : 1) using IC-74155",
+        "model": "MUX – 153",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "13",
+        "title": "Verification of Truth–Table of Demultiplexer (1 : 8) using IC-74155",
+        "model": "MUX –155",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "14",
+        "title": "Study of Monostable Multivibrator using IC-74121 & 74123",
+        "model": "MMV – 123",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "15",
+        "title": "Study of Clock Circuit Realization using IC – 555 & CMOS Inverter",
+        "model": "OS – 55",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "16",
+        "title": "Study of Binary Adder / Substractor using IC – 7483 (4 – Bit)",
+        "model": "BAS – 04",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "17",
+        "title": "Study of 3 to 8 Line Decoder / Demux using I.C. – 74138",
+        "model": "LD – 138",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "18",
+        "title": "Study of 8 to 3 Line Encoder using I.C. – 4072",
+        "model": "EC – 10",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "19",
+        "title": "Study of Transfer Characteristics of TTL Inverter and Schmitt Trigger",
+        "model": "TTL – 10",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "20",
+        "title": "Study of Transfer Characteristics of CMOS Inverter",
+        "model": "CI – 01",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "21",
+        "title": "Study of Random Access Memory (RAM) Circuit",
+        "model": "RAM – 10",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "22",
+        "title": "Study of Arithmetic Logic Unit using IC-74181",
+        "model": "ALU – 10",
+        "link": "Digital_Electronics_Trainers"
+    },
+    {
+        "id": "23",
+        "title": "Study of Presettable BCD Decade Up/Down Counter using IC-74190",
+        "model": "UD – 190",
+        "link": "Digital_Electronics_Trainers"
+    }
+]

@@ -1,127 +1,133 @@
 [
     {
         "id": "1",
-        "productName": "General Test & Measuring Instruments",
-        "productLink": "General_test_and_measuring"
+        "productName": "Test & Measuring instruments",
+        "productLink": "Test_&_Measuring_instruments"
     },
-
     {
         "id": "2",
-        "productName": "Power Electronics & Drives Lab",
-        "productLink": "Power_electronics_drives"
+        "productName": "Physics & Material science lab experimental set-ups",
+        "productLink": "Physics_&_Material_science_lab_experimental_set-ups"
     },
-
     {
         "id": "3",
-        "productName": "Control & Instrumentation",
-        "productLink": "Control_and_instrumentation"
+        "productName": "Control Trainers",
+        "productLink": "Control_Trainers"
     },
-
     {
         "id": "4",
-        "productName": "Physics Lab Trainer",
-        "productLink": "Physics_lab_trainer"
+        "productName": "Instrumentation Trainers",
+        "productLink": "Instrumentation_Trainers"
     },
-
     {
         "id": "5",
-        "productName": "Power Supplies",
-        "productLink": "Power_Supplies"
+        "productName": "Power Electronics & Industrial Lab Trainers",
+        "productLink": "Power_Electronics_&_Industrial_Lab_Trainers"
     },
-
     {
         "id": "6",
-        "productName": "Active & Passive Filters",
-        "productLink": "Active_passive_filter"
+        "productName": "General Instruments",
+        "productLink": "General_Instruments"
     },
-
     {
         "id": "7",
-        "productName": "Digital Electronics Lab , Theorems & A.C. Bridges",
-        "productLink": "Digital_electronics"
-    },
-
-    {
-        "id": "8",
-        "productName": "Electronics Lab Trainer",
+        "productName": "Electronics lab trainer",
         "productLink": "Electronics_lab_trainer"
     },
-
+    {
+        "id": "8",
+        "productName": "Active and passive filters trainers",
+        "productLink": "Active_and_passive_filters_trainers"
+    },
     {
         "id": "9",
-        "productName": "Electromagnets",
-        "productLink": "Electromagnets"
+        "productName": "Filters Trainer",
+        "productLink": "Filters_trainers"
     },
-
     {
         "id": "10",
         "productName": "Oscillators",
         "productLink": "Oscillators"
     },
-
     {
         "id": "11",
-        "productName": "Communication / Fiber Optics Trainerectromagnets",
-        "productLink": "Communication"
+        "productName": "Communication trainers",
+        "productLink": "Communication_trainers"
     },
-
     {
         "id": "12",
-        "productName": "Micro Processor Trainers",
-        "productLink": "micro_processor"
+        "productName": "Digital Electronics Trainers",
+        "productLink": "Digital_Electronics_Trainers"
     },
-
     {
         "id": "13",
-        "productName": "Data Logger",
-        "productLink": "Data_logger"
+        "productName": "Theorems trainers, Network trainers",
+        "productLink": "Theorems_trainers_Network_trainers"
     },
-
     {
         "id": "14",
-        "productName": "Rheostats for Educational Purpose",
-        "productLink": "Rheostats"
+        "productName": "AC Bridges",
+        "productLink": "AC_Bridges"
     },
-
     {
         "id": "15",
-        "productName": "Squirrel Cage Induction Motor, Flange Mounted",
-        "productLink": "Squirrel_cage"
+        "productName": "General Instruments for electronics lab",
+        "productLink": "General_Instruments_for_electronics_lab"
     },
-
     {
         "id": "16",
-        "productName": "ELECTRICAL MACHINE",
-        "productLink": "electrical_machine"
+        "productName": "Power Supplies",
+        "productLink": "Power_Supplies"
     },
-
     {
         "id": "17",
-        "productName": "POWER QUALITY ANALYZER",
-        "productLink": "Power_quality_analyzer"
+        "productName": "Drives Lab D Series",
+        "productLink": "Drives_Lab_D_Series"
     },
-
     {
         "id": "18",
-        "productName": "CIVIL ENGINEERING EQUIPMENTS",
-        "productLink": "Civil_engineering"
+        "productName": "Power Measurement Lab",
+        "productLink": "Power_Measurement_Lab"
     },
-
     {
         "id": "19",
-        "productName": "Viscosity Apparatus For School Laboratory",
-        "productLink": "Viscosity_apparatus"
+        "productName": "Transformer Lab",
+        "productLink": "Transformer_Lab"
     },
-
     {
         "id": "20",
-        "productName": "Laser Ranges",
-        "productLink": "Laser_ranges"
+        "productName": "DC Machine lab",
+        "productLink": "DC_Machine_lab"
     },
-
     {
         "id": "21",
-        "productName": "LAB EQUIPMENT",
-        "productLink": "Lab_equipment"
-     }
+        "productName": "AC Machine lab",
+        "productLink": "AC_Machine_lab"
+    },
+    {
+        "id": "22",
+        "productName": "Synchronous Machine lab",
+        "productLink": "Synchronous_Machine_lab"
+    },
+    {
+        "id": "23",
+        "productName": "Power system protection & switchgear lab",
+        "productLink": "Power_system_protection_&_switchgear_lab"
+    },
+    {
+        "id": "24",
+        "productName": "Current injectors",
+        "productLink": "Current_injectors"
+    },
+    {
+        "id": "25",
+        "productName": "ITI lab instruments",
+        "productLink": "ITI_lab_instruments"
+    },
+    {
+        "id": "26",
+        "productName": "Miscellaneous instruments",
+        "productLink": "Miscellaneous_instruments"
+    }
+
 ]

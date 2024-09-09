@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Study of Half–Wave Rectifier with different Types of Filters",
+        "model": "HR – 02",
+        "link": "Filters_trainers"
+    },
+    {
+        "id": "2",
+        "title": "Study of Full–Wave Rectifier with different Types of Filters",
+        "model": "FW – 01",
+        "link": "Filters_trainers"
+    },
+    {
+        "id": "3",
+        "title": "Study of Bridge Rectifier with different Types of Filters",
+        "model": "BR – 02",
+        "link": "Filters_trainers"
+    },
+    {
+        "id": "4",
+        "title": "Study of Half-wave, Full-Wave & Bridge Rectifier with Capacitors Filters",
+        "model": "CF – 10",
+        "link": "Filters_trainers"
+    }
+]

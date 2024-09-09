@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "title": "Isolation Transformer",
+        "link": "Miscellaneous_instruments"
+    },
+    {
+        "id": "2",
+        "title": "Constant Voltage Transformer",
+        "link": "Miscellaneous_instruments"
+    },
+    {
+        "id": "3",
+        "title": "Servo Voltage Stabilizers",
+        "link": "Miscellaneous_instruments"
+    },
+    {
+        "id": "4",
+        "title": "Special Type and Precision Current and Potential Transformers",
+        "link": "Miscellaneous_instruments"
+    },
+    {
+        "id": "5",
+        "title": "C.T. and P.T. test Set",
+        "link": "Miscellaneous_instruments"
+    },
+    {
+        "id": "6",
+        "title": "Standard Current and Potential Transformers",
+        "link": "Miscellaneous_instruments"
+    },
+    {
+        "id": "7",
+        "title": "Air Core Variable Inductance",
+        "link": "Miscellaneous_instruments",
+        "model": "107"
+    },
+    {
+        "id": "8",
+        "title": "P.M.T. Housing with Biasing Circuit",
+        "link": "Miscellaneous_instruments"
+    },
+    {
+        "id": "9",
+        "title": "Photomultiplier Tube",
+        "link": "Miscellaneous_instruments",
+        "model": "931-A/IP-28 (RCA)"
+    },
+    {
+        "id": "10",
+        "title": "Iron Core Variable Inductances",
+        "link": "Miscellaneous_instruments"
+    },
+    {
+        "id": "11",
+        "title": "Double Wound Transformers",
+        "link": "Miscellaneous_instruments"
+    },
+    {
+        "id": "12",
+        "title": "Lamp Load",
+        "link": "Miscellaneous_instruments",
+        "description": {"Load per step": "200 Watts", 
+                        "Nos. of steps": 5, 
+                        "Capacity": "up to 5 KVA"}
+    }
+]

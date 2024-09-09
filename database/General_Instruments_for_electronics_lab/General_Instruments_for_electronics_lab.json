@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "title": "Digi Lab Trainer",
+        "model": "DigiLab - 203",
+        "description": "Solderless bread board, on board DC power supply, 1 MHz Pulse Generator with TTL/CMOS mode, Pulsar switches, 8-bit data switches, Bicolor LED display with builtin logic probe, BCD to seven segment display, CMOS/TTL outputs, Functional blocks indicated on board mimic, Self contained and easy to operate.",
+        "link": "General_Instruments_for_electronics_lab"
+    },
+    {
+        "id": "2",
+        "title": "Universal Lab Trainer",
+        "model": "Uni Lab – 103",
+        "description": "Solderless bread board, on board AC & DC power supply, 1 MHz Pulse Generator with TTL/CMOS mode, Pulsar switches, 8-bit data switches, Bicolor LED display with builtin logic probe, BCD to seven segment display, CMOS/TTL outputs, Functional blocks indicated on board mimic, Self contained and easy to operate, DPM, Potentiometers, Speaker, Buzzer.",
+        "link": "General_Instruments_for_electronics_lab"
+    },
+    {
+        "id": "3",
+        "title": "Project Bread Board",
+        "model": "BB – 12 V",
+        "description": "Solderless bread board with builtin Variable Power Supply. (0 – ± 15 Volt, 0 – 5, Volt at 500, mAmp)",
+        "link": "General_Instruments_for_electronics_lab"
+    }
+]
