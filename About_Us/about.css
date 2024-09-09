@@ -432,6 +432,73 @@ body {
   animation: scroll-text 10s linear infinite;
 }
 
+/* Footer */
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+}
+.footer .share {
+  margin-bottom: 20px;
+}
+
+.share img:hover {
+  filter: drop-shadow(6px 6px 20px rgb(2, 171, 249));
+}
+.footer .share .social-link {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer .share .social-link img {
+  width: 2.8rem
+}
+
+.linkd {
+  width: 3rem;
+}
+
+.footer .links {
+  margin-bottom: 20px;
+}
+
+.footer .links a:hover {
+  color: #0073ff;
+}
+.footer .links .footer-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+.footer .credit {
+  margin-bottom: 20px;
+}
+.footer .credit .phone-no {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000;
+}
+.footer .credit .fotterlogo {
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.footer .credit .under {
+  font-size: 18px;
+  color: #d2b48c;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
 @keyframes scroll-text {
   0% {
     transform: translateX(0);
