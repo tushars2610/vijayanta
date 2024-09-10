@@ -32,15 +32,12 @@ fetch('data.json')
             const cardElement = document.createElement('div');
             cardElement.className = 'card';
             cardElement.innerHTML = `
-                <div class="practice">
-                    <h3>${card.title}</h3>
-                </div>
-                <div class="content">
-                    <h2>${card.id}</h2>
-                    <h3>${card.title}</h3>
-                    <img src="../database/${productLink}/${card.id}/image.png" alt="${card.title}">
-                    <button onclick="navigate(${card.id}, '${card.title}', '${card.link}')">Read More</button>
-                </div>
+                <a onclick="navigate(${card.id}, '${card.title}', '${card.link}')">
+                    <div class="content">
+                        <h2>${card.id}</h2>
+                        <h3>${card.title}</h3>
+                    </div>
+                </a>
             `;
             container.appendChild(cardElement);
         });

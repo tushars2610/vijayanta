@@ -42,7 +42,7 @@ body::after
     width: 100%;
     /* flex-direction: row-reverse; */
     justify-content: space-between;
-    align-items: end;
+    /* align-items: end; */
 }
 .container
 {
@@ -73,7 +73,7 @@ body::after
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 .container .card::-webkit-scrollbar{
     display: none;
@@ -83,16 +83,16 @@ body::after
     padding: 20px;
     text-align: center;
     transform: translateY(100px);
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s;
 }
-.container .card:hover .content
+/* .container .card:hover .content
 {
     
     transform: translateY(0);
     opacity: 1;
     
-}
+} */
 .container .card  .practice
 {
     position: absolute;
@@ -115,24 +115,30 @@ body::after
 .container .card .content h2
 {
     position: absolute;
-    top: -50px;
-    right: 30px;
-    font-size: 8em;
+    top: -200px;
+    right: -30px;
+    font-size: 80px;
     color: rgba(3, 221, 249, 0.3);
     pointer-events: none;
+    cursor: pointer;
 }
 .container .card .content h3
 {
+    width: 150px;
+    position: absolute;
+    left: -50px;
+    top: -100px;
     font-size: 15px;
     color: rgb(1, 135, 244);
     z-index: 1;
+  cursor: pointer;
 }
-.container .card .content p
+/* .container .card .content p
 {
     font-size: 1em;
     color: #efff;
     font-weight: 300;
-}
+} */
 
 .container .card .content button
 {
