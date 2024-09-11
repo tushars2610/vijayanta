@@ -1,0 +1,182 @@
+[
+    {
+        "id": "1",
+        "title": "Study of Single Phase Full Bridge Converter",
+        "model": "SPBC – 101",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "2",
+        "title": "Study of Single Phase Half Bridge Converter",
+        "model": "SPHB – 102",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "3",
+        "title": "Study of Single Phase Half Wave Control Rectifier",
+        "model": "SPHC – 103",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "4",
+        "title": "Study of Three Phase Fully Controlled Bridge Rectifier Trainer",
+        "model": "TPBC – 301",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "5",
+        "title": "Study of SCR Commutation Circuit A – E",
+        "model": "CC – 201",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "6",
+        "title": "Single Phase Dual Bridge Converter",
+        "model": "SPDC – 301",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "7",
+        "title": "Study of Jones Chopper Circuit (SCR Based)",
+        "model": "JC – 701",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "8",
+        "title": "Study of Margon’s Chopper Circuit (SCR Based)",
+        "model": "MC – 702",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "9",
+        "title": "Study of Single Phase Voltage Commutated DC Chopper Using SCR",
+        "model": "JC – 703",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "10",
+        "title": "Study of MOSFET Chopper Trainer (MOSFET Based Chopper Controlled of DC Motor)",
+        "model": "MC – 110, MC - 10D",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "11",
+        "title": "Study of (MOSFET Based) Inverter Circuit",
+        "model": "MI – 601",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "12",
+        "title": "Study of SCR Parallel Inverter Circuit",
+        "model": "SPI – 501",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "13",
+        "title": "Study of SCR Series Inverter Circuit",
+        "model": "SSI – 401",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "14",
+        "title": "Study of DC Motor Speed Control",
+        "model": "DSC – 801",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "15",
+        "title": "Study of Thyristor Firing Angle Control Trainer (8085 Based)",
+        "model": "TFC – 901",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "16",
+        "title": "Study of DC Motor Speed Controller Thyristorized Trainer (8085 Based)",
+        "model": "TDC – 902",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "17",
+        "title": "Different Type of Triggering Techniques of SCR (DC, R & RC, Pulse)",
+        "model": "SCR – 05",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "18",
+        "title": "Study of UJT Saw Tooth Generator / Relaxation Oscillator",
+        "model": "UJ – 04",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "19",
+        "title": "Study of SCR Characteristics",
+        "model": "SCR – 10",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "20",
+        "title": "SCR Phase Control by Firing Circuit (R & RC)",
+        "model": "SCR – 06",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "21",
+        "title": "Study of SCR Phase Control",
+        "model": "SCR – 07",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "22",
+        "title": "Characteristics of TRIAC & Measurement of its Parameters",
+        "model": "T – 09",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "23",
+        "title": "Study of DIAC & Measurement of its Parameters",
+        "model": "D – 10",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "24",
+        "title": "Characteristics of MOSFET",
+        "model": "MS – 08",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "25",
+        "title": "Study of UJT Triggering Circuit for Half & Full Wave Control",
+        "model": "UJC – 105",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "26",
+        "title": "Study of Single Phase AC Voltage Regulator Using TRIAC",
+        "model": "AVC – 104",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "27",
+        "title": "Study of Triggering of (i) IGBT (ii) MOSFET (iii) Power Transistor (BJT) Trainer",
+        "model": "IMP – 108",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "28",
+        "title": "Study of Single Phase Bridge Inverter (MOSFET Based)",
+        "model": "SPBI – 106",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "29",
+        "title": "Study of Single Phase AC Voltage Regulator Using SCR",
+        "model": "AVC – 109",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    },
+    {
+        "id": "30",
+        "title": "Study of Three Phase Voltage Source Inverter (MOSFET Based)",
+        "model": "VSI – 100",
+        "link": "Power_Electronics_&_Industrial_Lab_Trainers"
+    }
+]
