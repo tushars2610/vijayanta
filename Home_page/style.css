@@ -67,7 +67,7 @@ body {
   background: #fff;
   color: #000;
   opacity: 0.85;
-  height: 77px;
+  height: 76px; /* change */
   z-index: 12;
 }
 
@@ -118,7 +118,7 @@ body {
 
 .logo img {
   width: 190px;
-  margin-top: -4px;
+  margin-top: px;
 }
 
 h2 .since {
@@ -206,6 +206,7 @@ h2 .since {
   display: block;
   height: 400px;
   max-width: 100%;
+  min-width: 600px;
   margin: auto;
   object-fit: cover;
   object-position: right;
@@ -659,15 +660,14 @@ a {
 }
 
 #contact .heading h3{
-  position: relative;
+  /* position: relative; */
   font-size: 2.7rem;
-  font-weight: 500;
+  font-weight: bold;
   color: #444;
   width: 270px;
   height: 30px;
-  /* margin-left: 42;
-  margin-bottom: 2;
-  margin-top: -1.2; */
+  /* margin-left: 12rem;
+  margin-bottom: 2rem; */
 }
 
 .contact-container {
@@ -748,6 +748,10 @@ a {
     font-size: 110px;
     position: absolute;
     top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .logo {
@@ -886,10 +890,12 @@ a {
 /* Contact us */
 
 .contact .heading h3{
-  position: absolute;
-  left: 10px;
+  /* position: absolute; */
+  /* left: 10px;
+  display: flex;
+  justify-content: center;
   background-color: #000;
-  color: #000;
+  color: #000; */
 }
 
 #footer {
@@ -1155,9 +1161,9 @@ a {
 .logo .since1965{
   font-size: 15px;
   position: absolute;
-  top: 50px;
+  top: 40px;                    /* change */
   font-weight: bold;
-  left: 13.4vw; 
+  /* left: 13.4vw;  */
   margin-top: 0px;
   margin-left: 3px;
 }
@@ -1165,12 +1171,12 @@ a {
 @media(min-width:800px){
   .logo .since1965{
     font-size: 15px;
-    position: absolute;
-    top: 30px;
+    /* position: absolute; */
+    top: 20px;
     font-weight: bold; 
     left: 13.vw; 
-    margin-left: 4px;
-    margin-top: 20px;
+    margin-left: 3rem;
+    margin-top: 30px;
     margin-bottom: 50px;
   }
 }
@@ -1214,7 +1220,7 @@ a {
 
   .logo {
     position: absolute;
-    top: 9px;
+    top: 12px;
     right: 15px;
     font-size: 3rem;
   }
@@ -1252,32 +1258,42 @@ a {
   }
 
   .navbar li{
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: 7px;
+    margin-left: 1rem;
   }
 
-  .logo img{
-    width: 150px;
-    margin-bottom: 10px;
+  .logo{
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
   }
 
   .logo .since1965{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 2rem;
+    margin-bottom: rem;
+  }
+
+
+  .logo img{
+    width: 150px;
+    margin-top: -1rem;
+    /* margin-bottom: 10px; */
+  }
+
+  /* .logo .since1965{
     position: absolute;
     left: 75px;
-    top: 20px;
-  }
+    top: 10px;
+  } */
 
   .container .gem{
     width: 300px;
     position: absolute;
     left:110px;
     bottom: 3px;
-  }
-
-  #contact .heading h3{
-    position: absolute;
-    top: 273vw;
-    left: 34vw;
   }
 }
 
@@ -1290,11 +1306,11 @@ a {
 
 @media (max-width: 580px) {
   #contact .heading h3{
-    position: absolute;
+    /* position: absolute;
     top: 569vh;
     left: 90px;
     width: 220px;
-    font-size: 35px;
+    font-size: 35px; */
   }
 
   .navbar{
@@ -1322,4 +1338,16 @@ a {
 .type-of-product h2{
   text-align: center;
   font-size: 25px;
+}
+
+
+#contact .heading{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+#contact .heading h3{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
 }
