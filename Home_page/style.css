@@ -86,7 +86,7 @@ body {
 
 .menu-items li {
   list-style: none;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   margin-top: 0.5rem;
   font-size: 1.4rem;
 }
@@ -658,15 +658,16 @@ a {
   background: rgb(226, 226, 226);
 }
 
-#contact .heading {
+#contact .heading h3{
+  position: relative;
   font-size: 2.7rem;
   font-weight: 500;
   color: #444;
   width: 270px;
   height: 30px;
-  margin-left: 42rem;
-  margin-bottom: 2rem;
-  margin-top: -1.2rem;
+  /* margin-left: 42;
+  margin-bottom: 2;
+  margin-top: -1.2; */
 }
 
 .contact-container {
