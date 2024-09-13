@@ -3,147 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Navbar with Logos</title>
-    <style>
-        /* Basic page reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        /* Navbar Styles */
-        nav {
-            background-color: #326e84;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            position: relative;
-        }
-
-        .logo-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-
-        .logo-container img {
-            width: 100px; /* Adjust the width of the main logo */
-            height: auto;
-        }
-
-        .logo-container .logo-text {
-            font-size: 12px;
-            font-weight: normal;
-            margin-top: 5px;
-        }
-
-        .small-logo {
-            margin-left: 20px; /* Adjust distance between logos */
-            height: 50px; /* Adjust height of the second logo */
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-        }
-
-        .nav-links li {
-            margin: 0 15px;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            padding: 8px 16px;
-            border-radius: 4px;
-        }
-
-        .nav-links a:hover {
-            background-color: #3e8e41;
-            transition: 0.3s;
-        }
-
-        /* Mobile Menu Icon */
-        .menu-icon {
-            display: none;
-            font-size: 28px;
-            cursor: pointer;
-        }
-
-        /* Mobile menu */
-        .mobile-nav {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background-color: #326e84;
-            width: 100%;
-            flex-direction: column;
-        }
-
-        .mobile-nav li {
-            text-align: center;
-            margin: 10px 0;
-        }
-
-        /* Responsive Styles */
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-
-            .menu-icon {
-                display: block;
-            }
-
-            .mobile-nav.active {
-                display: flex;
-            }
-        }
-    </style>
+    <title>Professional Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="logo-container">
-            <img src="path/to/main-logo.jpg" alt="Main Logo"> <!-- Replace with your main logo image -->
-            <div class="logo-text">Since 4531</div>
-        </div>
 
-        <div class="small-logo">
-            <img src="path/to/small-logo.png" alt="Small Logo"> <!-- Replace with your small logo image -->
+    <nav class="navbar">
+        <div class="logo-section">
+            <div class="logo-container">
+                <img src="../Home_page/images/Vijayanta Logo.jpg" alt="Company Logo" class="logo">
+                <p class="since-text">Since 1965</p>
+            </div>
+            <img src="../Home_page/images/Government_e_Marketplace_Logo.png" alt="Second Logo" class="second-logo">
         </div>
 
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#testimonial">Testimonial</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="../Home_page/index.html">Home</a></li>
+            <li><a href="../About_Us/about.html">About</a></li>
+            <li><a href="../Products/index.html">Product</a></li>
+            <li><a href="../Helpdesk/index.html">Helpdesk</a></li>
+            <li><a href="#contact"></a>Contact</li>
         </ul>
-        
-        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
-    </nav>
-    
-    <ul class="mobile-nav" id="mobile-nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#product">Product</a></li>
-        <li><a href="#testimonial">Testimonial</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-    </ul>
 
-    <script>
-        function toggleMenu() {
-            var mobileNav = document.getElementById('mobile-nav');
-            mobileNav.classList.toggle('active');
-        }
-    </script>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

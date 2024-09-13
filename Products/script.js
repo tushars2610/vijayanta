@@ -1,3 +1,11 @@
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
+
 $(document).ready(function () {
     // Add smooth scrolling to all links
     $("a").on("click", function (event) {
