@@ -60,8 +60,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0px 5px 10px 0px #aaa;
   padding: 20px 40px;
-  background-color: whitesmoke;
+  opacity: 0.85;
+  background-color: #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
