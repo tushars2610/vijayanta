@@ -443,6 +443,7 @@ a {
   height: 200px;
   width: 100%;
   margin-top: 30px;
+  background: rgb(226, 226, 226);
 }
 .customers .customer-title {
   width: 100%;
