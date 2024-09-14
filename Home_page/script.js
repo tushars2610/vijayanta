@@ -77,3 +77,6 @@ fetch('data.json')
   .then(response => response.json())
   .then(data => populateLogos(data))
   .catch(error => console.error('Error fetching the JSON data:', error));
+
+
+  
