@@ -717,8 +717,8 @@ a {
   width: calc(
     200%
   ); /* Twice the width of the viewport to accommodate duplicated images */
-  animation: scrollImages 20s linear infinite;
-  background: #839ccc;
+  animation: scrollImages 10s linear infinite;
+  background: #aaa;
 }
 
 .image-track img {
@@ -1203,7 +1203,7 @@ a {
     align-items: center;
     height: 350px;
     width: 100%;
-    background: #9c09099b;
+    /* background: #9c09099b; */
     flex-direction: column;
 }
 .scroll {
