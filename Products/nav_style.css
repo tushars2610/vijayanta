@@ -44,12 +44,14 @@ body {
 .navbar {
   box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
+  display: flex;
   width: 100%;
   background: #fff;
   color: #000;
   opacity: 0.85;
-  height: 50px;
+  height: 60px;
   z-index: 25;
+  justify-content: center;
 }
 
 .navbar .navbar-container {

@@ -23,9 +23,14 @@ body {
 
 .container {
   max-width: 1200px;
-  width: 69%;
+  width: 79%;
   margin: auto;
 }
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
 
 .btn {
   display: inline-block;
@@ -451,7 +456,7 @@ a {
   text-align: center;
 }
 .customers .customer-title h5 {
-  font-family: playfair-display, serif;
+  /* font-family: playfair-display, serif; */
   font-style: oblique;
   font-weight: 400;
   font-size: 34px;
@@ -552,7 +557,7 @@ a {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  background: #839ccc;
+  background: #8b9fc3;
 }
 .testimonial-heading {
   letter-spacing: 1px;
