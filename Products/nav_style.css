@@ -377,7 +377,7 @@ body {
     }
   }
 
-  .search-dialog{
+.search-dialog{
     padding: 20px;
     position: fixed;
     align-self: center;
@@ -388,6 +388,7 @@ body {
     min-width: 250px;
     border-radius: 25px;
     border-color: #0976f3;
+    overflow: hidden;
   }
 .InputContainer {
   position: relative;
