@@ -41,7 +41,7 @@ fetch(`../database/${productLink}/data.json`)
         out += `
         <tr> 
             <td> ${product.id}</td> 
-            <td> <a href="../Home_page/index.html">${product.title}</a> </td> 
+            <td> <a href="../Home_page/index.html">${product.title}</a></td> 
         </tr>
         `;
     }
@@ -76,36 +76,6 @@ function download(){
 }
 
 // --------------iframe--------------
-// // Ensure the script runs after the DOM is loaded
-// document.addEventListener("DOMContentLoaded", function() {
-//     // Select the div where the iframe will be inserted
-//     let centerContent = document.getElementById("centerContent");
-
-//     // Create the iframe element
-//     let iframe = document.createElement("iframe");
-
-//     // Set the attributes for the iframe
-//     iframe.src = "../database/Test_&_Measuring_instruments/1/text.html";
-//     iframe.frameBorder = "0";
-//     iframe.style.height = "100%";
-//     iframe.style.width = "100%";
-
-//     // Append the iframe to the centerContent div
-//     centerContent.appendChild(iframe);
-// });
-
-// Ensure the script runs after the DOM is loaded
-// document.addEventListener("DOMContentLoaded", function() {
-//     // Get the iframe element
-//     let iframe = document.getElementById("myIframe");
-
-//     // Store the source in a JavaScript variable
-//     let iframeSrc = "../database/General_test_and_measuring/1/text.html";
-
-//     // Set the iframe's src attribute dynamically
-//     iframe.src = iframeSrc;
-// });
-
 document.addEventListener("DOMContentLoaded", function() {
     // Get the iframe element
     let iframe = document.getElementById("myIframe");
