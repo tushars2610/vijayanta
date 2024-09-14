@@ -42,8 +42,8 @@ body::after
 
 .container
 {
-    position: relative;
-    margin-top: 20px;
+    position: absolute;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;

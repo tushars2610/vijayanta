@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vijayanta</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
-
+    <link rel="stylesheet" href="nav_style.css">
+    
 </head>
 <body>
     <nav class="navbar">
@@ -35,137 +35,57 @@
 
 
     <dialog id="search-dialog" class="search-dialog" >
-        <h2>Search products</h2> 
-        <button class="close-search" onclick=closeDialog()>X</button>
-        <div class="InputContainer">
-            <input placeholder="Search.." id="search-bar" class="input" name="text" type="text" onkeyup="getSuggestions()">
-        </div>
-            <!-- <a href="../practice/index.html"><div id="results" class="results"></div></a> -->
-        </div>
-        <div id="suggestions" class="suggestions"></div>
-    </dialog>
-    <div id="suggestions" class="suggestions"></div>
-    <button class="search-button" onclick=show()>
-    <span>
-    <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M9.145 18.29c-5.042 0-9.145-4.102-9.145-9.145s4.103-9.145 9.145-9.145 9.145 4.103 9.145 9.145-4.102 9.145-9.145 9.145zm0-15.167c-3.321 0-6.022 2.702-6.022 6.022s2.702 6.022 6.022 6.022 6.023-2.702 6.023-6.022-2.702-6.022-6.023-6.022zm9.263 12.443c-.817 1.176-1.852 2.188-3.046 2.981l5.452 5.453 3.014-3.013-5.42-5.421z"></path></svg>
-    </span>
-    </button>
-
-
-
-    <section class="container"></section>
-        <section class="top-section">
-            <h1>Welcome to vijayanta <b>Helpdesk</b></h1>
-            <p>How can we assist you today?</p>
-        </section>
-        <h3 class="query-title">Query Support</h3>
-        <section class="query">
-            <div class="image">
-                <img src="images/customer_support.png" alt="customer support">
-                <span>Any Queries?</span>
-            </div>
-            <div class="query-content">
-              <div class="form-wrapper sign-in">
-                <form action="">
-                  <div class="input-group">
-                    <input type="text" required>
-                    <label for="">Name</label>
-                  </div>
-    
-                  <div class="input-group">
-                    <input type="number" required>
-                    <label for="">Number</label>
-                  </div>
-    
-                  <div class="input-group">
-                    <input type="email" required>
-                    <label for="">Email</label>
-                  </div>
-    
-                  <div class="input-group">
-                    <textarea required></textarea>
-                    <label for="">Feedback</label>
-                  </div>
-    
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
-            </div>
-        </section>
-
-        
-        <h3 class="feedback-title">Feedbacks</h3>
-        <!-- ------------feedback------------------- -->
-        <section class="feedback">
-        <div class="image">
-            <img src="images/feedback.png" alt="customer support">
-            <span>Tell us How can we improve?</span>
-        </div>
-        <div class="feedback-content">
-          <div class="form-wrapper sign-in">
-            <form action="">
-              <div class="input-group">
-                <input type="text" required>
-                <label for="">Name</label>
-              </div>
-
-              <div class="input-group">
-                <input type="number" required>
-                <label for="">Number</label>
-              </div>
-
-              <div class="input-group">
-                <input type="email" required>
-                <label for="">Email</label>
-              </div>
-
-              <div class="input-group">
-                <textarea required></textarea>
-                <label for="">Query</label>
-              </div>
-
-              <button type="submit">Submit</button>
-            </form>
-          </div>
-
-        </div>
-        </section>
-        <h3 class="feedback-title">Brochure and Certificate</h3>
-        <section class="brochure">
-            <div class="brochure-1">
-                <div class="button-1">
-                    <div class="container-button">
-                        <div class="hover bt-1"></div>
-                        <div class="hover bt-2"></div>
-                        <div class="hover bt-3"></div>
-                        <div class="hover bt-4"></div>
-                        <div class="hover bt-5"></div>
-                        <div class="hover bt-6"></div>
-                        <button class="brochure-button"></button>
+      <h2>Search products</h2> 
+      <button class="close-search" onclick=closeDialog()>X</button>
+      <div class="InputContainer">
+          <input placeholder="Search.." id="search-bar" class="input" name="text" type="text" onkeyup="getSuggestions()">
+      </div>
+          <!-- <a href="../practice/index.html"><div id="results" class="results"></div></a> -->
+      </div>
+      <div id="suggestions" class="suggestions"></div>
+  </dialog>  
+<div id="suggestions" class="suggestions"></div>
+<button class="search-button" onclick=show()>
+<span>
+  <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M9.145 18.29c-5.042 0-9.145-4.102-9.145-9.145s4.103-9.145 9.145-9.145 9.145 4.103 9.145 9.145-4.102 9.145-9.145 9.145zm0-15.167c-3.321 0-6.022 2.702-6.022 6.022s2.702 6.022 6.022 6.022 6.023-2.702 6.023-6.022-2.702-6.022-6.023-6.022zm9.263 12.443c-.817 1.176-1.852 2.188-3.046 2.981l5.452 5.453 3.014-3.013-5.42-5.421z"></path></svg>
+</span>
+</button>
+  <!-- ------------------- -->
+  <div class="container" id="card-container">
+      <!-- Cards will be generated here -->
+  </div>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script>
+      fetch('data.json')
+          .then(response => response.json())
+          .then(data => {
+              const container = document.getElementById('card-container');
+              data.forEach(card => {
+                  const cardElement = document.createElement('div');
+                  cardElement.className = 'card';
+                  cardElement.innerHTML = `
+                  <buttton onclick= "navigate(${card.id}, '${card.productLink}')">
+                      <div class="practice">
+                          <h2>${card.id}</h2>
+                          <h3>${card.productName}</h3>
                       </div>
-                </div>
-            </div>
-            <div class="brochure-2">
-                <div class="button-2">
-                    <div class="container-button">
-                        <div class="hover bt-1"></div>
-                        <div class="hover bt-2"></div>
-                        <div class="hover bt-3"></div>
-                        <div class="hover bt-4"></div>
-                        <div class="hover bt-5"></div>
-                        <div class="hover bt-6"></div>
-                        <button class="brochure-button"></button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1>hello</h1>
-    </section>
-</body>
+                      </button>
+                  `;
+                  container.appendChild(cardElement);
+              });
+              VanillaTilt.init(document.querySelectorAll(".card"), {
+                  max: 25,
+                  speed: 400,
+              });
+          })
+          .catch(error => console.error('Error loading data:', error));
+          function navigate(productId, link) {
+  const url = `../Products/product.html?id=${productId}&link=${encodeURIComponent(link)}`;
+  console.log('Navigating to:', url); // Debugging log
+  window.location.href = url;
+}
+  </script>
+  <script src="index_nav_script.js"></script>
+  <!-- <script src="product_nav_script.js"></script> -->
+  </body>
 </html>
