@@ -55,75 +55,160 @@ body {
 
 /* desktop mode............/// */
 
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-  display: none;
-}
-
+/* Navbar Styling */
 .navbar {
-  box-shadow: 0px 5px 10px 0px #aaa;
-  position: fixed;
-  width: 100%;
-  background: #fff;
-  color: #000;
-  opacity: 0.85;
-  height: 77px;
-  z-index: 12;
-}
-
-.navbar-container {
   display: flex;
   justify-content: space-between;
-  height: 64px;
   align-items: center;
-  text-align: center;
+  padding: 20px 40px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 75px;
+  backdrop-filter: 30px;
+  color: black;
 }
 
-.menu-items {
-  order: 2;
+/* Logo Section Styling */
+.logo-section {
   display: flex;
+  align-items: center;
 }
 
-.menu-items li {
-  list-style: none;
-  margin-left: 1rem;
-  margin-top: 0.5rem;
-  font-size: 1.4rem;
-}
-
-.menu-items a {
-  text-decoration: none;
-  color: #444;
-  font-weight: 500;
-  transition: color 0.3s ease-in-out;
-}
-
-.menu-items a:hover {
-  color: #117964;
-  transition: color 0.3s ease-in-out;
-  text-decoration: underline;
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .logo {
-  /* order:1 ; */
-  margin-bottom: 0rem;
-  margin-right: -380px;
+  height: 40px;
+  width: auto;
+  transition: transform 0.3s ease;
 }
 
-.container .gemclass .gem {
-  width: 240px;
-  height: 70px;
-  padding-left: 60px;
+.logo:hover {
+  transform: scale(1.1);  /* Adds a slight zoom on hover */
 }
 
-.logo img {
-  width: 190px;
-  margin-top: -4px;
+.since-text {
+  font-size: 14px;
+  /* color: #ccc; */
+  font-weight: bold;
 }
 
-h2 .since {
-  font-size: 10px;
+.second-logo {
+  height: 69px;
+  width: auto;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+  margin-bottom: 12px;
 }
+
+.second-logo:hover {
+  transform: scale(1.1);
+}
+
+/* Navigation Links Styling */
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #131212;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding: 10px 0;
+}
+
+.nav-links a:hover {
+  color: #00d9ff;  /* Highlight color on hover */
+  border-bottom: 2px solid #00d9ff;  /* Underline on hover */
+}
+
+/* Hamburger Menu for Mobile */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  height: 3px;
+  width: 25px;
+  background-color: #121111;
+  margin: 4px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .navbar {
+      padding: 15px 30px;
+  }
+
+  .nav-links {
+      display: none;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      background-color: #1d1f27;
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px 0;
+      z-index: 400;
+  }
+
+  .nav-links li {
+      margin: 15px 0;
+  }
+
+  .hamburger {
+      display: flex;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+      padding: 10px 20px;
+  }
+
+  .logo {
+      height: 40px;
+  }
+
+  .second-logo {
+      height: 50px;
+  }
+
+  .nav-links li {
+      margin-left: 0;
+  }
+
+  .nav-links a {
+      font-size: 18px;
+  }
+
+  .nav-links a {
+    color: #f3eded;
+  }
+}
+
 
 /* ............//// Showcase styling ////......... */
 
@@ -206,6 +291,7 @@ h2 .since {
   display: block;
   height: 400px;
   max-width: 100%;
+  min-width: 600px;
   margin: auto;
   object-fit: cover;
   object-position: right;
@@ -659,15 +745,14 @@ a {
 }
 
 #contact .heading h3{
-  position: relative;
+  /* position: relative; */
   font-size: 2.7rem;
-  font-weight: 500;
+  font-weight: bold;
   color: #444;
   width: 270px;
   height: 30px;
-  /* margin-left: 42;
-  margin-bottom: 2;
-  margin-top: -1.2; */
+  /* margin-left: 12rem;
+  margin-bottom: 2rem; */
 }
 
 .contact-container {
@@ -733,123 +818,6 @@ a {
     opacity: 0.95;
   }
 
-  .navbar-container input[type="checkbox"],
-  .navbar-container .hamburger-lines {
-    display: block;
-    cursor: pointer;
-  }
-
-  .logo img {
-    width: 140px;
-  }
-
-  .logo .since1965{
-    width: 120px;
-    font-size: 110px;
-    position: absolute;
-    top:50px;
-  }
-
-  .logo {
-    /* order:1 ; */
-    margin-bottom: 0.1rem;
-    margin-right: 0px;
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    font-size: 2rem;
-  }
-
-  .navbar-container {
-    display: block;
-    position: relative;
-    height: 64px;
-  }
-
-  .navbar-container input[type="checkbox"] {
-    position: absolute;
-    display: block;
-    height: 32px;
-    width: 30px;
-    top: 20px;
-    left: 0px;
-    z-index: 5;
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  .navbar-container .hamburger-lines {
-    display: block;
-    height: 23px;
-    width: 35px;
-    position: absolute;
-    top: 17px;
-    left: 0px;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .navbar-container .hamburger-lines .line {
-    display: block;
-    height: 4px;
-    width: 100%;
-    border-radius: 10px;
-    background: #333;
-  }
-
-  .navbar-container .hamburger-lines .line1 {
-    transform-origin: 0% 0%;
-    transition: transform 0.4s ease-in-out;
-  }
-
-  .navbar-container .hamburger-lines .line2 {
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .navbar-container .hamburger-lines .line3 {
-    transform-origin: 0% 100%;
-    transition: transform 0.4s ease-in-out;
-  }
-
-  .navbar .menu-items {
-    padding-top: 100px;
-    background: #fff;
-    height: 100vh;
-    max-width: 300px;
-    transform: translate(-150%);
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    margin-left: -100px;
-    padding-left: 80px;
-    transition: transform 0.5s ease-in-out;
-    box-shadow: 5px 0px 10px 0px #aaa;
-  }
-
-  .navbar .menu-items li {
-    margin-bottom: 1.5rem;
-    font-size: 1.3rem;
-    font-weight: 500;
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
-    transform: translateX(0);
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
-    transform: rotate(35deg);
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
-    transform: scaleY(0);
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
-    transform: rotate(-35deg);
-  }
-
   .about-img img {
     width: 200px;
     filter: drop-shadow(1px 1px 20px yellow);
@@ -884,13 +852,6 @@ a {
 }
 
 /* Contact us */
-
-.contact .heading h3{
-  position: absolute;
-  left: 10px;
-  background-color: #000;
-  color: #000;
-}
 
 #footer {
   overflow: hidden;
@@ -1152,36 +1113,10 @@ a {
   animation: ease-in 0.5s;
 }
 /* ---------since 1965-------------------------- */
-.logo .since1965{
-  font-size: 15px;
-  position: absolute;
-  top: 50px;
-  font-weight: bold;
-  left: 13.4vw; 
-  margin-top: 0px;
-  margin-left: 3px;
-}
-
-@media(min-width:800px){
-  .logo .since1965{
-    font-size: 15px;
-    position: absolute;
-    top: 30px;
-    font-weight: bold; 
-    left: 13.vw; 
-    margin-left: 4px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
-}
 
 @media (max-width: 500px) {
   html {
     font-size: 65%;
-  }
-
-  .navbar .menu-items li {
-    font-size: 1.6rem;
   }
 
   .testimonial-container {
@@ -1211,38 +1146,10 @@ a {
     width: 90%;
     margin: 3rem auto;
   }
-
-  .logo {
-    position: absolute;
-    top: 9px;
-    right: 15px;
-    font-size: 3rem;
-  }
-  .navbar{
-    width: 100px;
-  }
-
-  .navbar .menu-items li {
-    margin-bottom: 2.5rem;
-    font-size: 1.8rem;
-    font-weight: 500;
-  }
-  .container .gemclass .gem{
-    width: 190px;
-    height: 60px;
-    position: absolute;
-    left:-1px;
-    bottom: 8px;
-  }
 }
                           /* For Tab */
 
 @media (min-width: 769px) and (max-width: 1200px) {
-
-  .navbar{
-    height: 66px;
-  }
-
   .img-container h3 {
     font-size: 1.5rem;
   }
@@ -1251,33 +1158,11 @@ a {
     font-size: 0.7rem;
   }
 
-  .navbar li{
-    font-size: 20px;
-    margin-bottom: 7px;
-  }
 
   .logo img{
     width: 150px;
-    margin-bottom: 10px;
-  }
-
-  .logo .since1965{
-    position: absolute;
-    left: 75px;
-    top: 20px;
-  }
-
-  .container .gem{
-    width: 300px;
-    position: absolute;
-    left:110px;
-    bottom: 3px;
-  }
-
-  #contact .heading h3{
-    position: absolute;
-    top: 273vw;
-    left: 34vw;
+    margin-top: -1rem;
+    /* margin-bottom: 10px; */
   }
 }
 
@@ -1289,24 +1174,6 @@ a {
 }
 
 @media (max-width: 580px) {
-  #contact .heading h3{
-    position: absolute;
-    top: 569vh;
-    left: 90px;
-    width: 220px;
-    font-size: 35px;
-  }
-
-  .navbar{
-    width: 100vw;
-    height: 60px;
-  }
-
-  .logo .since1965{
-    position: absolute;
-    top: 25px;
-    left: 5px;
-  }
 
   .about-img img{
     width: 90vw;
@@ -1322,4 +1189,16 @@ a {
 .type-of-product h2{
   text-align: center;
   font-size: 25px;
+}
+
+
+#contact .heading{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+#contact .heading h3{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
 }
