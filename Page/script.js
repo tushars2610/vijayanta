@@ -16,6 +16,17 @@ h1.textContent = `${productTitle}`;
 
 // Find the container div and append the h1 element to it
 document.getElementById('title').appendChild(h1);
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the iframe element
+    let iframe = document.getElementById("myIframe");
+
+    // Store the source in a JavaScript variable
+    let iframeSrc = `../database/${productLink}/1/text.html`;
+
+    // Set the iframe's src attribute dynamically
+    iframe.src = iframeSrc;
+});
 //--------------------------------------------------------------------------
 
 
@@ -64,3 +75,44 @@ function download(){
     window.location.href = `../database/${productLink}/${productId}/pdf.pdf`
 }
 
+// --------------iframe--------------
+// // Ensure the script runs after the DOM is loaded
+// document.addEventListener("DOMContentLoaded", function() {
+//     // Select the div where the iframe will be inserted
+//     let centerContent = document.getElementById("centerContent");
+
+//     // Create the iframe element
+//     let iframe = document.createElement("iframe");
+
+//     // Set the attributes for the iframe
+//     iframe.src = "../database/Test_&_Measuring_instruments/1/text.html";
+//     iframe.frameBorder = "0";
+//     iframe.style.height = "100%";
+//     iframe.style.width = "100%";
+
+//     // Append the iframe to the centerContent div
+//     centerContent.appendChild(iframe);
+// });
+
+// Ensure the script runs after the DOM is loaded
+// document.addEventListener("DOMContentLoaded", function() {
+//     // Get the iframe element
+//     let iframe = document.getElementById("myIframe");
+
+//     // Store the source in a JavaScript variable
+//     let iframeSrc = "../database/General_test_and_measuring/1/text.html";
+
+//     // Set the iframe's src attribute dynamically
+//     iframe.src = iframeSrc;
+// });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the iframe element
+    let iframe = document.getElementById("myIframe");
+
+    // Store the source in a JavaScript variable
+    let iframeSrc = "../database/General_test_and_measuring/1/text.html";
+
+    // Set the iframe's src attribute dynamically
+    iframe.src = iframeSrc;
+});
