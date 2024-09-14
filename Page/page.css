@@ -103,9 +103,9 @@ iframe::-webkit-scrollbar{
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
   margin-top: 77px;
-  width: 200px;
+  width: 300px;
   top: 0;
-  height: auto;
+  height: 100vh;
   z-index: 15;
   overflow-y: auto;
   scroll-snap-type: y mandatory;

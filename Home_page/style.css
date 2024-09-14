@@ -23,7 +23,7 @@ body {
 
 .container {
   max-width: 1200px;
-  width: 90%;
+  width: 69%;
   margin: auto;
 }
 
@@ -71,6 +71,7 @@ body {
   height: 75px;
   backdrop-filter: 30px;
   color: black;
+  width: 100%;
 }
 
 /* Logo Section Styling */
