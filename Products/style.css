@@ -55,8 +55,8 @@ body::after
 .container .card
 {
     position: relative;
-    width: 250px;
-    height: 400px;
+    width: 220px;
+    height: 300px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -88,7 +88,7 @@ body::after
 .container .card  .practice
 {
     position: absolute;
-    font-size: large;
+    font-size: 15px;
     color: rgb(1, 135, 244);
     top: 50%;
     left: 50%;
