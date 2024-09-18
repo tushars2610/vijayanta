@@ -110,7 +110,9 @@ body {
   
   .logo {
     order: 1;
-    font-size: 2.3rem;
+    height: 40px;
+    width: 100px;
+
     margin-bottom: 0.5rem;
   }
   .logo img{
