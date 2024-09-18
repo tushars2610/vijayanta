@@ -860,40 +860,25 @@ a {
 
 /* Contact us */
 
-#footer {
-  overflow: hidden;
-  background-color: whitesmoke;
-}
-
 .footer {
   text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
 }
-
 .footer .share {
-  padding: 0.1rem 0;
-  margin: 0.9rem;
-}
-
-.footer .share a {
-  height: 5rem;
-  width: 7rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  color: #131212;
-  border: 0.1rem solid rgba(255, 255, 255, 0.3);
-  margin: 0.6rem;
-  border-radius: 50%;
-  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .share img:hover {
   filter: drop-shadow(6px 6px 20px rgb(2, 171, 249));
 }
-
-.insta,
-.fb,
-.whatsapp {
-  width: 2.8rem;
+.footer .share .social-link {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer .share .social-link img {
+  width: 2.8rem
 }
 
 .linkd {
@@ -901,51 +886,37 @@ a {
 }
 
 .footer .links {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0.1rem 0;
-  gap: 0.1rem;
-}
-
-.footer .links a {
-  padding: 0.7rem 2rem;
-  color: #161414;
-  border: black;
-  text-decoration: none;
-  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .footer .links a:hover {
-  font-weight: bold;
   color: #0073ff;
-  animation-duration: 0.5s;
 }
-
+.footer .links .footer-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
 .footer .credit {
-  font-size: 2rem;
-  color: #140e0e;
-  font-weight: lighter;
-  padding: 1rem 1rem 1rem 0rem;
+  margin-bottom: 20px;
 }
-
+.footer .credit .phone-no {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 19px;
+  color: #000;
+}
+.footer .credit .fotterlogo {
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 .footer .credit .under {
-  color: #d3ad7f;
-}
-
-.phone-no {
-  color: black;
-  font-size: 20px;
-  padding-bottom: 3rem;
-}
-
-.fotterlogo {
-  width: 190px;
-  background-position: center;
-  display: inline-block;
+  font-size: 25px;
+  color: #d2b48c;
   vertical-align: middle;
 }
-
 /* search ------------------------------------------------*/
 
 .search-button {
