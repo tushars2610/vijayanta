@@ -574,10 +574,12 @@ a {
   color: #252525;
   margin-bottom: 10px;
   letter-spacing: 2px;
-  font-weight: 100;
+  /* font-weight: 100; */
+  font-family: 'Pacifico', cursive;
+  text-decoration: underline;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 .testimonial-box-container {
   display: flex;
