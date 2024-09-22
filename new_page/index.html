@@ -3,6 +3,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navigation.css">
     
 </head>
 <body class="flex flex-col items-center">
@@ -41,23 +42,7 @@
         </div>
     </div>
 
-    <script>
-        function toggleHamburger() {
-            var hamburger = document.getElementById('hamburger');
-            var navLinks = document.getElementById('nav-links');
-            hamburger.classList.toggle('change');
-            if (navLinks.classList.contains('hidden')) {
-                navLinks.classList.remove('hidden');
-                navLinks.classList.remove('slide-out');
-                navLinks.classList.add('slide-in');
-            } else {
-                navLinks.classList.remove('slide-in');
-                navLinks.classList.add('slide-out');
-                setTimeout(function() {
-                    navLinks.classList.add('hidden');
-                }, 500); // Match the duration of the slide-out animation
-            }
-        }
-    </script>
+    <div class="container"></div>
+    <script src="script.js"></script>
 </body>
 </html>
