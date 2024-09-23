@@ -21,7 +21,7 @@ body {
 
 /* ///////////..utility classes../////////// */
 
-.container {
+/* .container {
   max-width: 1200px;
   width: 79%;
   margin: auto;
@@ -29,7 +29,7 @@ body {
 
 .container::-webkit-scrollbar {
   display: none;
-}
+} */
 
 
 .btn {
@@ -92,15 +92,15 @@ body {
   margin-right: 10px;
 }
 
-.logo {
+/* .logo {
   height: 40px;
   width: auto;
   transition: transform 0.3s ease;
 }
 
 .logo:hover {
-  transform: scale(1.1);  /* Adds a slight zoom on hover */
-}
+  transform: scale(1.1);}  /* Adds a slight zoom on hover */
+ 
 
 .since-text {
   font-size: 14px;
@@ -160,7 +160,7 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .navbar {
       padding: 15px 30px;
   }
@@ -195,8 +195,8 @@ body {
   }
 
   
-}
-
+} */
+/* 
 @media (max-width: 768px) {
   .navbar {
       padding: 65px 60px;
@@ -230,7 +230,7 @@ body {
   }
 
   .hamburger {
-    position: absolute; /* Position the hamburger menu at the bottom */
+    position: absolute; 
     bottom: 10px;
     left:20px;
   }
@@ -238,7 +238,7 @@ body {
   .nav-links {
     top: 130px;
 }
-}
+} */
 
 
 /* ............//// Showcase styling ////......... */
@@ -672,19 +672,24 @@ a {
   padding: 10px;
   border-radius: 30px;
   margin: 30px;
-  cursor: pointer;
-  border: 5px solid black;
-  background: #839ccc;
+  background: #1044a4; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
 .reviewss a {
   text-decoration: none;
-  color: #000;
+  color: #e8e7e7;
 }
 
 .reviewss:hover {
-  background: #117964;
+  background: #0a0454;
   color: whitesmoke;
   outline: none;
+  transition: background-color 0.5s ease;
 }
 
 @media (max-width: 1060px) {
@@ -697,7 +702,7 @@ a {
 @media (max-width: 340px) {
   .box-top {
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
   }
   .reviews {
     margin-top: 10px;
@@ -883,7 +888,7 @@ a {
 
 /* Contact us */
 
-.footer {
+/* .footer {
   text-align: center;
   padding: 20px;
   background-color: #ffffff;
@@ -939,7 +944,7 @@ a {
   font-size: 25px;
   color: #d2b48c;
   vertical-align: middle;
-}
+} */
 /* search ------------------------------------------------*/
 
 .search-button {
@@ -1158,13 +1163,6 @@ a {
   .img-container .btn {
     font-size: 0.7rem;
   }
-
-
-  .logo img{
-    width: 150px;
-    margin-top: -1rem;
-    /* margin-bottom: 10px; */
-  }
 }
 
 @media (orientation: landscape) and (max-height: 500px) {
@@ -1196,7 +1194,8 @@ a {
   position: relative;
   top: 0;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .type-of-product .product-slide{
