@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="button.css">
     
 </head>
 <body class="flex flex-col items-center">
@@ -41,8 +42,167 @@
             <a href="#" class="text-lg">Contact</a>
         </div>
     </div>
+    <div class="title-container"><h2>Product Name</h2></div>
+    <br>
+    <br>
 
-    <div class="container"></div>
+<!-- ---------buttons--------------- -->
+ <!------------------------Search dialog-------------------------------->
+ <dialog id="search-dialog" class="search-dialog" >
+    <h2>Search products</h2> 
+    <button class="close-search" onclick=closeDialog()>X</button>
+    <div class="InputContainer">
+        <input placeholder="Search.." id="search-bar" class="input" name="text" type="text" onkeyup="getSuggestions()">
+    </div>
+        <!-- <a href="../practice/index.html"><div id="results" class="results"></div></a> -->
+    </div>
+    <div id="suggestions" class="suggestions"></div>
+</dialog>
+<div id="suggestions" class="suggestions"></div>
+<button class="search-button" onclick=show()>
+<span>
+<svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M9.145 18.29c-5.042 0-9.145-4.102-9.145-9.145s4.103-9.145 9.145-9.145 9.145 4.103 9.145 9.145-4.102 9.145-9.145 9.145zm0-15.167c-3.321 0-6.022 2.702-6.022 6.022s2.702 6.022 6.022 6.022 6.023-2.702 6.023-6.022-2.702-6.022-6.023-6.022zm9.263 12.443c-.817 1.176-1.852 2.188-3.046 2.981l5.452 5.453 3.014-3.013-5.42-5.421z"></path></svg>
+</span>
+</button>
+<div class="query-button">
+    <button onclick=showQuery()>
+      <div class="svg-wrapper-1">
+        <div class="svg-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path fill="none" d="M0 0h24v24H0z"></path>
+            <path
+              fill="currentColor"
+              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <span style="font-size: 10px;">Query</span>
+    </button>
+  </div>
+  <!----------------------query dialog-------------------------->
+
+<dialog class="query-dialog" id="query-dialog">
+    <!-- <h2>Share Your Query</h2> -->
+    
+  <div class="container">
+    <div class="title">
+      <h1>MESSAGE US</h1>
+    </div>
+    <form action="" method="">
+      <div class="form-field">
+        <label for="fullname">Fullname</label>
+        <input type="text" class="fullname" name="fullname" placeholder="Fullname" required autofoucus>
+      </div>
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" class="email" name="email" placeholder="Email" required>
+      </div>
+      <div class="form-field">
+        <label for="message">Query</label>
+        <textarea type="message" class="message" name="message" placeholder="Message here..." required rows="4"></textarea>
+      </div>
+      <div class="form-field btn">
+        <input type="submit" name="submit" class="submit" value="Send">
+      </div>
+    </form>
+  </div>
+    <button class="close-search" onclick=closeQuery()>X</button>
+  </dialog>
+
+<!-- -------------------download------------------->
+<div class="download-button" id="download">
+  <button class="Btn" onclick=download()>
+    <svg
+      class="svgIcon"
+      viewBox="0 0 384 512"
+      height="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+      ></path>
+    </svg>
+    <span class="icon2"></span>
+  </button>
+  </div>  
+
+  <!---------------------------table---------------------- -->
+  <div class="product_table" id="mySidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <table >
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th> Products</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+            <tr>
+                <!-- fetching from javascript -->
+            </tr>
+        </tbody>
+    </table>
+</div>
+<span class="openbtn" onclick="openNav()" id="open_menu">&#9776; Products</span>
+
+  <!-- --------------dontainer-------------------------- -->
+    <div class="content-container">
+<!-----------------------first container-------------->
+        <div class="first-container">
+            <div class="main-image-container">
+                <img id="main-image" src="product_image/image1.jpeg" alt="">
+            </div>
+            <div class="image-selector">
+                <button class="first-image"><img src="product_image/image1.jpeg" alt="First Image"></button>
+                <button class="second-image"><img src="product_image/image2.jpeg" alt="Second Image"></button>
+                <button class="third-image"><img src="product_image/image3.jpeg" alt="Third Image"></button>
+            </div>
+        </div>
+
+<!------------------------second container-------------->
+        <div class="second-container">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo distinctio, quis mollitia repellat voluptate atque modi sunt perspiciatis delectus qui ipsum quaerat non cupiditate ea nemo quibusdam quam tenetur. Sequi culpa est amet, qui ut quis numquam pariatur iste dicta eveniet omnis nulla et, possimus, nemo harum illum inventore assumenda iure asperiores porro unde excepturi? A provident totam reprehenderit iste, ullam obcaecati id dignissimos aperiam, fugit corporis dolores veritatis atque minus aliquam natus accusamus ea fuga voluptas pariatur earum! Enim, porro quas recusandae rerum cumque suscipit sunt voluptatem dignissimos accusamus delectus repellendus exercitationem. Omnis numquam quibusdam, ad pariatur recusandae eaque!
+            </p>
+        </div>
+
+<!------------------------third container-------------->
+        <div class="third-container">
+            <h4>Specifications</h4>
+            <table>
+                <tr>
+                    <td>model no.:</td>
+                    <td>562</td>
+                </tr>
+                <tr>
+                    <td>color:</td>
+                    <td>grey</td>
+                </tr>
+                <tr>
+                    <td>weight:</td>
+                    <td>1.5 kg</td>
+                </tr>
+                <tr></tr>
+                    <td>model no.:</td>
+                    <td>562</td>
+                </tr>
+                <tr>
+                    <td>color:</td>
+                    <td>grey</td>
+                </tr>
+                <tr>
+                    <td>weight:</td>
+                    <td>1.5 kg</td>
+                </tr>
+            </table>
+        </div>
+    </div>
     <script src="script.js"></script>
+    <script src="table.js"></script>
 </body>
 </html>
