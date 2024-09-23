@@ -904,7 +904,7 @@ transition: background 0.3s ease-in-out;
     }
     
     .brochure button::after {
-      content: "Brochure";
+      content: "Company Brochure";
       position: absolute;
       top: 50%;
       left: 50%;
@@ -912,7 +912,7 @@ transition: background 0.3s ease-in-out;
       width: 135px;
       height: 47px;
       background-color: transparent;
-      font-size: 17px;
+      font-size: 12px;
       font-weight: 900;
       line-height: 47px;
       color: #ffffff;
