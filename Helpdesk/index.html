@@ -154,7 +154,7 @@
         <h3 class="feedback-title">Brochure and Certificate</h3>
         <section class="brochure">
             <div class="brochure-1">
-                <div class="button-1">
+                <div class="button-1" onclick="download()">
                     <div class="container-button">
                         <div class="hover bt-1"></div>
                         <div class="hover bt-2"></div>
@@ -166,6 +166,11 @@
                       </div>
                 </div>
             </div>
+            <script>
+              function  download() {
+                window.location.href = "brochure.pdf";
+              }
+            </script>
             <div class="brochure-2">
                 <div class="button-2">
                     <div class="container-button">
