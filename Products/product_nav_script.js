@@ -61,3 +61,4 @@ function search() {
     const resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = JSON.stringify(results, null, 2);
 }
+

@@ -49,7 +49,7 @@ fetch('data.json')
     .catch(error => console.error('Error:', error));
 
 function navigate(productId, text, link){
-    window.location.href = `../Page/page.html?id=${productId}&text=${encodeURIComponent(text)}&link=${encodeURIComponent(link)}`;
+    window.location.href = `../new_page/index.html?id=${productId}&text=${encodeURIComponent(text)}&link=${encodeURIComponent(link)}`;
 }
 // -------------------------original-------------
 

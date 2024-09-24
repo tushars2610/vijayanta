@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 @font-face {
   font-family: myFont;
@@ -21,7 +23,7 @@ body {
 
 /* ///////////..utility classes../////////// */
 
-.container {
+/* .container {
   max-width: 1200px;
   width: 79%;
   margin: auto;
@@ -29,7 +31,7 @@ body {
 
 .container::-webkit-scrollbar {
   display: none;
-}
+} */
 
 
 .btn {
@@ -92,15 +94,15 @@ body {
   margin-right: 10px;
 }
 
-.logo {
+/* .logo {
   height: 40px;
   width: auto;
   transition: transform 0.3s ease;
 }
 
 .logo:hover {
-  transform: scale(1.1);  /* Adds a slight zoom on hover */
-}
+  transform: scale(1.1);}  /* Adds a slight zoom on hover */
+ 
 
 .since-text {
   font-size: 14px;
@@ -160,7 +162,7 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .navbar {
       padding: 15px 30px;
   }
@@ -168,7 +170,7 @@ body {
   .nav-links {
       display: none;
       position: absolute;
-      top: 80px;
+      top: 74px;
       right: 0;
       background-color: #1d1f27;
       width: 100%;
@@ -189,19 +191,32 @@ body {
   .nav-links.active {
       display: flex;
   }
-}
 
+  .nav-links a {
+    color: #faf8f8;
+  }
+
+  
+} */
+/* 
 @media (max-width: 768px) {
   .navbar {
-      padding: 10px 20px;
+      padding: 65px 60px;
+      height: 110px;
   }
 
   .logo {
-      height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+      height: 45px;
   }
 
   .second-logo {
-      height: 50px;
+    position: absolute;
+    top: 1px;
+    left: 180px;
+      height: 70px;
   }
 
   .nav-links li {
@@ -215,7 +230,17 @@ body {
   .nav-links a {
     color: #f3eded;
   }
+
+  .hamburger {
+    position: absolute; 
+    bottom: 10px;
+    left:20px;
+  }
+
+  .nav-links {
+    top: 130px;
 }
+} */
 
 
 /* ............//// Showcase styling ////......... */
@@ -299,7 +324,7 @@ body {
   display: block;
   height: 400px;
   max-width: 100%;
-  min-width: 600px;
+  min-width: 300px;
   margin: auto;
   object-fit: cover;
   object-position: right;
@@ -575,8 +600,9 @@ a {
   margin-bottom: 10px;
   letter-spacing: 2px;
   font-weight: 100;
+  font-family: pacifico, cursive;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
 }
 .testimonial-box-container {
@@ -649,19 +675,24 @@ a {
   padding: 10px;
   border-radius: 30px;
   margin: 30px;
-  cursor: pointer;
-  border: 5px solid black;
-  background: #839ccc;
+  background: #1044a4; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
 .reviewss a {
   text-decoration: none;
-  color: #000;
+  color: #e8e7e7;
 }
 
 .reviewss:hover {
-  background: #117964;
+  background: #0a0454;
   color: whitesmoke;
   outline: none;
+  transition: background-color 0.5s ease;
 }
 
 @media (max-width: 1060px) {
@@ -674,7 +705,7 @@ a {
 @media (max-width: 340px) {
   .box-top {
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
   }
   .reviews {
     margin-top: 10px;
@@ -860,40 +891,25 @@ a {
 
 /* Contact us */
 
-#footer {
-  overflow: hidden;
-  background-color: whitesmoke;
-}
-
-.footer {
+/* .footer {
   text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
 }
-
 .footer .share {
-  padding: 0.1rem 0;
-  margin: 0.9rem;
-}
-
-.footer .share a {
-  height: 5rem;
-  width: 7rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  color: #131212;
-  border: 0.1rem solid rgba(255, 255, 255, 0.3);
-  margin: 0.6rem;
-  border-radius: 50%;
-  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .share img:hover {
   filter: drop-shadow(6px 6px 20px rgb(2, 171, 249));
 }
-
-.insta,
-.fb,
-.whatsapp {
-  width: 2.8rem;
+.footer .share .social-link {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer .share .social-link img {
+  width: 2.8rem
 }
 
 .linkd {
@@ -901,51 +917,37 @@ a {
 }
 
 .footer .links {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0.1rem 0;
-  gap: 0.1rem;
-}
-
-.footer .links a {
-  padding: 0.7rem 2rem;
-  color: #161414;
-  border: black;
-  text-decoration: none;
-  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .footer .links a:hover {
-  font-weight: bold;
   color: #0073ff;
-  animation-duration: 0.5s;
 }
-
+.footer .links .footer-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
 .footer .credit {
-  font-size: 2rem;
-  color: #140e0e;
-  font-weight: lighter;
-  padding: 1rem 1rem 1rem 0rem;
+  margin-bottom: 20px;
 }
-
-.footer .credit .under {
-  color: #d3ad7f;
+.footer .credit .phone-no {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 19px;
+  color: #000;
 }
-
-.phone-no {
-  color: black;
-  font-size: 20px;
-  padding-bottom: 3rem;
-}
-
-.fotterlogo {
-  width: 190px;
-  background-position: center;
-  display: inline-block;
+.footer .credit .fotterlogo {
+  height: 50px;
   vertical-align: middle;
+  margin-right: 10px;
 }
-
+.footer .credit .under {
+  font-size: 25px;
+  color: #d2b48c;
+  vertical-align: middle;
+} */
 /* search ------------------------------------------------*/
 
 .search-button {
@@ -1164,13 +1166,6 @@ a {
   .img-container .btn {
     font-size: 0.7rem;
   }
-
-
-  .logo img{
-    width: 150px;
-    margin-top: -1rem;
-    /* margin-bottom: 10px; */
-  }
 }
 
 @media (orientation: landscape) and (max-height: 500px) {
@@ -1183,8 +1178,10 @@ a {
 @media (max-width: 580px) {
 
   .about-img img{
-    width: 90vw;
-  } 
+    width: 10vw;
+  }
+
+  
 }
 
 /* ------------------type of products------------------ */
@@ -1200,7 +1197,8 @@ a {
   position: relative;
   top: 0;
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .type-of-product .product-slide{
@@ -1255,10 +1253,11 @@ a {
   letter-spacing: 0.2em;
   background: #333;
   color: #fff;
-  padding: 5px 10px;
+  padding: 15px 10px;
   border-radius: 5px;
   transition: 0.5s;
   text-decoration: none;
+  font-size: 12px;
 }
 
 .scroll div a:hover {
@@ -1312,10 +1311,11 @@ a {
 .rev-scroll div a {
   display: inline-flex;
   margin: 10px;
+  font-size: 12px;
   letter-spacing: 0.2em;
   background: #333;
   color: #fff;
-  padding: 5px 10px;
+  padding: 15px 10px;
   border-radius: 5px;
   transition: 0.5s;
   text-decoration: none;

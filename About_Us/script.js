@@ -1,10 +1,16 @@
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.nav-links');
+function toggleMobileNav() {
+    var mobileNav = document.getElementById("mobileNav");
+    var hamburger = document.querySelector(".hamburger");
+    if (mobileNav.style.display === "flex") {
+      mobileNav.style.display = "none";
+      hamburger.classList.remove("active");
+    } else {
+      mobileNav.style.display = "flex";
+      hamburger.classList.add("active");
+    }
+  }
 
-hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-});
-
+  
 document.addEventListener('DOMContentLoaded', () => {
     const texts = document.getElementById('historyDescription');
     const buttons = document.getElementById('btn-1');

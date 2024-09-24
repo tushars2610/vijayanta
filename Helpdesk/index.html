@@ -5,32 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../About_Us/newNav.css">
     <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
 
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo-section">
-            <div class="logo-container">
-                <img src="../Home_page/images/Vijayanta Logo.jpg" alt="Company Logo" class="logo">
-                <p class="since-text">Since 1965</p>
-            </div>
-            <img src="../Home_page/images/Government_e_Marketplace_Logo.png" alt="Second Logo" class="second-logo">
-        </div>
-
-        <ul class="nav-links">
-            <li><a href="../Home_page/index.html">Home</a></li>
-            <li><a href="../About_Us/about.html">About</a></li>
-            <li><a href="../Products/index.html">Product</a></li>
-            <li><a href="../Helpdesk/index.html">Helpdesk</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
+  <nav>
+    <div class="header1">
+      <div class="logo1">
+        <img alt="VIJAYANTA logo" src="../Home_page/images/Vijayanta Logo.jpg"/>
+        <div class="logo-text">since 1965</div>
+      </div>
+      <div class="badge">
+        <img alt="GEM badge" src="../Home_page/images/Government_e_Marketplace_Logo (1).png"/>
+      </div>
+      <div class="hamburger" onclick="toggleMobileNav()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+  
+    <div class="nav">
+      <a href="../Home_page/index.html">Home</a>
+      <a href="../About_Us/about.html">About Us</a>
+      <a href="../Products/index.html">Product</a>
+      <a href="../Helpdesk/index.html">Helpdesk</a>
+      <a href="../Home_page/index.html#contact">Contact Us</a>
+    </div>
+  
+    <!-- Add mobile navigation container -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="../Home_page/index.html">Home</a>
+      <a href="../About_Us/about.html">About Us</a>
+      <a href="../Products/index.html">Product</a>
+      <a href="../Helpdesk/index.html">Helpdesk</a>
+      <a href="../Home_page/index.html#contact">Contact Us</a>
+    </div>
     </nav>
 
 
@@ -53,7 +64,7 @@
 
 
 
-    <section class="container">
+    <section class="containers">
         <section class="top-section">
             <h1>Welcome to vijayanta <b>Helpdesk</b></h1>
             <p>How can we assist you today?</p>
@@ -68,23 +79,28 @@
               <div class="form-wrapper sign-in">
                 <form action="">
                   <div class="input-group">
-                    <input type="text" required>
+                    <input type="text" size="60" required>
                     <label for="">Name</label>
                   </div>
     
                   <div class="input-group">
-                    <input type="number" required>
-                    <label for="">Number</label>
+                    <input type="number"  required>
+                    <label for="">Contact Number</label>
+                  </div>
+
+                  <div class="input-group">
+                    <input type="text"  required>
+                    <label for="">Organisation</label>
                   </div>
     
                   <div class="input-group">
-                    <input type="email" required>
+                    <input type="email" size="60" required>
                     <label for="">Email</label>
                   </div>
     
                   <div class="input-group">
-                    <textarea required></textarea>
-                    <label for="">Feedback</label>
+                    <textarea rows="5" cols="50" required></textarea>
+                    <label for="">Query</label>
                   </div>
     
                   <button type="submit">Submit</button>
@@ -94,7 +110,7 @@
         </section>
 
         
-        <h3 class="feedback-title">Feedbacks</h3>
+        <h3 class="feedback-title">Your Feedback Matters!</h3>
         <!-- ------------feedback------------------- -->
         <section class="feedback">
         <div class="image">
@@ -105,23 +121,28 @@
           <div class="form-wrapper sign-in">
             <form action="">
               <div class="input-group">
-                <input type="text" required>
+                <input type="text" size="60" required>
                 <label for="">Name</label>
               </div>
 
               <div class="input-group">
                 <input type="number" required>
-                <label for="">Number</label>
+                <label for="">Contact Number</label>
+              </div>
+              
+              <div class="input-group">
+                <input type="text"  required>
+                <label for="">Organisation</label>
               </div>
 
               <div class="input-group">
-                <input type="email" required>
+                <input type="email" size="60" required>
                 <label for="">Email</label>
               </div>
 
               <div class="input-group">
-                <textarea required></textarea>
-                <label for="">Query</label>
+                <textarea rows="5" cols="50" required></textarea>
+                <label for="">Feedback</label>
               </div>
 
               <button type="submit">Submit</button>
@@ -133,7 +154,7 @@
         <h3 class="feedback-title">Brochure and Certificate</h3>
         <section class="brochure">
             <div class="brochure-1">
-                <div class="button-1">
+                <div class="button-1" onclick="download()">
                     <div class="container-button">
                         <div class="hover bt-1"></div>
                         <div class="hover bt-2"></div>
@@ -145,6 +166,11 @@
                       </div>
                 </div>
             </div>
+            <script>
+              function  download() {
+                window.location.href = "brochure.pdf";
+              }
+            </script>
             <div class="brochure-2">
                 <div class="button-2">
                     <div class="container-button">
@@ -165,8 +191,110 @@
         <br>
         <br>
         <br>
-        <h1>hello</h1>
     </section>
-    
+
+    <div class="footer">
+      <div class="container">
+        <div class="logo">
+          <img
+            alt="Company Logo"
+            height="50"
+            src="../Home_page/images/Vijayanta Logo.jpg"
+            width="150"
+          />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div>
+          <h3>Links</h3>
+          <p>
+            <a href="../Home_page/index.html"> Home </a>
+          </p>
+          <p>
+            <a href="../About_Us/about.html"> About Us </a>
+          </p>
+          <p>
+            <a href="../Products/index.html"> Product </a>
+          </p>
+          <p>
+            <a href="../Helpdesk/index.html"> Helpdesk </a>
+          </p>
+          <p>
+            <a href="#"> Contact Us </a>
+          </p>
+        </div>
+        <div>
+          <h3>Address</h3>
+          <p>+91-7579200827</p>
+          <p>
+            <a href="Vijayantatechnologies2@gmail.com">
+              Vijayantatechnologies2@gmail.com
+            </a>
+          </p>
+          <p>28/147 Civil lines, Dr. Baldev singh Marg,</p>
+          <p>Roorkee -247667, Uttarakhand</p>
+        </div>
+        <div>
+          <h3>Opening Hours</h3>
+          <p>Mon - Thu: 9:00 - 21:00</p>
+          <p>Fri: 8:00 - 21:00</p>
+          <p>Sat: 8:30 - 15:00</p>
+          <p>Sun: off</p>
+        </div>
+      </div>
+      <div class="share">
+        <a
+          href="https://www.linkedin.com/company/vijayanta-technologies-pvt-ltd/"
+          class="social-link"
+        >
+          <img
+            src="../Home_page/images/linkedin.png"
+            class="linkd"
+            alt="LinkedIn"
+          />
+        </a>
+        <a
+          href="https://wa.me/917579200827?text=Hello,%20I%20would%20like%20more%20information."
+          target="_blank"
+          class="social-link"
+        >
+          <img
+            src="../Home_page/images/whatsapp.png"
+            class="whatsapp"
+            alt="WhatsApp"
+          />
+        </a>
+        <a
+          href="https://www.facebook.com/vijayantatechnologies/"
+          class="social-link"
+        >
+          <img
+            src="../Home_page/images/facebook.png"
+            class="fb"
+            alt="Facebook"
+          />
+        </a>
+        <a
+          href="https://instagram.com/vijayanta_technologies?igshid=MzNlNGNkZWQ4Mg=="
+          class="social-link"
+        >
+          <img
+            src="../Home_page/images/instagram.png"
+            class="insta"
+            alt="Instagram"
+          />
+        </a>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright ©2020 All rights reserved | Website is made with by
+          <a href="#"> XYZ Company </a>
+        </p>
+      </div>
+    </div>
+    <script src="search.js"></script>
+    <script src="../About_Us/script.js"></script>
 </body>
 </html>

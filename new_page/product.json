@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "title": "Study of Anderson Bridge",
+        "model": "AB – 10",
+        "link": "AC_Bridges"
+    },
+    {
+        "id": "2",
+        "title": "Study of Maxwell’s Bridge",
+        "model": "MB – 10",
+        "link": "AC_Bridges"
+    },
+    {
+        "id": "3",
+        "title": "Study of Schering Bridge",
+        "model": "SB – 10",
+        "link": "AC_Bridges"
+    },
+    {
+        "id": "4",
+        "title": "Study of Wien Bridge",
+        "model": "WB – 10",
+        "link": "AC_Bridges"
+    },
+    {
+        "id": "5",
+        "title": "Study of Wheat – Stone Bridge",
+        "model": "WSB – 10",
+        "link": "AC_Bridges"
+    },
+    {
+        "id": "6",
+        "title": "Study of De-Sauty Bridge",
+        "model": "DSB – 10",
+        "link": "AC_Bridges"
+    },
+    {
+        "id": "7",
+        "title": "Study of Hay’s Bridge",
+        "model": "HB – 10",
+        "link": "AC_Bridges"
+    },
+    {
+        "id": "8",
+        "title": "Study of Owen’s Bridge",
+        "model": "OB – 10",
+        "link": "AC_Bridges"
+    }
+]

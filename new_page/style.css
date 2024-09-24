@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.title-container{
+    width: 100%;
+    text-align: center;
+}
+
+.title-container h2{
+    font-size: 30px;
+    font-family: 'Playfair Display', monospace;
+    font-weight: 600;
+  }
+
+.content-container{
+    /* height: 100%; */
+    min-height: 70%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 0px;
+    background-color: aquamarine;
+
+}
+
+.content-container .first-container,
+.content-container .second-container,
+.content-container .third-container {
+    /* height: 100px;  */
+    box-sizing: border-box; /* Ensures padding/borders are included in width */
+}
+
+.content-container .first-container{
+    width: 30%; 
+    min-width: 300px;
+    min-height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.content-container .second-container{
+    width: 40%;
+    min-width: 350px;
+    min-height: 100%;
+    background-color: white;
+    padding: 10px 25px;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+.content-container .third-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
+    min-width: 300px;
+    min-height: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+@media (max-width: 1100px) {
+    .content-container .first-container,
+    .content-container .second-container{
+        width: 50%;
+        /* height: 700px; */
+        min-height: 400px;
+    }
+    .content-container .third-container {
+        width: 100%; /* Each container takes full width */
+        min-width: unset; /* Remove the min-width constraint */
+        min-height: 400px;
+    }
+}
+@media (max-width: 720px) {
+    .content-container .first-container,
+    .content-container .second-container{
+        width: 100%;
+    }
+}
+
+.content-container .first-container .image-selector{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.content-container .first-container .image-selector button{
+    width: 50px;
+    height: 50px;
+    border: 2px solid  rgba(34, 61, 241, 0.861);
+    padding: 0;
+    margin: 0;
+}
+
+.content-container .first-container .image-selector button img{
+    width: 100%;
+    height: 100%;
+}
+
+.content-container .first-container .main-image-container{
+    width: 80%;
+    border: 2px solid   rgba(34, 61, 241, 0.861);
+}
+
+.content-container .second-container p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.content-container .third-container h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(24, 86, 243);
+}
+
+.content-container .third-container table{
+    width: 300px;
+    border-spacing: 50px;
+    margin-left: 20px;
+}
+
+.content-container .third-container tr{
+    text-align: start;
+    font-size: 16px;
+    /* font-family: 'Playfair Display'; */
+    font-style: italic;
+    /* font-weight: 500; */
+}
+
+.content-container .third-container table td{
+    line-height: 2.5;
+}
+
+/* ------------table--------- */
+.product_table {
+    position: fixed;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    margin-top: 77px;
+    width: 0px;
+    top: 0;
+    height: 100vh;
+    z-index: 102;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
+    left: 0;
+  }
+  
+  .product_table th {
+    background:  rgb(103, 167, 238);
+    position: sticky;
+    top: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 300px;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  table td {
+    font-weight: bolder;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: rgba(248, 242, 242, 0.521);
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: rgba(248, 242, 242, 0.521);
+  }
+  
+  .product_table a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .product_table a:hover {
+    color: #0399f6;
+  }
+  
+  .product_table .closebtn {
+    position: sticky;
+    display: flex;
+    padding: auto;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 240px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    top: 0;
+    font-size: 25px;
+    z-index: 4;
+  }
+  
+  
+  .product_table .closebtn:hover {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  
+  .openbtn {
+    position: fixed;
+    border-radius: 15px;
+    bottom: 0;
+    margin-bottom: 5%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    z-index: 12;
+    transition: 0.5s;
+    left: 0;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+    transition: 0.5s;
+  }
