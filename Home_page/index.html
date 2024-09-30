@@ -16,46 +16,82 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css" />
-    <link href="../About_Us/newNav.css" rel="stylesheet">
+    <!-- <link href="../About_Us/newNav.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="navigation.css">
     <script src="https://smtpjs.com/v3/smtp.js">
 	</script>
   </head>
-  <body>
+  <body class="flex flex-col items-center">
 
-    <!-- NavBar -->
-    <nav>
-      <div class="header1">
-        <div class="logo1">
-          <img alt="VIJAYANTA logo" src="../Home_page/images/Vijayanta Logo.jpg"/>
-          <div class="logo-text">since 1965</div>
-        </div>
-        <div class="badge">
-          <img alt="GEM badge" src="../Home_page/images/Government_e_Marketplace_Logo (1).png"/>
-        </div>
-        <div class="hamburger" onclick="toggleMobileNav()">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
+    <div class="top-header">
+      <div class="header-images">
+          <div class="vijayanta-logo">
+              <img src="images/Vijayanta Logo.jpg" alt="vjayanta">
+              <p class="text-lg">SINCE 1965</p>
+          </div>
+          <div class="gem-logo">
+              <img src="images/Government_e_Marketplace_Logo (1).png" alt="vijayanta">
+          </div>
       </div>
-    
-      <div class="nav">
-        <a href="../Home_page/index.html">Home</a>
-        <a href="../About_Us/about.html">About Us</a>
-        <a href="../Products/index.html">Product</a>
-        <a href="../Helpdesk/index.html">Helpdesk</a>
-        <a href="#contact">Contact Us</a>
+      <div class="clock-text">
+        We value your time :)
       </div>
-    
-      <!-- Add mobile navigation container -->
-      <div class="mobile-nav" id="mobileNav">
-        <a href="../Home_page/index.html">Home</a>
-        <a href="../About_Us/about.html">About Us</a>
-        <a href="../Products/index.html">Product</a>
-        <a href="../Helpdesk/index.html">Helpdesk</a>
-        <a href="#contact">Contact Us</a>
+      <div class="clock-container">
+        <div class="clock">
+          <div class="hour">
+              <div class="hr" id="hr"></div>
+          </div>
+          <div class="min">
+              <div class="mn" id="mn"></div>
+          </div>
+          <div class="sec">
+              <div class="sc" id="sc"></div>
+          </div>
       </div>
-      </nav>
+      <script type="text/javascript">
+          const deg = 6;
+          const hr = document.getElementById('hr');
+          const mn = document.getElementById('mn');
+          const sc = document.getElementById('sc');
+  
+          setInterval(() => {
+          let day = new Date();
+          let hh = day.getHours() % 12 * 30; // 360 degrees / 12 hours
+          let mm = day.getMinutes() * deg; // 360 degrees / 60 minutes
+          let ss = day.getSeconds() * deg;  // 360 degrees / 60 seconds
+  
+          hr.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
+          mn.style.transform = `rotateZ(${mm}deg)`;
+          sc.style.transform = `rotateZ(${ss}deg)`;
+          })
+      </script>
+      </div>
+  </div>
+  <div class="flex w-full mt-2 justify-between">
+      <div class="flex flex-col items-start md:hidden">
+          <div id="hamburger" class="hamburger mb-2" onclick="toggleHamburger()">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+          </div>
+          <div id="nav-links" class="hidden flex-col space-y-2">
+              <a href="../Home_page/index.html" class="text-lg block">Home</a>
+              <a href="../About_Us/about.html" class="text-lg block">About</a>
+              <a href="../Products/index.html" class="text-lg block">Product</a>
+              <a href="../Helpdesk/index.html" class="text-lg block">Helpdesk</a>
+              <a href="../Home_page/index.html#contact" class="text-lg block">Contact</a>
+          </div>
+      </div>
+      <div class="hidden md:flex md:space-x-8 md:ml-auto md:pr-8" id="nav-links-desktop">
+          <a href="../Home_page/index.html" class="text-lg">Home</a>
+          <a href="../About_Us/about.html" class="text-lg">About</a>
+          <a href="../Products/index.html" class="text-lg">Product</a>
+          <a href="../Helpdesk/index.html" class="text-lg">Helpdesk</a>
+          <a href="../Home_page/index.html#contact" class="text-lg">Contact</a>
+      </div>
+  </div>
 
 
       

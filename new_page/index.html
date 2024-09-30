@@ -18,6 +18,39 @@
                 <img src="images/Government_e_Marketplace_Logo (1).png" alt="vijayanta">
             </div>
         </div>
+        <div class="clock-text">
+          We value your time :)
+        </div>
+        <div class="clock-container">
+          <div class="clock">
+            <div class="hour">
+                <div class="hr" id="hr"></div>
+            </div>
+            <div class="min">
+                <div class="mn" id="mn"></div>
+            </div>
+            <div class="sec">
+                <div class="sc" id="sc"></div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            const deg = 6;
+            const hr = document.getElementById('hr');
+            const mn = document.getElementById('mn');
+            const sc = document.getElementById('sc');
+    
+            setInterval(() => {
+            let day = new Date();
+            let hh = day.getHours() % 12 * 30; // 360 degrees / 12 hours
+            let mm = day.getMinutes() * deg; // 360 degrees / 60 minutes
+            let ss = day.getSeconds() * deg;  // 360 degrees / 60 seconds
+    
+            hr.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
+            mn.style.transform = `rotateZ(${mm}deg)`;
+            sc.style.transform = `rotateZ(${ss}deg)`;
+            })
+        </script>
+        </div>
     </div>
     <div class="flex w-full mt-2 justify-between">
         <div class="flex flex-col items-start md:hidden">
@@ -42,6 +75,7 @@
             <a href="../Home_page/index.html#contact" class="text-lg">Contact</a>
         </div>
     </div>
+    <!-- ----------------------------------------------------------- -->
     <div class="title-container"><h2>Product Name</h2></div>
     <br>
     <br>
