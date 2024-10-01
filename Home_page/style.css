@@ -469,18 +469,18 @@ a {
   text-decoration: none;
 }
 /* --------------------customer slider----------------*/
-.customers {
+.customers-container {
   position: relative;
   height: 200px;
   width: 100%;
   margin-top: 30px;
   background: rgb(226, 226, 226);
 }
-.customers .customer-title {
+.customers-container .customer-title {
   width: 100%;
   text-align: center;
 }
-.customers .customer-title h5 {
+.customers-container .customer-title h5 {
   /* font-family: playfair-display, serif; */
   font-style: oblique;
   font-weight: 400;
@@ -490,12 +490,12 @@ a {
   font-weight: bold;
 }
 
-.customers .more-customer {
+.customers-container .more-customer {
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
-.customers .more-customer button {
+.customers-container .more-customer button {
   margin-left: auto;
   border: 2px solid blue;
   border-radius: 10px;
@@ -534,7 +534,7 @@ a {
   }
 }
 
-.logos {
+.customers-container .customer-images {
   overflow: hidden;
   padding-top: 20px;
   background: rgb(226, 226, 226);
@@ -542,8 +542,9 @@ a {
   position: relative;
 }
 
-.logos:before,
-.logos:after {
+
+.customers-container .customer-images:before,
+.customers-container .customer-images:after {
   position: absolute;
   top: 0;
   width: 250px;
@@ -552,26 +553,26 @@ a {
   z-index: 2;
 }
 
-.logos:before {
+.customers-container .customer-images:before {
   left: 0;
   /* background: linear-gradient(to left, rgba(255, 255, 255, 0), white); */
 }
 
-.logos:after {
+.customers-container .customer-images:after {
   right: 0;
   /* background: linear-gradient(to right, rgba(255, 255, 255, 0), white); */
 }
 
-.logos:hover .logos-slide {
+.customers-container .customer-images:hover .customer-images-slide {
   animation-play-state: paused;
 }
 
-.logos-slide {
+.customers-container .customer-images-slide {
   display: inline-block;
   animation: 35s slide infinite linear;
 }
 
-.logos-slide img {
+.customers-container .customer-images-slide img {
   height: 100px;
   margin: 20px 20px;
 }

@@ -201,7 +201,10 @@ display: flex;
   
   .footer .share {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
   }
+
   
   .share img:hover {
   filter: drop-shadow(6px 6px 20px rgb(2, 171, 249));
@@ -209,9 +212,13 @@ display: flex;
   .footer .share .social-link {
   margin: 0 10px;
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
   }
   .footer .share .social-link img {
-  width: 2.8rem
+  width: 2.8rem;
+  position: relative;
+
   }
   
   .linkd {
