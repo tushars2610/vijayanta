@@ -469,32 +469,69 @@ a {
   text-decoration: none;
 }
 /* --------------------customer slider----------------*/
+.customers-container{
+  width: 100%;
+}
 .customers-container .title h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 2.0rem;
   text-align: center;
 }
 .customers-container .customer-logos{
-  background-color: #117964;
-  height: 400px;
+  background-color: #ffffffb3;
+  /* height: 400px; */
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .customers-container .customer-logos .scroll{
   position: relative;
   display: flex;
-  width: 700px;
+  width: 100%;
   overflow: hidden;
 }
 .customers-container .customer-logos .scroll div{
   white-space: nowrap;
-  animation: animate var(--t);
+  animation: animate var(--t) linear infinite;
+  animation-delay: calc(var(--t) / -1);
 }
+.customers-container .customer-logos .scroll div:nth-child(2){
+  animation: animate2 var(--t) linear infinite;
+  animation-delay: calc(var(--t) / -2);
+}
+
+@keyframes animate{
+  0% 
+  {
+    transform: translateX(100%);
+  }
+  100%
+  {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate2{
+  0% 
+  {
+    transform: translateX(0%);
+  }
+  100%
+  {
+    transform: translateX(-200%);
+  }
+}
+
 .customers-container .customer-logos .scroll div span{
   display: inline-flex;
   margin: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
   background-color: #333;
   color: #fff;
   padding: 5px 10px;
@@ -504,6 +541,74 @@ a {
 .customers-container .customer-logos .scroll div span:hover{
   background: #4caf50;
 }
+.customers-container .customer-logos .imgbx {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.customers-container .customer-logos .imgbx img {
+  margin: 10px;
+  width: 160px; /* adjust the width as needed */
+  height: 160px; /* adjust the height as needed */
+  object-fit: fit;
+  margin-left: 40px;
+  margin-right: 1px0;
+}
+@media (max-width: 450px){
+  .customers-container .customer-logos .imgbx img{
+    width: 80px !important;
+    height: 80px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 768px){
+  .customers-container .customer-logos .imgbx img{
+    width: 150px;
+    height: 150px;
+  }
+}
+.customers-container .customer-logos .scroll {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.customers-container .customer-logos .scroll .flex {
+  flex: 0 0 auto; /* or flex: 0 0 100px; if you want a fixed width */
+  margin-right: 10px; /* adjust the margin to your desired spacing */
+  animation: animate var(--t) linear infinite;
+  animation-delay: calc(var(--t) / -1);
+}
+
+.customers-container .customer-logos .scroll .flex:nth-child(2) {
+  animation: animate2 var(--t) linear infinite;
+  animation-delay: calc(var(--t) / -2);
+}
+
+.customers-container .more-customer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.customers-container .more-customer button{
+  background-color: #00d9ff;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px  solid black;
+  transition-duration: 0.5s;
+}
+
+.customers-container .more-customer button:hover{
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-color: #ebe8f6;
+  background-color: black;
+  color: #00d9ff;
+}
+
+
 /* -----------------testimonial-------------------- */
 #testimonials {
   display: flex;
@@ -1117,7 +1222,7 @@ a {
 .type-of-product{
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background: #f7f5f5;
   flex-direction: column;
@@ -1148,7 +1253,8 @@ a {
 }
 
 .scroll div {
-  white-space: nowrap;
+  display: flex;
+  white-space: wrap;
   animation: scroll var(--time) linear infinite;
 }
 
@@ -1177,7 +1283,10 @@ a {
 }
 
 .scroll div a {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
   margin: 10px;
   letter-spacing: 0.2em;
   background: #333;
@@ -1186,7 +1295,7 @@ a {
   border-radius: 5px;
   transition: 0.5s;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .scroll div a:hover {
@@ -1200,6 +1309,8 @@ a {
   justify-content: center;
 }
 
+/* ---------------------------------reverse scroll---------------------- */
+
 
 .rev-scroll {
   position: relative;
@@ -1209,6 +1320,9 @@ a {
 }
 
 .rev-scroll div {
+  display: flex;
+  
+  white-space: wrap;
   white-space: nowrap;
   animation: rev-scroll var(--time, 10s) linear infinite;
 }
@@ -1238,9 +1352,12 @@ a {
 }
 
 .rev-scroll div a {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
   margin: 10px;
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 0.2em;
   background: #333;
   color: #fff;
