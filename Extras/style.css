@@ -1,0 +1,155 @@
+.extra-containers{
+    position: relative;
+    width: 70%;
+    min-width: 250px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px 50px;
+    background-color: rgba(154, 206, 247, 0.71);
+    box-shadow: 15px 15px  5px rgba(4, 66, 237, 0.404);
+    border: 2px  solid #0449e95d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.extra-containers::-webkit-scrollbar{
+    display: none;
+}
+
+.extra-containers .title h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #0449e9d7;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+.extra-containers .title small{
+    font-size: 12px;
+    font-weight: 600;
+    color: #0449e9d7;
+}
+.extra-containers .more {
+    position: absolute;
+    background-color: #0449e94c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60px;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0449e9d7;
+    font-style: italic;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    box-shadow: 5px 5px 5px rgba(4, 66, 237, 0.404);
+}
+.extra-containers .more:hover{
+    box-shadow: 5px 5px 5px rgba(4, 66, 237, 0.404);
+    scale: 1.2;
+    color: aliceblue;
+}
+
+/* --------------------------------------video--------------- */
+.video-section{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-section .video-container{
+    width: 240px;
+    height: 150px;
+    border: 2px solid  #0449e9d7;
+    border-radius: 5px;
+    box-shadow:15px 15px 10px #0528926e;
+    background-color: rgb(243, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    overflow: hidden;        /* Hide overflow content */
+    text-overflow: ellipsis;
+}
+
+.video-section .video-container a{
+    font-size: 18px;
+    font-weight: 600;
+}
+.video-section .video-container small{
+    margin: 0px 2px;
+    text-overflow: ellipsis;
+    text-align: justify;
+    font-size: 10px;
+    color: #010c25;
+    font-weight: 600;
+}
+/* -----------------------manual---------------------------- */
+.manual-section{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.manual-section .manual-container{
+    width: 240px;
+    height: 100px;
+    border: 2px solid  #0449e9d7;
+    border-radius: 5px;
+    box-shadow:15px 15px 10px #0528926e;
+    background-color: rgb(243, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    overflow: hidden;        /* Hide overflow content */
+    text-overflow: ellipsis;
+}
+/* ------------------------------------------------------------- */
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateX(-200%) rotateY(120deg);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%) rotateY(0deg);
+    }
+}
+
+@keyframes disappear {
+    from {
+      opacity: 1;
+      transform: translateX(0%) rotateY(0deg);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(-200%) rotateY(120deg);
+    }
+  }
+
+.rotate1 {
+    animation: appear 1s ease forwards;
+}
+.rotate {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.7s ease; /* Smooth transition for appearance */
+}
+.visible {
+    opacity: 1; 
+    animation: appear  0.7s ease; 
+}
+
+.hiding {
+    animation: disappear 0.7s ease-out;
+    animation-fill-mode: forwards;
+  }
