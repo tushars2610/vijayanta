@@ -30,6 +30,7 @@ const myDiv = document.getElementById('line');
     });
 // ---------------------------------------
 const divs = document.querySelectorAll('.rotate');
+const numdivs = document.querySelectorAll('.num')
     let lastScrollY = 0; // Track the last scroll position
     let currentDivIndex = 0; // Track the index of the current div to show
 
@@ -43,7 +44,13 @@ const divs = document.querySelectorAll('.rotate');
 
             // Show the next div if available
             if (currentDivIndex < divs.length) {
-                divs[currentDivIndex].classList.add('visible');
+                if(currentDivIndex%2==0){
+                    divs[currentDivIndex].classList.add('visible')
+                }
+                else{
+                    divs[currentDivIndex].classList.add('rev-visible');
+                }
+                numdivs[currentDivIndex].classList.add('numb');
                 currentDivIndex++; // Move to the next div
             }
         } 

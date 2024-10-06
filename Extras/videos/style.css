@@ -12,7 +12,7 @@
   }
 /* ----------------------------------containers--------------------------------- */
 .rotate {
-    width: 560px;
+    width: 563px;
     height: 100px;
     margin: 0px 20px;
     display: flex;
@@ -30,10 +30,17 @@
     border-radius: 50%;
     padding: 20px;
     background-color: #238dd8;
+    border: 2px solid  black;
+    color: white;
     text-align: center; /* Add this to center the text horizontally */
     display: flex; /* Add this to center the text vertically */
     justify-content: center; /* Add this to center the text horizontally */
     align-items: center; /* Add this to center the text vertically */
+    animation-delay: 0.7s;
+    transition-delay: 0.7s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 1;
 }
 
 .rotate .num p {
@@ -46,10 +53,34 @@
 .rotate .content{
     position: relative;
     right: 0;
-    background-color: #08d816;
+    background-color: #0449e99d;
     width: 250px;
     height: 100px;
+    transition: 0.2s;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
 }
+.rotate .content .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.rotate .content small{
+    font-size: 12px;
+    text-align: justify;
+    color: white;
+    font-weight: 500;
+    margin: 0px 2px;
+}
+.rotate .content:hover{
+    scale: 1.2;
+    box-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.427);
+}
+
+
 
 /* Apply different side for odd numbered .rotate divs */
 .rotate:nth-of-type(odd){
@@ -62,11 +93,66 @@
     justify-content: start;
     flex-direction: row-reverse; /* right for even items */
 }
+
+/* For smaller width */
+@media(max-width: 650px){
+    body{
+        align-items: start;
+    }
+    #line{
+        opacity: 0;
+    }
+    .rotate{
+        left: 0;
+        margin-top: 5px;
+        /* background-color: aqua; */
+        width: 80%;
+        min-height: 100px;
+        height: 100px;
+        max-height: 100px;
+    }
+    .rotate .content{
+        width: 100%;
+        margin-right: 80%;
+        height: 100px;
+    }
+    .rotate .content :hover{
+        min-height: 100px;
+        height: auto;
+        max-height: 200px;
+    }
+    .rotate .content :hover{
+        min-height: 100px;
+        height: auto;
+        max-height: 200px;
+    }
+    .rotate:nth-of-type(odd){
+        justify-content: start;
+        flex-direction: row; /* left for odd items */
+    }
+    
+    /* Apply different side for even numbered .rotate divs */
+    .rotate:nth-of-type(even){
+        justify-content: start;
+        flex-direction: row; /* right for even items */
+    }
+}
 /* ----------------------------------------------------------------- */
 @keyframes appear{
     from{
         opacity: 0;
         transform: translateX(-200%) rotateY(120deg);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%) rotateY(0deg);
+    }
+}
+
+@keyframes rev-appear{
+    from{
+        opacity: 0;
+        transform: translateX(200%) rotateY(120deg);
     }
     to{
         opacity: 1;
@@ -84,16 +170,32 @@
       transform: translateX(-200%) rotateY(120deg);
     }
   }
+@keyframes number{
+    from{
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 .visible {
     opacity: 1; 
     animation: appear  0.7s ease; 
 }
-
+.rev-visible{
+    opacity: 1;
+    animation: rev-appear 0.7s ease;
+}
 .hiding {
     animation: disappear 0.7s ease-out;
     animation-fill-mode: forwards;
   }
-
+.numb{
+    opacity: 1;
+    animation: number 0.7s ease;
+}
 @keyframes lineaffect {
     from{
         height: 0px;
