@@ -1,0 +1,104 @@
+#line {
+    position: fixed;
+    top: 0;
+    width: 5px; /* Example width for the line */
+    background-color: rgb(14, 1, 255);
+    transition: height 1s ease;
+    animation: lineaffect 2s forwards;
+    border: 1px solid rgb(14, 1, 255);
+    border-radius: 25px;
+    z-index: -25;
+
+  }
+/* ----------------------------------containers--------------------------------- */
+.rotate {
+    width: 560px;
+    height: 100px;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.7s ease; /* Smooth transition for appearance */
+}
+.rotate .num {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #238dd8;
+    text-align: center; /* Add this to center the text horizontally */
+    display: flex; /* Add this to center the text vertically */
+    justify-content: center; /* Add this to center the text horizontally */
+    align-items: center; /* Add this to center the text vertically */
+}
+
+.rotate .num p {
+    position: absolute;
+    top: 50%; /* Add this to position the text vertically */
+    left: 50%; /* Add this to position the text horizontally */
+    transform: translate(-50%, -50%); /* Add this to center the text */
+}
+
+.rotate .content{
+    position: relative;
+    right: 0;
+    background-color: #08d816;
+    width: 250px;
+    height: 100px;
+}
+
+/* Apply different side for odd numbered .rotate divs */
+.rotate:nth-of-type(odd){
+    justify-content: end;
+    flex-direction: row; /* left for odd items */
+}
+
+/* Apply different side for even numbered .rotate divs */
+.rotate:nth-of-type(even){
+    justify-content: start;
+    flex-direction: row-reverse; /* right for even items */
+}
+/* ----------------------------------------------------------------- */
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateX(-200%) rotateY(120deg);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%) rotateY(0deg);
+    }
+}
+
+@keyframes disappear {
+    from {
+      opacity: 1;
+      transform: translateX(0%) rotateY(0deg);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(-200%) rotateY(120deg);
+    }
+  }
+.visible {
+    opacity: 1; 
+    animation: appear  0.7s ease; 
+}
+
+.hiding {
+    animation: disappear 0.7s ease-out;
+    animation-fill-mode: forwards;
+  }
+
+@keyframes lineaffect {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 550px;
+    }
+}
