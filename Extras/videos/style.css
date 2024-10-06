@@ -95,6 +95,11 @@
 }
 
 /* For smaller width */
+@media(min-width: 1000px){
+    .rotate{
+        scale: 1.5;
+    }
+}
 @media(max-width: 650px){
     body{
         align-items: start;
