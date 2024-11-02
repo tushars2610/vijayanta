@@ -465,6 +465,74 @@ body {
 
 /* ........./ Testimonial /.......... */
 
+/* Reviews section styling */
+#reviews {
+  padding: 20px; /* Padding around the reviews section */
+  background-color: #f9f9f9; /* Light background color for contrast */
+  color: #333; /* Dark text color for readability */
+  overflow: hidden; /* Hide any content that overflows the section */
+}
+
+/* Container for the reviews */
+.reviews-container {
+  max-width: 1200px; /* Max width to center the content */
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center; /* Center-align the text */
+  position: relative; /* Relative positioning for flexibility */
+}
+
+/* Styling for the section heading */
+.reviews-container h2 {
+  margin-bottom: 20px; /* Space below the heading */
+  font-size: 2rem; /* Larger font size for prominence */
+}
+
+/* Slider that holds and scrolls the reviews */
+.reviews-slider {
+  display: flex; /* Flexbox layout for horizontal alignment */
+  justify-content: space-around; /* Space between review boxes */
+  align-items: center; /* Center items vertically */
+  flex-wrap: nowrap; /* Prevent wrapping, keep reviews in one line */
+  gap: 20px; /* Space between each review box */
+  animation: scrollReviews 15s linear infinite; /* Smooth, infinite scrolling animation */
+}
+
+/* Styling for each individual review box */
+.review-box {
+  min-width: 300px; /* Minimum width for each review box */
+  /* height: 150px; */
+  padding: 15px; /* Padding inside each box */
+  background: #fff; /* White background for the review box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  border-radius: 8px; /* Rounded corners for the review box */
+  font-size: 1rem; /* Standard font size for readability */
+}
+
+/* Styling for the star ratings */
+.stars {
+  margin-top: 10px; /* Space above the star ratings */
+  font-size: 1.5rem; /* Larger font size for visibility */
+  color: #FFA500; /* Gold color for the stars */
+}
+
+/* Keyframes for the scrolling animation */
+@keyframes scrollReviews {
+  0% {
+      transform: translateX(100%); /* Start with the content off-screen to the right */
+  }
+  100% {
+      transform: translateX(-100%); /* End with the content off-screen to the left */
+  }
+}
+
+
+
+
+
+
+
+
+
 a {
   text-decoration: none;
 }
@@ -705,10 +773,15 @@ a {
 }
 
 .reviewss {
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
   padding: 10px;
   border-radius: 30px;
-  margin: 30px;
+  margin-left: 45%;
+  margin-top: 10px;
+  width: 160px;
   background: #1044a4; 
     color: #ffffff;
     padding: 10px 20px;
