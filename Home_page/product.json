@@ -1,7 +1,8 @@
 [
     {
         "productName": "Test & Measuring instruments",
-        "productLink": "../Products/product.html?id=1"
+        "productLink": "../Products/product.html?id=1",
+        "link": "Test_&_Measuring_instruments"
     },
     {
         "productName": "Physics & Material science lab experimental set-ups",

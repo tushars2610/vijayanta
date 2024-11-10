@@ -59,7 +59,7 @@ fetch('product.json')
     let productHTML = '';
     data.forEach(product => {
       productHTML += `
-        <a href="${product.productLink}">${product.productName}</a><br>
+        <a href="${product.productLink}&link=${encodeURIComponent(product.link)}">${product.productName}</a><br>
       `;
     });
     // Append the HTML to the links-container1 element
@@ -81,7 +81,7 @@ fetch('product.json')
     let productHTML = '';
     data.forEach(product => {
       productHTML += `
-        <a href="${product.productLink}">${product.productName}</a><br>
+        <a href="${product.productLink}&link=${encodeURIComponent(product.link)}">${product.productName}</a><br>
       `;
     });
     // Append the HTML to the links-container1 element
@@ -101,7 +101,7 @@ fetch('product.json')
     let productHTML = '';
     data.forEach(product => {
       productHTML += `
-        <a href="${product.productLink}">${product.productName}</a><br>
+        <a href="${product.productLink}&link=${encodeURIComponent(product.link)}">${product.productName}</a><br>
       `;
     });
     // Append the HTML to the links-container1 element
