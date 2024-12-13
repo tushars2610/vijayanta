@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      crossorigin=""
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/review.css" />
+
+    <title>Responsive card slider - Bedimcode</title>
+  </head>
+  <body>
+    <section class="review-container">
+      <div class="card__container swiper">
+        <div class="card__content">
+          <div class="swiper-wrapper" id="card-container">
+            <script>
+              // Fetch the JSON data
+              fetch("assets/json/customer.json")
+                .then((response) => response.json())
+                .then((data) => {
+                  const container = document.getElementById("card-container");
+
+                  data.forEach((item) => {
+                    // Create the article element
+                    const card = document.createElement("article");
+                    card.className = "card__article swiper-slide";
+
+                    // Add the card image
+                    card.innerHTML = `
+                                     <div class="card__image">
+                                         <img src="${item.image}" alt="${item.name}" class="card__img">
+                                         <div class="card__shadow"></div>
+                                     </div>
+                                     <div class="card__data">
+                                         <h3 class="card__name">${item.name}</h3>
+                                         <p class="card__description">${item.dsp}</p>
+                                         <div class="stars" data-rating="${item["data-rating"]}"></div>
+                                     </div>
+                                 `;
+
+                    // Add the card to the container
+                    container.appendChild(card);
+
+                    document.querySelectorAll(".stars").forEach((star) => {
+                      const rating = star.getAttribute("data-rating");
+                      star.style.setProperty("--rating", rating);
+                    });
+                  });
+                })
+                .catch((error) => console.error("Error fetching JSON:", error));
+            </script>
+          </div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="swiper-button-next">
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
+
+        <div class="swiper-button-prev">
+          <i class="ri-arrow-left-s-line"></i>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/review.js"></script>
+  </body>
+</html>
