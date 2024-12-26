@@ -477,6 +477,7 @@ iframe{
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 iframe::-webkit-scrollbar {
   display: none; /* Hides the scrollbar in Webkit browsers */
