@@ -29,6 +29,7 @@ body {
   background-color: var(--body-color);
   color: var(--white-color);
   width: 100%;
+  overflow-x: hidden;
 }
 
 a {
